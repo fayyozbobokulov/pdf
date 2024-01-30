@@ -17,8 +17,12 @@ class Position:
 
     def handle_exceeding_y(self):
         print(f"The value of y has exceeded {self.max_y}: {self._y}")
-        self._y = 50
+        print(f"Exceeded: ${self._y}")
+
+        # self._y = 50
         self.doc.showPage()
+        print(f"New: ${self._y}")
+        
 
 # Usage:
 # from reportlab.pdfgen import canvas
