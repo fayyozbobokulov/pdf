@@ -13,10 +13,8 @@ class Position:
 
     @y.setter
     def y(self, value):
-        if value > self.max_y-self.margin:
+        if value > self.max_y-30:
             self.handle_exceeding_y()
-        # if(value < self.min_y):
-        #     self.handle_lowering_y()
         else:
             self._y = value
 
@@ -24,15 +22,10 @@ class Position:
         print(f"The value of y has exceeded {self.max_y}: {self._y}")
         print(f"Exceeded: ${self._y}")
 
-        self._y = 50
+        self._y = 70
         self.doc.showPage()
         print(f"New: ${self._y}")
 
-    def handle_lowering_y(self):
-        print(f"The value of y has lowered {self.max_y}: {self._y}")
-        print(f"Lowered: ${self._y}")
-        self._y = 50
-        print(f"New: ${self._y}")
 
 # Usage:
 # from reportlab.pdfgen import canvas

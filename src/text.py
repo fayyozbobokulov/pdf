@@ -71,6 +71,3 @@ def text(c: Canvas, color: Color, x: int, y: int, title: str, font_size=12, font
     c.setFont(font_style, font_size)
     c.setFillColor(color)
     c.drawString(x, y, title)
-
-def text_devider(c: Canvas, color: Color, x: int, y: int, title: str, font_size=12, font_style='Roboto-Regular'): 
-    devider(c, bg_color)
