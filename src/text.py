@@ -3,7 +3,10 @@ from reportlab.platypus import Paragraph
 from reportlab.lib.units import inch
 from reportlab.pdfgen import canvas
 from typing import NamedTuple, List, Dict, Union, Optional
-
+from reportlab.lib.colors import Color
+from typing import Tuple
+from reportlab.pdfgen.canvas import Canvas
+from devider import devider
 class WrapTextOptions(NamedTuple):
     page_width: int
     page_height: int
@@ -13,6 +16,7 @@ class WrapTextOptions(NamedTuple):
     x: int
     y: int
     font_name: Optional[str]
+    text_color: Color
 
 def create_wrapped_text(c: canvas.Canvas, options: WrapTextOptions, text: str) -> None:
     # Calculate the text area considering margins
@@ -22,6 +26,7 @@ def create_wrapped_text(c: canvas.Canvas, options: WrapTextOptions, text: str) -
     margin = options['margin']
     x = options['x']
     y = options['y']
+    text_color = options['text_color']
     font_size = options.get('font_size', 12)
     font_name = options.get('font_name', 'Roboto_Regular')
 
@@ -43,6 +48,7 @@ def create_wrapped_text(c: canvas.Canvas, options: WrapTextOptions, text: str) -
         firstLineIndent=0,
         fontName=font_name,
         fontSize=font_size,
+        textColor=text_color
     )
 
     # Create a paragraph object
@@ -60,3 +66,11 @@ def create_wrapped_text(c: canvas.Canvas, options: WrapTextOptions, text: str) -
 
     # Draw the paragraph on the canvas
     paragraph.drawOn(c, x, y)
+
+def text(c: Canvas, color: Color, x: int, y: int, title: str, font_size=12, font_style='Roboto-Regular'):
+    c.setFont(font_style, font_size)
+    c.setFillColor(color)
+    c.drawString(x, y, title)
+
+def text_devider(c: Canvas, color: Color, x: int, y: int, title: str, font_size=12, font_style='Roboto-Regular'): 
+    devider(c, bg_color)
