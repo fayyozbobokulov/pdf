@@ -120,10 +120,26 @@ def create_pdf_with_forms(output_path):
                 for i in range(1, 5):
                     form.radio(name=question['description'], tooltip='Field radio1',
                         value='value1', selected=True if i==1 else False,
-                        x=pos.x + 395 + 20 * i, y=page_height -pos.y + 15, buttonStyle='circle',
+                        x=pos.x + 395 + 20 * i, y=page_height -pos.y + 11, buttonStyle='circle',
                         borderStyle='solid', shape='circle',
-                        borderColor=grey, fillColor=white, size=12,
+                        borderColor=grey, fillColor=white,
                         textColor=HexColor('#72c800'), forceBorder=True)
+            if len(question['answer'])<3:
+                text(c, black, pos.x+395, page_height -pos.y + 18, 'Yes')
+                text(c, black, pos.x+455, page_height -pos.y + 18, 'No')
+                form.radio(name=question['description'], tooltip='Field radio1',
+                    value='value1', selected=True if i==1 else False,
+                    x=pos.x + 395 + 30, y=page_height -pos.y + 11, buttonStyle='circle',
+                    borderStyle='solid', shape='circle',
+                    borderColor=grey, fillColor=white,
+                    textColor=HexColor('#72c800'), forceBorder=True)
+                form.radio(name=question['description'], tooltip='Field radio1',
+                    value='value1', selected=True if i==1 else False,
+                    x=pos.x + 455 + 20, y=page_height -pos.y + 11, buttonStyle='circle',
+                    borderStyle='solid', shape='circle',
+                    borderColor=grey, fillColor=white,
+                    textColor=HexColor('#72c800'), forceBorder=True)
+
             pos.y += 20
     
     certifications = ['BLS', 'ACLS', 'Telemetry Certificate', 'ONS Chemo/Biotherapy Certification', 'Other Chemo Certification'];
