@@ -20,8 +20,9 @@ def main ():
         pdf = PDFCreator(c, pos, A4, f'./src/templates/{path}')
         
         pdf.header(data["name"])
-        print(pos.y)
-        pos.y += 200
+        pos.y += 150
+        pdf.levels()
+        pos.y += 100
         pdf.footer()
 
         c.save()

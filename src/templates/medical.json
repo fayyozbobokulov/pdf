@@ -1,6 +1,6 @@
 {
   "name": "Medical/Surgical Skills Checklist",
-  "config": {
+  "skills": {
     "medicalCardiac": {
       "questions": [
         {

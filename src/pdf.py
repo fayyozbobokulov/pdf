@@ -1,11 +1,11 @@
 from reportlab.pdfgen.canvas import Canvas
-from reportlab.lib import pagesizes
 from font import register_fonts
 from position import Position
 from reportlab.lib.colors import Color, HexColor, black, white,gainsboro, grey, red
 from typing import Tuple
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.platypus import Paragraph
+from typing import Dict
 
 INPUT_FIELD_HEIGHT = 20
 DEVIDER_HEIGHT = 40
@@ -144,8 +144,19 @@ class PDFCreator:
         # Draw the paragraph on the canvas
         paragraph.drawOn(self.c, x, y)
     
+    def levels(self):
+        # Info about levels
+        self.pos.y += 50
+        self.c.drawString(self.pos.x + 10,self.pos.y, '1. No theory and/or experience')
+        self.pos.y+=20
+        self.c.drawString(self.pos.x + 10,self.pos.y, '2. Limited experience/need supervision and/or support')
+        self.pos.y+=20
+        self.c.drawString(self.pos.x + 10,self.pos.y, '3. Experienced/minimal support needed to perform')
+        self.pos.y+=20
+        self.c.drawString(self.pos.x + 10,self.pos.y, '4. Proficient/can perform independently')
+        self.pos.y+=80
+
     def footer(self, text_color = black):
-        self.pos.y += 60
         title = 'Please read and agree to the statements below by marking the checkbox.'
         self.wrapped_text(text=title, x=self.pos.x+25, y=self.pos.y, text_color=text_color, font_name='Roboto-Bold', font_size=14)
         
