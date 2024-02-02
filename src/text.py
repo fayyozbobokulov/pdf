@@ -5,7 +5,7 @@ from reportlab.pdfgen import canvas
 from typing import NamedTuple, List, Dict, Union, Optional
 from reportlab.lib.colors import Color
 from typing import Tuple
-from reportlab.pdfgen.canvas import Canvas
+from reportlab.pdfgen.canvas import Canvas, black
 from devider import devider
 class WrapTextOptions(NamedTuple):
     page_width: int
@@ -71,3 +71,13 @@ def text(c: Canvas, color: Color, x: int, y: int, title: str, font_size=12, font
     c.setFont(font_style, font_size)
     c.setFillColor(color)
     c.drawString(x, y, title)
+
+def required_text(c: Canvas, color: Color, x: int, y: int, title: str, font_size=12, font_style='Roboto-Regular'):
+    text_obj = c.beginText()
+    text_obj.setTextOrigin(x, y)
+    text_obj.textOut(title)
+    text_obj.setFillColor(color)
+    text_obj.textOut("*")
+    text_obj.setFillColor(black)
+
+    c.drawText(text_obj)

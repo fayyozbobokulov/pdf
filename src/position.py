@@ -1,11 +1,14 @@
+from typing import Tuple
+from reportlab.pdfgen.canvas import Canvas
 class Position:
-    def __init__(self, x, y, margin, max_y, doc):
-        self.x = x
+    def __init__(self, margin: int, page_size: Tuple[float, float], c: Canvas):
+        self.page_width, self.page_height = page_size
+        self.x = margin
         self.margin = margin
-        self._y = y
-        self.max_y = max_y
-        self.doc = doc
-        self.min_y = x
+        self._y = margin
+        self.max_y = self.page_height - 2*margin
+        self.doc = c
+        self.min_y = margin
 
     @property
     def y(self):

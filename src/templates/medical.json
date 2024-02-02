@@ -1,4 +1,6 @@
 {
+  "name": "Medical/Surgical Skills Checklist",
+  "config": {
     "medicalCardiac": {
       "questions": [
         {
@@ -1116,3 +1118,4 @@
       ]
     }
   }
+}
