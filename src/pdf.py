@@ -146,7 +146,7 @@ class PDFCreator:
     
     def levels(self):
         # Info about levels
-        self.pos.y += 50
+        self.pos.y += 20
         self.c.drawString(self.pos.x + 10,self.pos.y, '1. No theory and/or experience')
         self.pos.y+=20
         self.c.drawString(self.pos.x + 10,self.pos.y, '2. Limited experience/need supervision and/or support')

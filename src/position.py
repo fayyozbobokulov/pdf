@@ -6,7 +6,7 @@ class Position:
         self.x = margin
         self.margin = margin
         self._y = margin
-        self.max_y = self.page_height
+        self.max_y = self.page_height - 2*self.margin
         self.doc = c
         self.min_y = margin
 
