@@ -1,13 +1,13 @@
 from reportlab.pdfgen.canvas import Canvas
 from reportlab.lib.pagesizes import A4
 from font import register_fonts
-from text import create_wrapped_text, WrapTextOptions
+from v1.textext import create_wrapped_text, WrapTextOptions
 from position import Position
 from datetime import datetime
 from color import hex_to_rgb
 from reportlab.lib.colors import gainsboro, black, Color, grey, HexColor, white, magenta, pink, blue, red
-from devider import devider
-from text import text, required_text
+from v1.devider import devider
+from v1.textext import text, required_text
 from footer import footer
 import json
 from typing import Dict

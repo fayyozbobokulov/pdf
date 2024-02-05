@@ -1,8 +1,8 @@
-from text import WrapTextOptions
+from v1.textext import WrapTextOptions
 from position import Position
 from reportlab.pdfgen.canvas import Canvas
 from reportlab.lib.colors import black, gainsboro, HexColor
-from text import create_wrapped_text, text
+from v1.textext import create_wrapped_text, text
 from reportlab.pdfbase.acroform import AcroForm
 
 

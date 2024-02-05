@@ -40,7 +40,7 @@ class PDFCreator:
         form_fields = [
             {"name": "fname", "tooltip": "First Name", "x": self.pos.x, "y": self.pos.y, "width": 240, "height": 20, "required": True},
             {"name": "lname", "tooltip": "Last Name", "x": self.pos.x + 270, "y": self.pos.y, "width": 240, "height": 20, "required": True},
-            {"name": "ssn", "tooltip": "SSN", "x": self.pos.x, "y": self.pos.y+50, "width": 240, "height": 20, "required": False},
+            {"name": "ssn", "tooltip": "Last 4 digits of SSN", "x": self.pos.x, "y": self.pos.y+50, "width": 240, "height": 20, "required": False},
             {"name": "email", "tooltip": "Email", "x": self.pos.x, "y": self.pos.y+100, "width": 240, "height": 20, "required": True},
             {"name": "phone", "tooltip": "Phone", "x": self.pos.x + 270, "y": self.pos.y+100, "width": 240, "height": 20, "required": True},
         ]
