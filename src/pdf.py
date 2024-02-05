@@ -6,7 +6,7 @@ from typing import Tuple
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.platypus import Paragraph
 from color import hex_to_rgb
-from typing import Dict, Any
+from typing import Dict, Any, List
 
 INPUT_FIELD_HEIGHT = 20
 DEVIDER_HEIGHT = 40
@@ -25,6 +25,7 @@ class PDFCreator:
         self.margin = 50
         self.pos = pos
         self.height = self.page_height - 2*self.margin
+        self.color = True
     
     def header(self, header: str):
         self.text(header, color=grey, font_size=18, font_style='Roboto-Bold')
@@ -161,7 +162,6 @@ class PDFCreator:
 
     def skills(self, skills: Dict[str, Any]):
         for key, value in skills.items():
-            print(f"KEY: {key}, VALUE: {value}")
             title = key.upper()
             self.devider(HEADER_COLOR, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
             self.text(title,x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=white)
@@ -171,11 +171,10 @@ class PDFCreator:
                 for i in range(1, 5):
                     self.text(f'{i}', x=self.pos.x + 400 + 15 * i, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=white)
             
-            color = True
             self.pos.y+=DEVIDER_HEIGHT
             for question in value['questions']:
-                self.devider(COLOR1 if color else COLOR2, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
-                color = not color
+                self.devider(COLOR1 if self.color else COLOR2, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
+                self.color = not self.color
                 self.text(question['description'],x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
                 if len(question['answer'])>3:
                     for i in range(1, 5):
@@ -203,6 +202,36 @@ class PDFCreator:
                         textColor=HexColor('#72c800'), forceBorder=False)
                 self.pos.y += DEVIDER_HEIGHT
             self.pos.y += 10
+    
+    def certs(self, certs: List[str]):
+        self.devider(HEADER_COLOR, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
+        self.text('CERTIFICATIONS',x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=white)
+        self.pos.y+=DEVIDER_HEIGHT
+        
+        for cert in certs:
+            self.devider(COLOR1 if self.color else COLOR2, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
+            self.text(cert,x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
+            self.text('Exp. Date',x=self.pos.x + 350, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
+            self.form.textfield(name=cert, x=self.pos.x+410, y=self.page_height - self.pos.y- DEVIDER_HEIGHT/2-2*HEADER_SIZE/3, borderStyle='inset',
+                borderColor=black, fillColor=gainsboro, width=95, height=20, textColor=black, forceBorder=False)    
+            self.pos.y += DEVIDER_HEIGHT
+            self.color = not self.color
+    def others(self, others: List[str]):
+        color = False
+        i = 1
+        for other in others:
+            self.devider(COLOR1 if color else COLOR2, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
+            self.text(other,x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
+            self.text('Exp. Date',x=self.pos.x + 350, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
+            self.form.textfield(name=f'other{i}', x=self.pos.x+130, y=self.page_height - self.pos.y- DEVIDER_HEIGHT, borderStyle='inset',
+                borderColor=black, fillColor=gainsboro, width=150, height=DEVIDER_HEIGHT, textColor=black, forceBorder=False)    
+            i+=1
+            self.form.textfield(name=f'other{i}', x=self.pos.x+410, y=self.page_height - self.pos.y- DEVIDER_HEIGHT/2-2*HEADER_SIZE/3, borderStyle='inset',
+                borderColor=black, fillColor=gainsboro, width=95, height=20, textColor=black, forceBorder=False)    
+            i+=1
+            self.pos.y += DEVIDER_HEIGHT
+            color = not color
+        
     def footer(self, text_color = black):
         title = 'Please read and agree to the statements below by marking the checkbox.'
         self.wrapped_text(text=title, x=self.pos.x+25, y=self.pos.y, text_color=text_color, font_name='Roboto-Bold', font_size=14)

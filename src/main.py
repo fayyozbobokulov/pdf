@@ -23,7 +23,10 @@ def main ():
         pos.y += 150
         pdf.levels()
         pdf.skills(data['skills'])
-        pos.y += 100
+        certifications = ['BLS', 'ACLS', 'Telemetry Certificate', 'ONS Chemo/Biotherapy Certification', 'Other Chemo Certification']
+        pdf.certs(certifications)
+        pdf.others(['Other: Specify', 'Other: Specify'])
+        pos.y += 50
         pdf.footer()
 
         c.save()
