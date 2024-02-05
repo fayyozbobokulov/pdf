@@ -9,6 +9,7 @@ class Position:
         self.max_y = self.page_height - self.margin
         self.doc = c
         self.min_y = margin
+        self.page = 1
 
     @property
     def y(self):
@@ -18,13 +19,14 @@ class Position:
     def y(self, value):
         if value > self.max_y-30:
             self.handle_exceeding_y()
+            self.page +=1
         else:
             self._y = value
 
     def handle_exceeding_y(self):
         print(f"The value of y has exceeded {self.max_y}: {self._y}")
         print(f"Exceeded: ${self._y}")
-
+        self.doc.drawString(self.page_width/2, self.page_height - 30, f'{self.page}')
         self._y = 70
         self.doc.showPage()
         print(f"New: ${self._y}")
