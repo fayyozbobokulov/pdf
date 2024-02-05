@@ -25,7 +25,7 @@ def footer(c: Canvas, form: AcroForm, pos: Position, page_height: int, page_widt
     title = 'Please read and agree to the statements below by marking the checkbox.'
     create_wrapped_text(c, options, title)
     
-    pos.y += 20
+    pos.y += 50
     options["y"] = page_height - pos.y
     
     options["font_size"] = 10

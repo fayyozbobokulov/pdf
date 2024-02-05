@@ -5,10 +5,15 @@ from reportlab.lib.colors import Color, HexColor, black, white,gainsboro, grey, 
 from typing import Tuple
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.platypus import Paragraph
-from typing import Dict
+from color import hex_to_rgb
+from typing import Dict, Any
 
 INPUT_FIELD_HEIGHT = 20
 DEVIDER_HEIGHT = 40
+HEADER_COLOR = hex_to_rgb('#3d265d')
+COLOR1 = hex_to_rgb('#ededed')
+COLOR2 = hex_to_rgb('#ffffff')
+HEADER_SIZE = 12
 
 class PDFCreator:
     def __init__(self, canvas: Canvas, pos: Position, pagesize: Tuple[float, float], template_path: str) -> None:
@@ -32,16 +37,15 @@ class PDFCreator:
         self.pos.y += 30
         
         form_fields = [
-            {"name": "fname", "tooltip": "First Name", "x": self.pos.x, "y": self.pos.y, "width": 240, "height": 20},
-            {"name": "lname", "tooltip": "Last Name", "x": self.pos.x + 270, "y": self.pos.y, "width": 240, "height": 20},
-            {"name": "ssn", "tooltip": "SSN", "x": self.pos.x, "y": self.pos.y+50, "width": 240, "height": 20},
-            {"name": "email", "tooltip": "Email", "x": self.pos.x, "y": self.pos.y+100, "width": 240, "height": 20},
-            {"name": "phone", "tooltip": "Phone", "x": self.pos.x + 270, "y": self.pos.y+100, "width": 240, "height": 20},
+            {"name": "fname", "tooltip": "First Name", "x": self.pos.x, "y": self.pos.y, "width": 240, "height": 20, "required": True},
+            {"name": "lname", "tooltip": "Last Name", "x": self.pos.x + 270, "y": self.pos.y, "width": 240, "height": 20, "required": True},
+            {"name": "ssn", "tooltip": "SSN", "x": self.pos.x, "y": self.pos.y+50, "width": 240, "height": 20, "required": False},
+            {"name": "email", "tooltip": "Email", "x": self.pos.x, "y": self.pos.y+100, "width": 240, "height": 20, "required": True},
+            {"name": "phone", "tooltip": "Phone", "x": self.pos.x + 270, "y": self.pos.y+100, "width": 240, "height": 20, "required": True},
         ]
         # self.pos.y += 140
         for field in form_fields:
-            print(field)
-            self.text(field['tooltip'], required=True, x=field['x'], y=field['y'])
+            self.text(field['tooltip'], required=field['required'], x=field['x'], y=field['y'])
             self.form.textfield(name=field['name'], tooltip=field['tooltip'],
                           x=field['x'], y=self.page_height - field['y'] - 25,
                           height=INPUT_FIELD_HEIGHT, textColor=black, 
@@ -130,7 +134,6 @@ class PDFCreator:
 
         # Create a paragraph object
         paragraph = Paragraph(text, custom_style)
-        print({width, height})
         # Calculate the height of the paragraph and break if it exceeds the available height
         w, h = paragraph.wrap(width, height)
 
@@ -156,6 +159,50 @@ class PDFCreator:
         self.c.drawString(self.pos.x + 10,self.pos.y, '4. Proficient/can perform independently')
         self.pos.y+=80
 
+    def skills(self, skills: Dict[str, Any]):
+        for key, value in skills.items():
+            print(f"KEY: {key}, VALUE: {value}")
+            title = key.upper()
+            self.devider(HEADER_COLOR, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
+            self.text(title,x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=white)
+            
+            if len(value['questions'][0]['answer'])>3:
+                print(f"ANSWERS: > {value['questions'][0]['answer']}")
+                for i in range(1, 5):
+                    self.text(f'{i}', x=self.pos.x + 400 + 15 * i, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=white)
+            
+            color = True
+            self.pos.y+=DEVIDER_HEIGHT
+            for question in value['questions']:
+                self.devider(COLOR1 if color else COLOR2, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
+                color = not color
+                self.text(question['description'],x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
+                if len(question['answer'])>3:
+                    for i in range(1, 5):
+                        self.form.radio(name=question['description'], tooltip='Field radio1',
+                            value=f'value{i}', selected=True if i==1 else False,
+                            x=self.pos.x + 398 + 15 * i, y=self.page_height - self.pos.y-DEVIDER_HEIGHT/2-HEADER_SIZE/2, buttonStyle='circle',
+                            borderStyle='solid', shape='circle', size=15,
+                            borderColor=grey, fillColor=white, borderWidth=0,
+                            textColor=HexColor('#72c800'), forceBorder=False)
+                if len(question['answer'])<3:
+                    print(f"question: ${question['answer']}")
+                    self.text('Yes', self.pos.x+395, self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3, black)
+                    self.text('No', self.pos.x+455, self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3, black)
+                    self.form.radio(name=question['description'], tooltip='Field radio1',
+                        value='value1', selected=True if i==1 else False,
+                        x=self.pos.x + 395 + 30, y=self.page_height - self.pos.y-DEVIDER_HEIGHT/2-HEADER_SIZE/2, buttonStyle='circle',
+                        borderStyle='solid', shape='circle', size=15,
+                        borderColor=grey, fillColor=white, borderWidth=0,
+                        textColor=HexColor('#72c800'), forceBorder=False)
+                    self.form.radio(name=question['description'], tooltip='Field radio1',
+                        value='value2', selected=True if i==1 else False,
+                        x=self.pos.x + 455 + 20, y=self.page_height - self.pos.y-DEVIDER_HEIGHT/2-HEADER_SIZE/2, buttonStyle='circle',
+                        borderStyle='solid', shape='circle', borderWidth=0,
+                        borderColor=grey, fillColor=white, size=15,
+                        textColor=HexColor('#72c800'), forceBorder=False)
+                self.pos.y += DEVIDER_HEIGHT
+            self.pos.y += 10
     def footer(self, text_color = black):
         title = 'Please read and agree to the statements below by marking the checkbox.'
         self.wrapped_text(text=title, x=self.pos.x+25, y=self.pos.y, text_color=text_color, font_name='Roboto-Bold', font_size=14)

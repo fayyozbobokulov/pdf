@@ -72,12 +72,13 @@ def text(c: Canvas, color: Color, x: int, y: int, title: str, font_size=12, font
     c.setFillColor(color)
     c.drawString(x, y, title)
 
-def required_text(c: Canvas, color: Color, x: int, y: int, title: str, font_size=12, font_style='Roboto-Regular'):
+def required_text(c: Canvas, color: Color, x: int, y: int, title: str,  required: bool, font_size=12, font_style='Roboto-Regular'):
     text_obj = c.beginText()
     text_obj.setTextOrigin(x, y)
     text_obj.textOut(title)
-    text_obj.setFillColor(color)
-    text_obj.textOut("*")
+    if required:
+        text_obj.setFillColor(color)
+        text_obj.textOut("*")
     text_obj.setFillColor(black)
 
     c.drawText(text_obj)

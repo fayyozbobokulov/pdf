@@ -18,7 +18,7 @@ def create_pdf_with_forms(output_path):
     with open('./src/templates/medical.json', 'r') as f:
         data = json.load(f)
     # Create a canvas
-    c = Canvas(output_path, pagesize=A4)
+    c = Canvas(output_path, pagesize=A4, pdfVersion=(1,7))
     register_fonts(False)
     margin = 50
     left_margin = margin
@@ -69,15 +69,16 @@ def create_pdf_with_forms(output_path):
     form = c.acroForm
     # Form fields with positions and sizes
     form_fields = [
-        {"name": "fname", "tooltip": "First Name", "x": 50, "y": page_height - pos.y - 55, "width": 240, "height": 20},
-        {"name": "lname", "tooltip": "Last Name", "x": 320, "y": page_height - pos.y - 55, "width": 240, "height": 20},
-        {"name": "ssn", "tooltip": "SSN", "x": 50, "y": page_height - pos.y - 105, "width": 240, "height": 20},
-        {"name": "email", "tooltip": "Email", "x": 50, "y": page_height - pos.y - 155, "width": 240, "height": 20},
-        {"name": "phone", "tooltip": "Phone", "x": 320, "y": page_height - pos.y - 155, "width": 240, "height": 20},
+        {"name": "fname", "tooltip": "First Name", "x": 50, "y": page_height - pos.y - 55, "width": 240, "height": 20, "required": True},
+        {"name": "lname", "tooltip": "Last Name", "x": 320, "y": page_height - pos.y - 55, "width": 240, "height": 20, "required": True},
+        {"name": "ssn", "tooltip": "Last 4 digits of SSN", "x": 50, "y": page_height - pos.y - 105, "width": 240, "height": 20, "required": False},
+        {"name": "email", "tooltip": "Email", "x": 50, "y": page_height - pos.y - 155, "width": 240, "height": 20, "required": True},
+        {"name": "phone", "tooltip": "Phone", "x": 320, "y": page_height - pos.y - 155, "width": 240, "height": 20, "required": True},
     ]
     
     for field in form_fields:
-        c.drawString(field['x'], field['y']+30, field["tooltip"])
+        # c.drawString(field['x'], field['y']+30, field["tooltip"])
+        required_text(c, red, field['x'], field['y']+30, field['tooltip'], required=field['required'])
         form.textfield(name=field['name'], tooltip=field['tooltip'],
                    x=field['x'], y=field['y'], borderStyle='inset',
                    borderColor=black, fillColor=gainsboro, 
@@ -104,7 +105,7 @@ def create_pdf_with_forms(output_path):
     pos.y += 30
     header_size = 12
     # The skills list
-    for key, value in data['config'].items():
+    for key, value in data['skills'].items():
         title = key.split('medical')[1].upper()
         devider(c, header_color, pos.x, page_height - pos.y, width+10, rec_height)
         text(c, white, pos.x+5, page_height - pos.y+rec_height/2-header_size/4, title)
@@ -122,7 +123,7 @@ def create_pdf_with_forms(output_path):
             if len(question['answer'])>3:
                 for i in range(1, 5):
                     form.radio(name=question['description'], tooltip='Field radio1',
-                        value='value1', selected=True if i==1 else False,
+                        value=f'value{i}', selected=True if i==1 else False,
                         x=pos.x + 398 + 15 * i, y=page_height - pos.y+rec_height/2-header_size/4, buttonStyle='circle',
                         borderStyle='solid', shape='circle', size=15,
                         borderColor=grey, fillColor=white, borderWidth=0,
@@ -137,7 +138,7 @@ def create_pdf_with_forms(output_path):
                     borderColor=grey, fillColor=white, borderWidth=0,
                     textColor=HexColor('#72c800'), forceBorder=False)
                 form.radio(name=question['description'], tooltip='Field radio1',
-                    value='value1', selected=True if i==1 else False,
+                    value='value2', selected=True if i==1 else False,
                     x=pos.x + 455 + 20, y=page_height - pos.y+rec_height/2-header_size/2, buttonStyle='circle',
                     borderStyle='solid', shape='circle', borderWidth=0,
                     borderColor=grey, fillColor=white, size=15,

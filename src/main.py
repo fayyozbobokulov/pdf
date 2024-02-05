@@ -22,6 +22,7 @@ def main ():
         pdf.header(data["name"])
         pos.y += 150
         pdf.levels()
+        pdf.skills(data['skills'])
         pos.y += 100
         pdf.footer()
 

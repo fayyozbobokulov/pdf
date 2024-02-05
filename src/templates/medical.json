@@ -1,7 +1,7 @@
 {
   "name": "Medical/Surgical Skills Checklist",
   "skills": {
-    "medicalCardiac": {
+    "Cardiac": {
       "questions": [
         {
           "description": "Angina",
@@ -86,7 +86,7 @@
         }
       ]
     },
-    "medicalPULMONARY": {
+    "PULMONARY": {
       "questions": [
         {
           "description": "Pneumonia",
@@ -162,7 +162,7 @@
         }
       ]
     },
-    "medicalNeurological": {
+    "Neurological": {
       "questions": [
         {
           "description": "Stroke Scale Assessment",
@@ -238,7 +238,7 @@
         }
       ]
     },
-    "medicalORTHOPEDICS": {
+    "ORTHOPEDICS": {
       "questions": [
         {
           "description": "Circulation/Skin Checks",
@@ -323,7 +323,7 @@
         }
       ]
     },
-    "medicalGASTROINTESTINAL": {
+    "GASTROINTESTINAL": {
       "questions": [
         {
           "description": "Bariatrics",
@@ -408,7 +408,7 @@
         }
       ]
     },
-    "medicalRENALEndocrine": {
+    "RENAL/Endocrine": {
       "questions": [
         {
           "description": "Arteriovenous Fistula/Shunt",
@@ -502,7 +502,7 @@
         }
       ]
     },
-    "medicalEndocrine": {
+    "Endocrine": {
       "questions": [
         {
           "description": "Diabetes Type I",
@@ -569,7 +569,7 @@
         }
       ]
     },
-    "medicalONCOLOGY": {
+    "ONCOLOGY": {
       "questions": [
         {
           "description": "Chemotherapy Administration",
@@ -627,7 +627,7 @@
         }
       ]
     },
-    "medicalMEDICATIONS": {
+    "MEDICATIONS": {
       "questions": [
         {
           "description": "Antiarrhythmics",
@@ -802,7 +802,7 @@
         }
       ]
     },
-    "medicalTHERAPY": {
+    "THERAPY": {
       "questions": [
         {
           "description": "Starting IVs",
@@ -860,7 +860,7 @@
         }
       ]
     },
-    "medicalRESPONSE": {
+    "RESPONSE": {
       "questions": [
         {
           "description": "Placement of Telemetry Leads",
@@ -909,7 +909,7 @@
         }
       ]
     },
-    "medicalPROFESSIONAL": {
+    "PROFESSIONAL": {
       "questions": [
         {
           "description": "Nation Patient Safety Goals/Core Measures",
@@ -1030,7 +1030,7 @@
         }
       ]
     },
-    "medicalEMR": {
+    "EMR": {
       "questions": [
         {
           "description": "Epic",
@@ -1106,7 +1106,7 @@
         }
       ]
     },
-    "medicalEMR Conversion": {
+    "EMR Conversion": {
       "questions": [
         {
           "description": "EMR Conversion",
