@@ -209,14 +209,15 @@ class PDFCreator:
         self.devider(HEADER_COLOR, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
         self.text('CERTIFICATIONS',x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=white)
         self.pos.y+=DEVIDER_HEIGHT
-        
+        i = 1
         for cert in certs:
             self.devider(COLOR1 if self.color else COLOR2, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
             self.text(cert['title'],x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
             self.text('Exp. Date',x=self.pos.x + 350, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
-            self.form.textfield(name=cert['title'], x=self.pos.x+410, y=self.page_height - self.pos.y- DEVIDER_HEIGHT/2-2*HEADER_SIZE/3, borderStyle='inset',
+            self.form.textfield(name=F"{cert['title']}{i}", x=self.pos.x+410, y=self.page_height - self.pos.y- DEVIDER_HEIGHT/2-2*HEADER_SIZE/3, borderStyle='inset',
                 borderColor=black, fillColor=gainsboro, width=95, height=20, textColor=black, forceBorder=False)    
             self.pos.y += DEVIDER_HEIGHT
+            i+=1
             self.color = not self.color
     def others(self, others: List[str]):
         color = False
