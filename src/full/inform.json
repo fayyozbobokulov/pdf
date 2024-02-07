@@ -659,15 +659,6 @@
         "informaticsOtherNameSec": {
             "questions": [
                 {
-                    "description": "Other (specify here)",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
                     "description": "Configuration",
                     "answer": [
                         "1",
@@ -778,15 +769,6 @@
         },
         "informaticsOtherName": {
             "questions": [
-                {
-                    "description": "Other (specify here)",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
                 {
                     "description": "Configuration",
                     "answer": [

@@ -727,26 +727,6 @@
                         "4"
                     ],
                     "name": "ptaSkillsTECHNOLOGY7"
-                },
-                {
-                    "description": "Other (fill in the blank )",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ],
-                    "name": "OtherSpecify1"
-                },
-                {
-                    "description": "Other (fill in the blank )",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ],
-                    "name": "OtherSpecify2"
                 }
             ],
             "title": "TECHNOLOGY",

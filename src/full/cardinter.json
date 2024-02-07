@@ -107,16 +107,6 @@
                         "3",
                         "4"
                     ]
-                },
-                {
-                    "description": "Other Setting (List)",
-                    "name": "cathLabWorkingSetting7",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
                 }
             ],
             "title": "WORK SETTING",

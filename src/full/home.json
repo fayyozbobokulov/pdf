@@ -204,15 +204,6 @@
                         "3",
                         "4"
                     ]
-                },
-                {
-                    "description": "Ventilator Management (Specify):",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
                 }
             ],
             "title": "PULMONARY",
@@ -393,15 +384,6 @@
                         "3",
                         "4"
                     ]
-                },
-                {
-                    "description": "In Home PT/INR (Specify):",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
                 }
             ],
             "title": "ORTHOPEDICS",
@@ -489,15 +471,6 @@
                 },
                 {
                     "description": "Feeding Tubes",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Feeding Pumps (Specify):",
                     "answer": [
                         "1",
                         "2",
@@ -915,15 +888,6 @@
                         "3",
                         "4"
                     ]
-                },
-                {
-                    "description": "Specify Infusion Pump Type:",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
                 }
             ],
             "title": "PHLEBOTOMY/IV THERAPY",
@@ -1131,15 +1095,6 @@
                 },
                 {
                     "description": "Ventilator Management",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Ventilator Type (Specify):",
                     "answer": [
                         "1",
                         "2",
@@ -1467,15 +1422,6 @@
                 },
                 {
                     "description": "Case Manager",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Case Load - Pts/Day(specify)",
                     "answer": [
                         "1",
                         "2",

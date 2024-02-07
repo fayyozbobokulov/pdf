@@ -27,7 +27,7 @@ def main ():
         pdf.levels()
         pdf.skills(data['skills'])
         pdf.certs(data['certifications'])
-        pdf.others(['Other: Specify', 'Other: Specify'])
+        # pdf.others(['Other: Specify', 'Other: Specify'])
         pos.y += 50
         pdf.footer()
 

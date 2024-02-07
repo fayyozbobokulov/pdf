@@ -213,7 +213,11 @@ class PDFCreator:
         for cert in certs:
             self.devider(COLOR1 if self.color else COLOR2, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
             self.text(cert['title'],x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
-            self.text('Exp. Date',x=self.pos.x + 350, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
+            self.text(cert.get('valueTitle', ''),x=self.pos.x + 350-len(cert.get('valueTitle', '')), y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
+            if cert.get('customTitleIdentifier', False):
+                self.form.textfield(name=cert['customTitleIdentifier'], x=self.pos.x+130, y=self.page_height - self.pos.y- DEVIDER_HEIGHT, borderStyle='inset',
+                    borderColor=black, fillColor=gainsboro, width=150, height=DEVIDER_HEIGHT, textColor=black, forceBorder=False)    
+            i+=1
             self.form.textfield(name=F"{cert['title']}{i}", x=self.pos.x+410, y=self.page_height - self.pos.y- DEVIDER_HEIGHT/2-2*HEADER_SIZE/3, borderStyle='inset',
                 borderColor=black, fillColor=gainsboro, width=95, height=20, textColor=black, forceBorder=False)    
             self.pos.y += DEVIDER_HEIGHT

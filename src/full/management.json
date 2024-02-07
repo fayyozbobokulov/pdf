@@ -121,16 +121,6 @@
                     "description": "Word Processing Software",
                     "answer": "option1",
                     "name": "Processing"
-                },
-                {
-                    "description": "Other: Specify",
-                    "answer": "option1",
-                    "name": "OtherSpecify1"
-                },
-                {
-                    "description": "Other: Specify",
-                    "answer": "option1",
-                    "name": "OtherSpecify2"
                 }
             ],
             "title": "CM/UR SOFTWARE",
@@ -297,11 +287,6 @@
                     "description": "Allscripts",
                     "answer": "option1",
                     "name": "Allscripts1"
-                },
-                {
-                    "description": "Other: Specify",
-                    "answer": "option1",
-                    "name": "emrOther: Specify"
                 }
             ],
             "title": "EMR",

@@ -1,5 +1,11 @@
 from os import listdir, remove
 import json
+from typing import List, Dict
+def filter_out_matches(array1, array2):
+    titles = {item['title'] for item in array2}  # Use a set for faster lookup
+    # Keep items where the description does not match any title
+    filtered_array1 = [item for item in array1 if item['description'] not in titles]
+    return filtered_array1
 def main():
     filenames = listdir('./src/templates/')
     with open('./sample.json', 'r') as templates:
@@ -22,13 +28,9 @@ def main():
                             sv['type'] = skill['type']
                             if skill.get('items', False):
                                 sv['items'] = skill['items']
-
+                                sv['questions'] = filter_out_matches(sv['questions'], skill['items'])
                 with open(f"./src/full/{f}", 'w') as file:
-                    file.write(json.dumps(template))
-                
-
-                
-                
+                    file.write(json.dumps(template))          
     print(i)
 
 main()
