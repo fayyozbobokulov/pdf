@@ -160,10 +160,12 @@ class PDFCreator:
         self.pos.y+=30
 
     def skills(self, skills: Dict[str, Any]):
+        list_count = 0
         for key, value in skills.items():
             # print({"title": getattr(value, 'title', value['questions']) })
             if type(value) is list:
-                print('IT IS LIST')
+                list_count +=1
+                print(f'IT IS LIST {list_count}')
                 continue
             title = value.get('title', '')
             self.devider(HEADER_COLOR, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
@@ -224,9 +226,7 @@ class PDFCreator:
                                 borderStyle='solid', shape='circle', size=15,
                                 borderColor=grey, fillColor=white, borderWidth=0,
                                 textColor=HexColor('#72c800'), forceBorder=False)
-                    self.pos.y += DEVIDER_HEIGHT
-                    
-                
+                    self.pos.y += DEVIDER_HEIGHT                    
             self.pos.y += 10
     
     def certs(self, certs: List[Dict[str, Any]]):
