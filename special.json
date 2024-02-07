@@ -1,0 +1,18 @@
+{
+    "byAge": {
+        "A": "Newborn/Neonate (birth - 30 days)",
+        "B": "Infant (30 days - 1 year)",
+        "C": "Toddler (1 - 3 years)",
+        "D": "Preschooler (3 - 5 years)",
+        "E": "School age children (5 - 12 years)",
+        "F": "Adolescents (12 - 18 years)",
+        "G": "Young adults (18 - 39 years)",
+        "H": "Middle adults (39 - 64 years)",
+        "I": "Older Adults (64+)"
+    },
+    "experienceWithAgeGroups": {
+        "Able to adapt care to incorporate normal growth and development": [],
+        "Able to adapt method and terminology of patient instructions to their age, comprehension, and maturity level": [],
+        "Can ensure a safe environment reflecting specific needs of various age groups": []
+    }
+}

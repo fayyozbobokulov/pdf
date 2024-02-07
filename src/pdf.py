@@ -51,16 +51,16 @@ class PDFCreator:
                           height=INPUT_FIELD_HEIGHT, textColor=black, 
                           width=field['width'])
     
-    def textfield(self, name:str, tooltip: str, width: int, height: int, 
+    def textfield(self, name:str, width: int, height: int, 
                   text_color: Color=black, x: int = None, y: int = None):
         if x is None:
             x = self.pos.x
         if y is None:
             y = self.pos.y
         
-        self.form.textfield(name=name, tooltip=tooltip, textColor=text_color, 
+        self.form.textfield(name=name, textColor=text_color, 
                             x=x, y=y, borderStyle='inset', fillColor=gainsboro,
-                            width=width, height=height, forceBorder=False)
+                            width=width, height=height, forceBorder=False, multiline=True)
 
     def devider(self, color: Tuple[float, float, float], height: int, width: int):
         self.c.setFillColorRGB(*color)
@@ -162,7 +162,6 @@ class PDFCreator:
     def skills(self, skills: Dict[str, Any]):
         list_count = 0
         for key, value in skills.items():
-            # print({"title": getattr(value, 'title', value['questions']) })
             if type(value) is list:
                 list_count +=1
                 print(f'IT IS LIST {list_count}')
@@ -205,13 +204,13 @@ class PDFCreator:
                         textColor=HexColor('#72c800'), forceBorder=False)
                 self.pos.y += DEVIDER_HEIGHT
             if value.get('items', False):
+                x = 0
                 for item in value['items']:
                     self.devider(COLOR1 if self.color else COLOR2, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
                     self.color = not self.color
                     self.text(item['title'],x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
                     
                     if item.get('valueIdentifier'):
-                        print('VALUE IDENTIFIER')
                         self.form.textfield(name=item['valueIdentifier'], x=self.pos.x+300, y=self.page_height - self.pos.y- DEVIDER_HEIGHT/2-2*HEADER_SIZE/3, borderStyle='inset',
                             borderColor=black, fillColor=gainsboro, width=195, height=20, textColor=black, forceBorder=False)
                         self.pos.y += DEVIDER_HEIGHT
@@ -220,12 +219,13 @@ class PDFCreator:
                         self.form.textfield(name=item['customTitleIdentifier'], x=self.pos.x+130, y=self.page_height - self.pos.y- DEVIDER_HEIGHT, borderStyle='inset',
                                              borderColor=black, fillColor=gainsboro, width=150, height=DEVIDER_HEIGHT, textColor=black, forceBorder=False)
                         for i in range(1, 5):
-                            self.form.radio(name=item['title'], tooltip='Field radio1',
+                            self.form.radio(name=f"{item['title']}{x}", tooltip='Field radio1',
                                 value=f'value{i}', selected=True if i==1 else False,
                                 x=self.pos.x + 398 + 15 * i, y=self.page_height - self.pos.y-DEVIDER_HEIGHT/2-HEADER_SIZE/2, buttonStyle='circle',
                                 borderStyle='solid', shape='circle', size=15,
                                 borderColor=grey, fillColor=white, borderWidth=0,
                                 textColor=HexColor('#72c800'), forceBorder=False)
+                        x+=1
                     self.pos.y += DEVIDER_HEIGHT                    
             self.pos.y += 10
     
@@ -240,8 +240,8 @@ class PDFCreator:
             self.text(cert['title'],x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
             self.text(cert.get('valueTitle', ''),x=self.pos.x + 350-len(cert.get('valueTitle', '')), y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
             if cert.get('customTitleIdentifier', False):
-                self.form.textfield(name=cert['customTitleIdentifier'], x=self.pos.x+130, y=self.page_height - self.pos.y- DEVIDER_HEIGHT, borderStyle='inset',
-                    borderColor=black, fillColor=gainsboro, width=150, height=DEVIDER_HEIGHT, textColor=black, forceBorder=False)    
+                self.form.textfield(name=cert['customTitleIdentifier'], x=self.pos.x+230, y=self.page_height - self.pos.y- DEVIDER_HEIGHT, borderStyle='inset',
+                    borderColor=black, fillColor=gainsboro, width=100, height=DEVIDER_HEIGHT, textColor=black, forceBorder=False)    
             i+=1
             self.form.textfield(name=F"{cert['title']}{i}", x=self.pos.x+410, y=self.page_height - self.pos.y- DEVIDER_HEIGHT/2-2*HEADER_SIZE/3, borderStyle='inset',
                 borderColor=black, fillColor=gainsboro, width=95, height=20, textColor=black, forceBorder=False)    
@@ -289,3 +289,4 @@ class PDFCreator:
         self.pos.y += 8
         self.text("(Signature)", x=self.pos.x + 170, y=self.pos.y-50, font_size=8, font_style="Roboto-Italic")
         self.text("(Date)", x=self.pos.x+430, y=self.pos.y-50, font_size=8, font_style="Roboto-Italic")
+
