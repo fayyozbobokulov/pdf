@@ -30,8 +30,8 @@ def main ():
         # pdf.others(['Other: Specify', 'Other: Specify'])
         pos.y += 50
         pdf.footer()
-
-        c.save()
+        pos.page
+        pdf.save()
 
 
 
