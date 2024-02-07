@@ -1,0 +1,2326 @@
+{
+    "name": "Urgent Care/Clinic Skills Checklist",
+    "certifications": [
+        {
+            "type": "value",
+            "title": "BLS",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "bls_expdate"
+        },
+        {
+            "type": "value",
+            "title": "ACLS",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "sta_sexpdate"
+        },
+        {
+            "type": "value",
+            "title": "PALS",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "acl_sexpdate"
+        },
+        {
+            "type": "value",
+            "title": "Other:",
+            "customTitleIdentifier": "other2",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "Other_expdate2"
+        }
+    ],
+    "skills": {
+        "UrgentAssessment": {
+            "questions": [
+                {
+                    "description": "Auscultation/Irregular Heart Sounds",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Peripheral Edema",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "PQRST Assessment",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Assessment",
+            "type": "ratingsTable"
+        },
+        "UrgentInterpretation": {
+            "questions": [
+                {
+                    "description": "EKG",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Lab Tests (Cardiac Enzymes, Troponin, BNP)",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Interpretation of Labs/Tests",
+            "type": "ratingsTable"
+        },
+        "UrgentEquipment": {
+            "questions": [
+                {
+                    "description": "Arrhythmia Interpretation",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "12-Lead Set Up ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "12-Lead Basic Interpretation",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Defibrillation",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "External Pacer",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                }
+            ],
+            "title": "Equipment & Procedures",
+            "type": "ratingsTable"
+        },
+        "UrgentCareof": {
+            "questions": [
+                {
+                    "description": "Chest Pain/ACS",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Arrhythmias",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "CHF",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "AED",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Cardiac Arrest/CPR",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                }
+            ],
+            "title": "Care of the Patient with",
+            "type": "ratingsTable"
+        },
+        "UrgentMedications": {
+            "questions": [
+                {
+                    "description": "Nitroglycerin",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Morphine",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Heparin",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "ALS (Epinephrine, Atropine, Anti-Arrhythmics)",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                }
+            ],
+            "title": "Medications",
+            "type": "ratingsTable"
+        },
+        "UrgentPULAssessment": {
+            "questions": [
+                {
+                    "description": "Abnormal Breath Sounds (Wheezing, Stridor, Crackles)",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Abnormal Breathing Pattern (Rapid, Labored, Slow)",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Assessment",
+            "type": "ratingsTable"
+        },
+        "UrgentPULInterpretation": {
+            "questions": [
+                {
+                    "description": "Pulse Oximetry",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "ABGs",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Interpretation of Lab/Tests",
+            "type": "ratingsTable"
+        },
+        "UrgentPULEquipment": {
+            "questions": [
+                {
+                    "description": "Oxygen Therapy (Nasal Cannula, Face Mask)",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Manual Resuscitation Bag (MRB, Ambu Bag)",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Metered-Dose Inhaler (MDI)",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Nebulizers",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                }
+            ],
+            "title": "Equipment & Procedures",
+            "type": "ratingsTable"
+        },
+        "UrgentPULCare": {
+            "questions": [
+                {
+                    "description": "Aspiration",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Asthma/Reactive Airway Disease",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "COPD",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pneumonia",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Pulmonary Edema",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Pulmonary Embolism",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                }
+            ],
+            "title": "Care of the Patient with",
+            "type": "ratingsTable"
+        },
+        "UrgentPULMedications": {
+            "questions": [
+                {
+                    "description": "Bronchodilators",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Steroids",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Diuretics",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Medications",
+            "type": "ratingsTable"
+        },
+        "UrgentNEUAssessment": {
+            "questions": [
+                {
+                    "description": "Signs & Symptoms of Stroke",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Altered LOC",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Assessment",
+            "type": "ratingsTable"
+        },
+        "UrgentNEUEquipment": {
+            "questions": [
+                {
+                    "description": "Assist with Lumbar Puncture",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Cervical Collar",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Spinal Immobilization",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Equipment & Procedures",
+            "type": "ratingsTable"
+        },
+        "UrgentNEUCare": {
+            "questions": [
+                {
+                    "description": "Head Injury",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Meningitis",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Migraine",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Seizures",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "TIA/Stroke",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                }
+            ],
+            "title": "Care of the Patient with",
+            "type": "ratingsTable"
+        },
+        "UrgentNEUMedications": {
+            "questions": [
+                {
+                    "description": "Imitrex (Sumatriptan Succinate) ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Phenobarbitol",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Dilantin ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Depakote",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Analgesics",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                }
+            ],
+            "title": "Medications",
+            "type": "ratingsTable"
+        },
+        "UrgentORTAssessment": {
+            "questions": [
+                {
+                    "description": "Range of Motion",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Color, Warmth, Movement, Sensation",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Fracture/Dislocation",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Assessment",
+            "type": "ratingsTable"
+        },
+        "UrgentORTEquipment": {
+            "questions": [
+                {
+                    "description": "Apply Splints",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Assist with Casting",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Assist with Reduction of Dislocation",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Spinal Immobilization",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Transfer Boards",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                }
+            ],
+            "title": "Equipment & Procedures",
+            "type": "ratingsTable"
+        },
+        "UrgentORTCare": {
+            "questions": [
+                {
+                    "description": "Cast/Splint ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Dislocation",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "External Appliance",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Sprain/Fracture ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                }
+            ],
+            "title": "Care of the Patient with",
+            "type": "ratingsTable"
+        },
+        "UrgentORTMedications": {
+            "questions": [
+                {
+                    "description": "Analgesia/Sedation",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Medications",
+            "type": "ratingsTable"
+        },
+        "UrgentGASTAssessment": {
+            "questions": [
+                {
+                    "description": "Bowel Sounds",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Distention",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Fluid Balance",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Nutritional Status",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                }
+            ],
+            "title": "Assessment",
+            "type": "ratingsTable"
+        },
+        "UrgentGASTEquipment": {
+            "questions": [
+                {
+                    "description": "Enemas",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Gastric Lavage",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "G-Tubes",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "NG Tubes",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                }
+            ],
+            "title": "Equipment & Procedures",
+            "type": "ratingsTable"
+        },
+        "UrgentGASTCare": {
+            "questions": [
+                {
+                    "description": " Colostomy",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Constipation/Impaction",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Diarrhea",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "G-Tube (Reinsertion/Replacement)",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Nausea/Vomiting",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                }
+            ],
+            "title": "Care of the Patient with",
+            "type": "ratingsTable"
+        },
+        "UrgentGASTMedications": {
+            "questions": [
+                {
+                    "description": "Ipecac",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Charcoal",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Antiemetics",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Antispasmodics",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                }
+            ],
+            "title": "Medications",
+            "type": "ratingsTable"
+        },
+        "UrgentRENALAssessment": {
+            "questions": [
+                {
+                    "description": "Fluid Status",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Shunt/Fistula (Thrill/Bruit)",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Assessment",
+            "type": "ratingsTable"
+        },
+        "UrgentRENALInterpretation": {
+            "questions": [
+                {
+                    "description": "BUN/Creatinine/Electrolytes",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Interpretation of Labs",
+            "type": "ratingsTable"
+        },
+        "UrgentRENALEquipment": {
+            "questions": [
+                {
+                    "description": "Urine Dipstick/C&S",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Placement & Management of Bladder Catheters",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Equipment & Procedures",
+            "type": "ratingsTable"
+        },
+        "UrgentRENALCare": {
+            "questions": [
+                {
+                    "description": "Pyelonephritis/UTI",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Obstruction",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Renal Calculi",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Renal Trauma",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Testicular Torsion",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Priapism",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                }
+            ],
+            "title": "Care of the Patient with",
+            "type": "ratingsTable"
+        },
+        "UrgentRENALMedications": {
+            "questions": [
+                {
+                    "description": "Antibiotics",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Medications",
+            "type": "ratingsTable"
+        },
+        "UrgentENDOCRAssessment": {
+            "questions": [
+                {
+                    "description": "Hypo/Hyperglycemia",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Assessment",
+            "type": "ratingsTable"
+        },
+        "UrgentENDOCRInterpretation": {
+            "questions": [
+                {
+                    "description": "Blood Glucose",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Urine Ketones",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Interpretation of Labs",
+            "type": "ratingsTable"
+        },
+        "UrgentENDOCREquipment": {
+            "questions": [
+                {
+                    "description": "Bedside Blood Glucose Monitoring",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                }
+            ],
+            "title": "Equipment & Procedures",
+            "type": "ratingsTable"
+        },
+        "UrgentENDOCRCareof": {
+            "questions": [
+                {
+                    "description": "Hypoglycemia/Insulin Shock",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Hyperglycemia/DKA",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                }
+            ],
+            "title": "Care of the Patient with",
+            "type": "ratingsTable"
+        },
+        "UrgentENDOCRMedications": {
+            "questions": [
+                {
+                    "description": "Dextrose",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Insulin",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Oral Hypoglycemics",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Medications",
+            "type": "ratingsTable"
+        },
+        "UrgentEENTAssessment": {
+            "questions": [
+                {
+                    "description": "Visual Acuity",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Foreign Body",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Enlarged Tonsils",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Assessment",
+            "type": "ratingsTable"
+        },
+        "UrgentEENTEquipment": {
+            "questions": [
+                {
+                    "description": "Ear Irrigation/Removal Foreign Body",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Eye Injury/Foreign Body/Detached Retina",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Assist with Removal of Nasal Foreign Body ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Epistaxis",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Set Up/Assist Cautery",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Set Up Slit Lamp",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                }
+            ],
+            "title": "Equipment & Procedures",
+            "type": "ratingsTable"
+        },
+        "UrgentEENTMedications": {
+            "questions": [
+                {
+                    "description": " Silver Nitrate",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Liquid Cocaine",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Anti-Hypertensives",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Medications",
+            "type": "ratingsTable"
+        },
+        "UrgentINFECTIOUSAssessment": {
+            "questions": [
+                {
+                    "description": "Communicable Disease",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Interpret Culture Results",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Assessment",
+            "type": "ratingsTable"
+        },
+        "UrgentINFECTIOUSEquipment": {
+            "questions": [
+                {
+                    "description": "Obtain Cultures",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Fever Management",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Isolation",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Reverse Isolation/Hepa Filter",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Use of Personal Protective Equipment",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                }
+            ],
+            "title": "Equipment & Procedures",
+            "type": "ratingsTable"
+        },
+        "UrgentINFECTIOUSCare": {
+            "questions": [
+                {
+                    "description": "Communicable Disease",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Infectious Disease",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Immunosuppression/Neutropenia",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Care of the Patient with",
+            "type": "ratingsTable"
+        },
+        "UrgentINFECTIOUSMedications": {
+            "questions": [
+                {
+                    "description": "Antibiotics",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Antivirals",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Medications",
+            "type": "ratingsTable"
+        },
+        "UrgentWOUND": {
+            "questions": [
+                {
+                    "description": "Burn Care",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Dressing Change",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Ostomy Care",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Wound Repair (Staples/Sutures, etc.)",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                }
+            ],
+            "title": "WOUND MANAGEMENT",
+            "type": "ratingsTable"
+        },
+        "UrgentPAINMANAGEMENT": {
+            "questions": [
+                {
+                    "description": "Assessment of Pain Level/Use of Pain Scale",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Assessment of Response to Pain Management Interventions",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Monitoring of Patients after Pain Medication",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Comfort Care",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Moderate Sedation",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "PAIN MANAGEMENT",
+            "type": "ratingsTable"
+        },
+        "UrgentPSYCHIATRICAssessment": {
+            "questions": [
+                {
+                    "description": "Behavior",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Drug/ETOH",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Risk for Violence",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Assessment",
+            "type": "ratingsTable"
+        },
+        "UrgentPSYCHIATRICEquipment": {
+            "questions": [
+                {
+                    "description": "Managing Threatening/Violent Behavior",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": " Psychiatric Hold",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Equipment & Procedures",
+            "type": "ratingsTable"
+        },
+        "UrgentPSYCHIATRICCareof": {
+            "questions": [
+                {
+                    "description": "Drug OD",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "ETOH OD",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Depression/Anxiety ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Restraints",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Suicide Risk",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                }
+            ],
+            "title": "Care of the Patient with",
+            "type": "ratingsTable"
+        },
+        "UrgentPSYCHIATRICMedications": {
+            "questions": [
+                {
+                    "description": "Antipsychotics/Antidepressants",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Reversal Agents",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Medications",
+            "type": "ratingsTable"
+        },
+        "UrgentWOMENAssessment": {
+            "questions": [
+                {
+                    "description": "Vaginal Bleeding",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Doppler/Fetal Heart Tones",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Ectopic Pregnancy",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Assessment",
+            "type": "ratingsTable"
+        },
+        "UrgentWOMENEquipment": {
+            "questions": [
+                {
+                    "description": "Obtain Cultures",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pelvic Tray",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Equipment & Procedures",
+            "type": "ratingsTable"
+        },
+        "UrgentWOMENCareof": {
+            "questions": [
+                {
+                    "description": "Ectopic Pregnancy",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Hemorrhage",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pelvic Inflammatory Disease",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Placenta Abruptio/Previa ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Precipitous Delivery",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Pregnancy-Induced Hypertension",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Spontaneous Abortion",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                }
+            ],
+            "title": "Care of the Patient with",
+            "type": "ratingsTable"
+        },
+        "UrgentPEDIATRICS": {
+            "questions": [
+                {
+                    "description": "Child Abuse Recognition/Reporting",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Shaken Baby Syndrome",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Obtaining Consent to Treat",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "PEDIATRICS",
+            "type": "ratingsTable"
+        },
+        "UrgentPEDIATRICSAssessment": {
+            "questions": [
+                {
+                    "description": "Normal VS for age groups ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Use of Dynamap/Doppler Leg Cuffs for B/P",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Failure to Thrive",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Assessment",
+            "type": "ratingsTable"
+        },
+        "UrgentPEDIATRICSEquipment": {
+            "questions": [
+                {
+                    "description": "Assist with Fracture Stabilization ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Cooling/Warming Measures ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Draw Labs (Venous/Butterfly) ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Ear Care-Assist with Cleaning/Wash, Insert Ear Drops",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "IM/SQ Medications in Pediatric Patients",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Obtain RSV Culture",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Obtain Urine Culture (Cath/Bag) ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Lumbar Puncture",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Papoose Board/Therapeutic Hold",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Start IV in Pediatric Patient",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                }
+            ],
+            "title": "Equipment & Procedures",
+            "type": "ratingsTable"
+        },
+        "UrgentPEDIATRICSCareof": {
+            "questions": [
+                {
+                    "description": "Abdominal Pain",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Aspiration",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Asthma/Reactive Airway Disease",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Burns",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Dehydration",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Epiglottitis",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Fever",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Foreign Object",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Fracture",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Head Injury",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Hypo/Hyperglycemia",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Hypo/Hyperthermia",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Lacerations",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Near Drowning",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Nursemaid's Elbow",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                }
+            ],
+            "title": "Care of the Patient with",
+            "type": "ratingsTable"
+        },
+        "UrgentPEDIATRICSMedications": {
+            "questions": [
+                {
+                    "description": "Ipecac/Charcoal",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Bronchodilators/Nebulizers",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Fluid Replacement",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Medications (Others in System Specific Areas)",
+            "type": "ratingsTable"
+        },
+        "UrgentMISCELLANEOUS": {
+            "questions": [
+                {
+                    "description": "Intake and Triage",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "National Patient Safety Goals",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "AMA procedures",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Disaster Management",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                },
+                {
+                    "description": "Computerized Charting",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "input"
+                }
+            ],
+            "title": "MISCELLANEOUS",
+            "type": "ratingsTable"
+        },
+        "UrgentMISCELLANEOUSCareof": {
+            "questions": [
+                {
+                    "description": "Bites",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Hazardous Materials Exposure",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Victims of Acts of Violence",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "Care of the Patient with",
+            "type": "ratingsTable"
+        },
+        "experienceWithAG": [
+            {
+                "description": "Able to adapt care to incorporate normal growth and development",
+                "checkbox": [
+                    {
+                        "id": "a1"
+                    },
+                    {
+                        "id": "a2"
+                    },
+                    {
+                        "id": "a3"
+                    },
+                    {
+                        "id": "a4"
+                    },
+                    {
+                        "id": "a5"
+                    },
+                    {
+                        "id": "a6"
+                    },
+                    {
+                        "id": "a7"
+                    },
+                    {
+                        "id": "a8"
+                    },
+                    {
+                        "id": "a9"
+                    }
+                ]
+            },
+            {
+                "description": "Able to adapt method and terminology of patient instructions to their age, comprehension, and maturity level",
+                "checkbox": [
+                    {
+                        "id": "b1"
+                    },
+                    {
+                        "id": "b2"
+                    },
+                    {
+                        "id": "b3"
+                    },
+                    {
+                        "id": "b4"
+                    },
+                    {
+                        "id": "b5"
+                    },
+                    {
+                        "id": "b6"
+                    },
+                    {
+                        "id": "b7"
+                    },
+                    {
+                        "id": "b8"
+                    },
+                    {
+                        "id": "b9"
+                    }
+                ]
+            },
+            {
+                "description": "Can ensure a safe environment reflecting specific needs of various age groups",
+                "checkbox": [
+                    {
+                        "id": "c1"
+                    },
+                    {
+                        "id": "c2"
+                    },
+                    {
+                        "id": "c3"
+                    },
+                    {
+                        "id": "c4"
+                    },
+                    {
+                        "id": "c5"
+                    },
+                    {
+                        "id": "c6"
+                    },
+                    {
+                        "id": "c7"
+                    },
+                    {
+                        "id": "c8"
+                    },
+                    {
+                        "id": "c9"
+                    }
+                ]
+            }
+        ]
+    },
+    "title": "Urgent Care/Clinic Skills Checklist"
+}

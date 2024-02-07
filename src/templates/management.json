@@ -1,0 +1,247 @@
+{
+    "name": "Case Management/Utilization Review Skills Checklist",
+    "certifications": [
+        "BLS",
+        "ACLS"
+    ],
+    "skills": {
+        "managementSETTING": {
+            "questions": [
+                {
+                    "description": "Acute Care",
+                    "answer": "option1"
+                },
+                {
+                    "description": "Skilled/LTAC",
+                    "answer": "option1"
+                },
+                {
+                    "description": "MDS Coordinator",
+                    "answer": "option1"
+                },
+                {
+                    "description": "Home Health",
+                    "answer": "option1"
+                },
+                {
+                    "description": "Telephonic",
+                    "answer": "option1"
+                },
+                {
+                    "description": "Workers Compensation",
+                    "answer": "option1"
+                },
+                {
+                    "description": "Insurance",
+                    "answer": "option1"
+                },
+                {
+                    "description": "Managed Care",
+                    "answer": "option1"
+                },
+                {
+                    "description": "Acute Rehab ",
+                    "answer": "option1"
+                }
+            ]
+        },
+        "managementSOFTWARE": {
+            "questions": [
+                {
+                    "description": "Interqual",
+                    "answer": "option1",
+                    "name": "Interqual"
+                },
+                {
+                    "description": "Milliman",
+                    "answer": "option1",
+                    "name": "Milliman"
+                },
+                {
+                    "description": "MIDAS",
+                    "answer": "option1",
+                    "name": "MIDAS"
+                },
+                {
+                    "description": "Allscripts UR",
+                    "answer": "option1",
+                    "name": "Allscripts"
+                },
+                {
+                    "description": "Word Processing Software",
+                    "answer": "option1",
+                    "name": "Processing"
+                },
+                {
+                    "description": "Other: Specify",
+                    "answer": "option1",
+                    "name": "OtherSpecify1"
+                },
+                {
+                    "description": "Other: Specify",
+                    "answer": "option1",
+                    "name": "OtherSpecify2"
+                }
+            ]
+        },
+        "managementREGULATORY": {
+            "questions": [
+                {
+                    "description": "CMS/Medicare",
+                    "answer": "option1"
+                },
+                {
+                    "description": "HEDIS Measures",
+                    "answer": "option1"
+                },
+                {
+                    "description": "Core Measures",
+                    "answer": "option1"
+                },
+                {
+                    "description": "Medicaid/Medical",
+                    "answer": "option1"
+                },
+                {
+                    "description": "DRG",
+                    "answer": "option1"
+                },
+                {
+                    "description": "ICD 9 Coding",
+                    "answer": "option1"
+                },
+                {
+                    "description": "ICD 10 Coding",
+                    "answer": "option1"
+                },
+                {
+                    "description": "CPT ",
+                    "answer": "option1"
+                }
+            ]
+        },
+        "managementPROCESSES": {
+            "questions": [
+                {
+                    "description": "Benefits Eligibility",
+                    "answer": "option1"
+                },
+                {
+                    "description": "Pre-Certification Review",
+                    "answer": "option1"
+                },
+                {
+                    "description": "Review for Admission Criteria",
+                    "answer": "option1"
+                },
+                {
+                    "description": "Identify Appropriate Level of Care",
+                    "answer": "option1"
+                },
+                {
+                    "description": "Review Status During Stay",
+                    "answer": "option1"
+                },
+                {
+                    "description": "Discharge Planning",
+                    "answer": "option1"
+                },
+                {
+                    "description": "Physician Advisor",
+                    "answer": "option1"
+                },
+                {
+                    "description": "Clinical Documentation Improvement",
+                    "answer": "option1"
+                },
+                {
+                    "description": "Needs Assessment/Order DME",
+                    "answer": "option1"
+                },
+                {
+                    "description": "Needs Assessment/Home Health",
+                    "answer": "option1"
+                },
+                {
+                    "description": "Needs Assessment/Hospice",
+                    "answer": "option1"
+                },
+                {
+                    "description": "Needs Assessment/Skilled",
+                    "answer": "option1"
+                },
+                {
+                    "description": "Third Party Authorization Process",
+                    "answer": "option1"
+                },
+                {
+                    "description": "Concurrent Review",
+                    "answer": "option1"
+                },
+                {
+                    "description": "Retrospective Review ",
+                    "answer": "option1"
+                }
+            ]
+        },
+        "managementPROFESSIONAL": {
+            "questions": [
+                {
+                    "description": "National Patient Safety Goals",
+                    "answer": "option1"
+                },
+                {
+                    "description": "Age Specific/Population Based Care ",
+                    "answer": "option1"
+                }
+            ]
+        },
+        "managementEMR": {
+            "questions": [
+                {
+                    "description": "Epic",
+                    "answer": "option1",
+                    "name": "Epic1"
+                },
+                {
+                    "description": "Cerner",
+                    "answer": "option1",
+                    "name": "Cerner1"
+                },
+                {
+                    "description": "Eclipsys",
+                    "answer": "option1",
+                    "name": "Eclipsys1"
+                },
+                {
+                    "description": "McKesson",
+                    "answer": "option1",
+                    "name": "McKesson1"
+                },
+                {
+                    "description": "Meditech",
+                    "answer": "option1",
+                    "name": "Meditech1"
+                },
+                {
+                    "description": "Allscripts",
+                    "answer": "option1",
+                    "name": "Allscripts1"
+                },
+                {
+                    "description": "Other: Specify",
+                    "answer": "option1",
+                    "name": "emrOther: Specify"
+                }
+            ]
+        },
+        "managementEMRConversion": {
+            "questions": [
+                {
+                    "description": "EMR Conversion",
+                    "answer": "option1"
+                }
+            ]
+        }
+    }
+}

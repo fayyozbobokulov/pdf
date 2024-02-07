@@ -1,0 +1,3283 @@
+{
+    "cardinterventional": {
+        "identifier": "cardinterventional",
+        "name": "Cath Lab/Interventional Radiology Nursing",
+        "certifications": [
+            {
+                "type": "value",
+                "title": "BLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "bls_expdate"
+            },
+            {
+                "type": "value",
+                "title": "ACLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "acl_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "PALS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "pals_expdate"
+            },
+            {
+                "type": "value",
+                "title": "CCRN",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "ccrn_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Telemetry Certificate",
+                "valueTitle": "Date Taken:",
+                "valueIdentifier": "telemetry_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Arrhythmia Course",
+                "valueTitle": "Date Taken:",
+                "valueIdentifier": "arrhythmia_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other_specify",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other_expdate"
+            }
+        ],
+        "title": "Cath Lab/Interventional Radiology Nursing Skills Checklist",
+        "skills": [
+            {
+                "type": "ratingsTable",
+                "title": "WORK SETTING",
+                "identifier": "cathWorkSetting",
+                "items": [
+                    {
+                        "title": "Other Setting (List)",
+                        "customTitleIdentifier": "dialsysother"
+                    }
+                ]
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EQUIPMENT",
+                "identifier": "cathEquipment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "CARDIAC CATH LAB PROCEDURES",
+                "identifier": "cathprocedures"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ELECTROPHYSIOLOGY PROCEDURES",
+                "identifier": "cathElectrophysiology"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "IR-GASTROINTESTINAL STUDIES",
+                "identifier": "cathGatrointrstinal"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "IR-GENITOURINARY STUDIES",
+                "identifier": "cathGenitourinary"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "IR-NEUROLOGIC STUDIES",
+                "identifier": "cathNeurologic"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "IR-PERIPHERAL VASCULAR STUDIES",
+                "identifier": "cathPeripheral"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "IR-PULMONARY PROCEDURES",
+                "identifier": "cathPulmonary"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+                "identifier": "cathknowledgeknowledge"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EMR",
+                "identifier": "cathEmr"
+            },
+            {
+                "type": "table",
+                "identifier": "cathNeurologicConversion"
+            }
+        ]
+    },
+    "casemanagement": {
+        "identifier": "casemanagement",
+        "name": "Case Management/Utilization Review 2",
+        "certifications": [
+            {
+                "type": "value",
+                "title": "BLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "bls_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Certified Case Manager (CCM)",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "certified_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Accredited Case Manager (ACM)",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "accredited_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Certified Disability Management Specialist (CDMS)",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "cdms_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Certified Clinical Documentation Specialist (CDMS)",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "ccds_expdate"
+            },
+            {
+                "type": "value",
+                "title": "ACLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "acls_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Other: Please note any ICD 10 training",
+                "customTitleIdentifier": "icd_traning",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "othericd_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other_specify",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "otherspecify_expdate"
+            }
+        ],
+        "title": "Case Management/Utilization Review 2 Skills Checklist",
+        "skills": [
+            {
+                "type": "ratingsTable",
+                "title": "SETTING",
+                "identifier": "setting"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "CM/UR SOFTWARE",
+                "identifier": "cmSoftware",
+                "items": [
+                    {
+                        "title": "Other: Specify",
+                        "customTitleIdentifier": "software_specify"
+                    },
+                    {
+                        "title": "Other: Specify",
+                        "customTitleIdentifier": "software_other"
+                    }
+                ]
+            },
+            {
+                "type": "ratingsTable",
+                "title": "REGULATORY",
+                "identifier": "regulatory"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PROCESSES",
+                "identifier": "processes"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+                "identifier": "peofessionalKnowledgeskills"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EMR",
+                "identifier": "emr",
+                "items": [
+                    {
+                        "title": "Other: Specify",
+                        "customTitleIdentifier": "emr_specify"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "identifier": "emrConverion"
+            }
+        ]
+    },
+    "cardiacmonitor": {
+        "identifier": "cardiacmonitor",
+        "name": "Cardiac Monitor Technician (non RNs)",
+        "certifications": [
+            {
+                "type": "value",
+                "title": "BLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "bls"
+            },
+            {
+                "type": "value",
+                "title": "Telemetry Interpretation Course: (indicate date taken)",
+                "valueTitle": "Date Taken:",
+                "valueIdentifier": "telemetry_interpretation"
+            },
+            {
+                "type": "value",
+                "title": "Other (type)",
+                "customTitleIdentifier": "other_specify",
+                "valueTitle": "Date Taken:",
+                "valueIdentifier": "cardiacmonitor_other"
+            }
+        ],
+        "title": "Cardiac Monitor Technician (non RNs) Skills Checklist",
+        "skills": [
+            {
+                "type": "ratingsTable",
+                "title": "EXPERIENCE IN THE FOLLOWING SETTING(S)",
+                "identifier": "experiencefollowingsetting",
+                "items": [
+                    {
+                        "type": "value",
+                        "title": "# Monitors Responsible For",
+                        "valueIdentifier": "monitorsResponsible"
+                    }
+                ]
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PATIENT/ EQUIPMENT PREPARATION",
+                "identifier": "patientEquipmentPreparation"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "INTERPRET THE FOLLOWING RHYTHMS",
+                "identifier": "interpretFollowingRhythms"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "MONITORING SYSTEMS USED",
+                "identifier": "monitoringSystemsUsed",
+                "items": [
+                    {
+                        "title": "Spacelabs",
+                        "customTitleIdentifier": "monitoringsystems"
+                    },
+                    {
+                        "title": "Other",
+                        "customTitleIdentifier": "monitoringother"
+                    }
+                ]
+            },
+            {
+                "type": "ratingsTable",
+                "title": "MISCELLANEOUS",
+                "identifier": "miscellaneous"
+            }
+        ]
+    },
+    "criticalcare": {
+        "identifier": "criticalcare",
+        "name": "Critical Care/ICU",
+        "certifications": [
+            {
+                "type": "value",
+                "title": "BLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "certification_expdate"
+            },
+            {
+                "type": "value",
+                "title": "ACLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "acls_expdate"
+            },
+            {
+                "type": "value",
+                "title": "PALS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "pals_expdate"
+            },
+            {
+                "type": "value",
+                "title": "TNCC",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "tncc_expdate"
+            },
+            {
+                "type": "value",
+                "title": "CCRN",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "ccrn_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Telemetry Certificate/Course",
+                "valueTitle": "Date Taken:",
+                "valueIdentifier": "telemetry_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Critical Care Course",
+                "valueTitle": "Date Taken:",
+                "valueIdentifier": "care_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "others_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other_specify",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "other_expdate"
+            }
+        ],
+        "title": "Critical Care/ICU Skills Checklist",
+        "skills": [
+            {
+                "type": "ratingsTable",
+                "title": "CARDIAC",
+                "identifier": "cardiac"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PULMONARY",
+                "identifier": "pulmonary"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "NEUROLOGICAL & PSYCHIATRIC",
+                "identifier": "neurologicalPsychiatric"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "GASTROINTESTINAL",
+                "identifier": "gastrointestinal"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "RENAL/GENITOURINARY",
+                "identifier": "renalGenitourinary"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ENDOCRINE METABOLIC",
+                "identifier": "endocrineMetabolic"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "MEDICATIONS",
+                "identifier": "medications"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "IV THERAPY",
+                "identifier": "ivtherapy"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "CARDIAC MONITORING & EMERG. RESPONSE",
+                "identifier": "cardicMoitoring"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+                "identifier": "professionalSkills"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EMR",
+                "identifier": "criticalEmr"
+            }
+        ]
+    },
+    "dialysisSkills": {
+        "identifier": "dialysisSkills",
+        "name": "Dialysis Nursing",
+        "certifications": [
+            {
+                "type": "value",
+                "title": "BLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "bls_expdate"
+            },
+            {
+                "type": "value",
+                "title": "CNRN",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "cnrn_expdate"
+            },
+            {
+                "type": "value",
+                "title": "ACLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "acls_expdate"
+            },
+            {
+                "type": "value",
+                "title": "CCRN",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "ccrn_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other_specify",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "other_expdate"
+            }
+        ],
+        "title": "Dialysis Nursing Skills Checklist",
+        "skills": [
+            {
+                "type": "ratingsTable",
+                "title": "WORK SETTINGS",
+                "identifier": "workSetting"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "SET UP/INITIATE DIALYSIS TREATMENT",
+                "identifier": "setupInitiateDialsysTreatment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ASSESSMENT DURING DIALYSIS",
+                "identifier": "AssignementDuringDialsys"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PATIENT MANAGEMENT",
+                "identifier": "PatientManagement"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "DIALYSIS EQUIPMENT",
+                "identifier": "DialysisEquipment",
+                "items": [
+                    {
+                        "title": "Other",
+                        "customTitleIdentifier": "dialysis"
+                    }
+                ]
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+                "identifier": "ProfessionKnowledgeAndSkills"
+            }
+        ]
+    },
+    "emergencyDepartment": {
+        "identifier": "emergencyDepartment",
+        "name": "Emergency Department",
+        "certifications": [
+            {
+                "type": "value",
+                "title": "BLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "bls_expdate"
+            },
+            {
+                "type": "value",
+                "title": "ACLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "acl_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "PALS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "pals_expdate"
+            },
+            {
+                "type": "value",
+                "title": "PEARS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "pers_expdate"
+            },
+            {
+                "type": "value",
+                "title": "TNCC",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "tncc_expdate"
+            },
+            {
+                "type": "value",
+                "title": "ENPC",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "enpc_expdate"
+            },
+            {
+                "type": "value",
+                "title": "CEN",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "cen_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other_specify",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "otherspe",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other"
+            }
+        ],
+        "title": "Emergency Department Skills Checklist",
+        "skills": [
+            {
+                "type": "ratingsTable",
+                "title": "WORK SETTINGS",
+                "identifier": "emergencyWorkSetting"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "CARDIAC",
+                "identifier": "emergencyCardiac"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PULMONARY",
+                "identifier": "emergencyPulmonary"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "NEUROLOGICAL",
+                "identifier": "emergencyNeurological"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ORTHOPEDICS",
+                "identifier": "emergencyorthopedics"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "GASTROINTESTINAL",
+                "identifier": "emergencyGastrointestinal"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "RENAL/GU",
+                "identifier": "emergencyRenal"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ENDOCRINE",
+                "identifier": "emergencyEndocrine"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "WOUND MANAGEMENT",
+                "identifier": "emergencyWoundManagement"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "SHOCK/TRAUMA",
+                "identifier": "emergencyShock"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "INFECTIOUS DISEASE/IMMUNOSUPPRESSED PATIENTS",
+                "identifier": "emergencyInfectious"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "WOMEN'S HEALTH",
+                "identifier": "emergencyWomenHealth"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PEDIATRICS",
+                "identifier": "emergencyPediatrics"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PSYCHIATRIC",
+                "identifier": "emergencyPsychiatric"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "MISCELLANEOUS",
+                "identifier": "emergencyMiscellaneous"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "IV THERAPY",
+                "identifier": "emergencyIvTherapy"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "MEDICATIONS",
+                "identifier": "emergencyMedications"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "CARDIAC MONITORING & EMERG. RESPONSE",
+                "identifier": "emergencyEmergResponse"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+                "identifier": "emergencyKnowledgeSkills"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EMR",
+                "identifier": "emergencyEmr"
+            },
+            {
+                "type": "table",
+                "identifier": "emergencyConversion"
+            }
+        ]
+    },
+    "homeHealth": {
+        "identifier": "homeHealth",
+        "name": "Home Health",
+        "certifications": [
+            {
+                "type": "value",
+                "title": "BLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "bls_expdate"
+            },
+            {
+                "type": "value",
+                "title": "ACLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "acl_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "PALS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "pals_expdate"
+            },
+            {
+                "type": "value",
+                "title": "OASIS Training: Specify",
+                "customTitleIdentifier": "oasisTextarea",
+                "valueTitle": "Date Taken:",
+                "valueIdentifier": "oasis"
+            },
+            {
+                "type": "value",
+                "title": "Coding Training: Specify",
+                "customTitleIdentifier": "coding",
+                "valueTitle": "Date Taken:",
+                "valueIdentifier": "codingTraining"
+            },
+            {
+                "type": "value",
+                "title": "IV Certification",
+                "valueTitle": "Date Taken:",
+                "valueIdentifier": "ivCertification"
+            },
+            {
+                "type": "value",
+                "title": "Wound Care Certification:",
+                "customTitleIdentifier": "WoundCaretext",
+                "valueTitle": "Date Taken:",
+                "valueIdentifier": "WoundCare"
+            },
+            {
+                "type": "value",
+                "title": "Specify Other: Specify",
+                "customTitleIdentifier": "other_specify",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "otherspecify"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "otherspe",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other"
+            }
+        ],
+        "title": "Home Health Skills Checklist",
+        "skills": [
+            {
+                "type": "ratingsTable",
+                "title": "CARDIOVASCULAR",
+                "identifier": "homeHealthCardiovascular"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PULMONARY",
+                "identifier": "homeHealthPulmonary",
+                "items": [
+                    {
+                        "title": "Ventilator Management (Specify):",
+                        "customTitleIdentifier": "ventilator"
+                    }
+                ]
+            },
+            {
+                "type": "ratingsTable",
+                "title": "NEUROLOGICAL",
+                "identifier": "homeHealthNeurological"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ORTHOPEDICS",
+                "identifier": "homeHealthOrthopedics",
+                "items": [
+                    {
+                        "title": "In Home PT/INR (Specify):",
+                        "customTitleIdentifier": "orthopedics"
+                    }
+                ]
+            },
+            {
+                "type": "ratingsTable",
+                "title": "GASTROINTESTINAL",
+                "identifier": "homeHealthGastronitestinal",
+                "items": [
+                    {
+                        "title": "Feeding Pumps (Specify):",
+                        "customTitleIdentifier": "Gastronitestinal"
+                    }
+                ]
+            },
+            {
+                "type": "ratingsTable",
+                "title": "RENAL/GENITOURINARY",
+                "identifier": "homeHealthRenal"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ENDOCRINE/METABOLIC",
+                "identifier": "homeHealthEndocrine"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "WOUND/SKIN CARE",
+                "identifier": "homeHealthWoundSkin"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ONCOLOGY",
+                "identifier": "homeHealthOncology"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "INFECTIOUS DISEASE",
+                "identifier": "homeHealthInfections"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PHLEBOTOMY/IV THERAPY",
+                "identifier": "homeHealthPhlebotomy",
+                "items": [
+                    {
+                        "title": "Specify Infusion Pump Type:",
+                        "customTitleIdentifier": "Phlebotomy"
+                    }
+                ]
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PSYCHIATRIC",
+                "identifier": "homeHealthPsychiatric"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "WOMEN'S HEALTH/MATERNAL-INFANT CARE",
+                "identifier": "homeHealthWomenHealth"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PEDIATRICS",
+                "identifier": "homeHealthPediatrics",
+                "items": [
+                    {
+                        "title": "Ventilator Type (Specify):",
+                        "customTitleIdentifier": "Pediatrics"
+                    }
+                ]
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PAIN MANAGEMENT",
+                "identifier": "homeHealthPainManagement"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PALLIATIVE AND END OF LIFE CARE",
+                "identifier": "homeHealthPalliative"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "MEDICATIONS",
+                "identifier": "homeHealthMedications"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "HOME HEALTH",
+                "identifier": "homeHealthHomeheal",
+                "items": [
+                    {
+                        "title": "Case Load - Pts/Day(specify)",
+                        "customTitleIdentifier": "HomeHealthtxt"
+                    }
+                ]
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+                "identifier": "homeHealthProfessional"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EMR",
+                "identifier": "homeHealthEMR"
+            },
+            {
+                "type": "table",
+                "identifier": "homeHealthConversion"
+            }
+        ]
+    },
+    "hospice": {
+        "identifier": "hospice",
+        "name": "Hospice",
+        "certifications": [
+            {
+                "type": "value",
+                "title": "BLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "bls_expdate"
+            },
+            {
+                "type": "value",
+                "title": "CHPN",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "acl_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "ACHPN",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "pals_expdate"
+            },
+            {
+                "type": "value",
+                "title": "CHPPN",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "chppn_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other_specify",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "otherspecify"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "otherspe",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other"
+            }
+        ],
+        "title": "Hospice Skills Checklist",
+        "skills": [
+            {
+                "type": "ratingsTable",
+                "title": "WORK SETTINGS",
+                "identifier": "hspiceWork"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ASSESSMENT",
+                "identifier": "hspiceAssessment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PLAN OF CARE",
+                "identifier": "hspicePlanCare"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "SYMPTOM MANAGEMENT",
+                "identifier": "hspiceSymptom"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PAIN MANAGEMENT",
+                "identifier": "hspicePainManagment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "WOUND CARE",
+                "identifier": "hspiceWound"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PEDIATRICS",
+                "identifier": "hspicePediatrics"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "MEDICATION ADMIN",
+                "identifier": "hspiceMedication"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "AFTER DEATH",
+                "identifier": "hspiceDeath"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "COMPLIANCE",
+                "identifier": "hspiceCompliance"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+                "identifier": "hspiceSkills"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EMR",
+                "identifier": "hspiceEmr"
+            },
+            {
+                "type": "table",
+                "identifier": "hspiceEmrConversion"
+            }
+        ]
+    },
+    "informSkills": {
+        "identifier": "informSkills",
+        "name": "Informatics",
+        "certifications": [
+            {
+                "type": "value",
+                "title": "",
+                "customTitle": "Date Acquired",
+                "valueIdentifier": "certification_expdate"
+            },
+            {
+                "type": "value",
+                "title": "",
+                "customTitle": "Exp. Date",
+                "valueIdentifier": "acls_expdate"
+            }
+        ],
+        "title": "Informatics Skills Checklist",
+        "skills": [
+            {
+                "type": "ratingsTable",
+                "title": "CERNER",
+                "identifier": "informaticsCerner"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ECLIPSYS",
+                "identifier": "informaticsEclipsys"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EPIC",
+                "identifier": "informaticsEpic"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "GE/IDX",
+                "identifier": "informaticsGeIdx"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "MCKESSON",
+                "identifier": "informaticsMckesson"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "MEDITECH",
+                "identifier": "informaticsMeditech"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "OTHER (PLEASE NAME BELOW)",
+                "identifier": "informaticsOtherNameSec",
+                "items": [
+                    {
+                        "title": "Other (specify here)",
+                        "customTitleIdentifier": "otherspecify"
+                    }
+                ]
+            },
+            {
+                "type": "ratingsTable",
+                "title": "OTHER (PLEASE NAME BELOW)",
+                "identifier": "informaticsOtherName",
+                "items": [
+                    {
+                        "title": "Other (specify here)",
+                        "customTitleIdentifier": "otherspecify2"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "title": "MY EXPERIENCE IS IN THE FOLLOWING SETTINGS",
+                "items": [
+                    {
+                        "type": "value",
+                        "title": "EMR Super User",
+                        "valueTitle": "Yrs.",
+                        "valueIdentifier": "emrSuper"
+                    },
+                    {
+                        "type": "value",
+                        "title": "EMR Trainer",
+                        "valueTitle": "Yrs.",
+                        "valueIdentifier": "emrTrainer"
+                    },
+                    {
+                        "type": "value",
+                        "title": "Computer Charting Expert",
+                        "valueTitle": "Yrs.",
+                        "valueIdentifier": "charting"
+                    },
+                    {
+                        "type": "value",
+                        "title": "Other",
+                        "customTitleIdentifier": "other",
+                        "valueTitle": "Yrs.",
+                        "valueIdentifier": "otheryrs"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "title": "DEGREE",
+                "identifier": "informaticsDegree",
+                "items": [
+                    {
+                        "type": "value",
+                        "title": "Degree Type (e.g. MS, MSN, DNS, PhD)",
+                        "valueIdentifier": "degree"
+                    },
+                    {
+                        "type": "value",
+                        "title": "Degree Emphasis (e.g. Informatics, Education)",
+                        "valueIdentifier": "degreetype"
+                    }
+                ]
+            }
+        ]
+    },
+    "intermediate": {
+        "identifier": "intermediate",
+        "name": "Intermediate Care/PCU/Stepdown/Telemetry",
+        "certifications": [
+            {
+                "type": "value",
+                "title": "BLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "datepicker1"
+            },
+            {
+                "type": "value",
+                "title": "ACLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "datepicker2"
+            },
+            {
+                "type": "value",
+                "title": "PALS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "datepicker3"
+            },
+            {
+                "type": "value",
+                "title": "PCCN",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "datepicker4"
+            },
+            {
+                "type": "value",
+                "title": "CCRN",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "datepicker5"
+            },
+            {
+                "type": "value",
+                "title": "Critical Care Course",
+                "valueTitle": "Date Taken:",
+                "valueIdentifier": "datepicker6"
+            },
+            {
+                "type": "value",
+                "title": "Telemetry Certificate",
+                "valueTitle": "Date Taken:",
+                "valueIdentifier": "datepicker7"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "otherspecify",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "datepicker8"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "textarea_specify",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "datepicker9"
+            }
+        ],
+        "title": "Intermediate Care/PCU/Stepdown/Telemetry Skills Checklists",
+        "skills": [
+            {
+                "type": "ratingsTable",
+                "title": "CARDIAC",
+                "identifier": "intermediateCardiac"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PULMONARY",
+                "identifier": "intermediatePulmonary"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "NEUROLOGIC & PSYCHIATRIC",
+                "identifier": "intermediateNeurologic"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "GASTROINTESTINAL",
+                "identifier": "intermediateGastroin"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "RENAL/GENITOURINARY",
+                "identifier": "intermediateRenal"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ENDOCRINE METABOLIC",
+                "identifier": "intermediateEndocrine"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "MEDICATIONS",
+                "identifier": "intermediateMedications"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "IV THERAPY",
+                "identifier": "intermediateTherapy"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "CARDIAC MONITORING & EMERG. RESPONSE",
+                "identifier": "intermediateResponse"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+                "identifier": "intermediateSkills"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EMR",
+                "identifier": "intermediateEmr"
+            },
+            {
+                "type": "table",
+                "identifier": "intermediateEmrConversion"
+            }
+        ]
+    },
+    "laborSkills": {
+        "identifier": "laborSkills",
+        "name": "Labor and Delivery",
+        "certifications": [
+            {
+                "type": "value",
+                "title": "BLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "bls_expdate"
+            },
+            {
+                "type": "value",
+                "title": "S.T.A.B.L.E.",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "sta_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "NRP",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "acl_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "ACLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "acls_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "AWHONN FHM Intermediate",
+                "valueTitle": "Date Taken:",
+                "valueIdentifier": "pals_expdate"
+            },
+            {
+                "type": "value",
+                "title": "AWHONN FHM Advanced",
+                "valueTitle": "Date Taken:",
+                "valueIdentifier": "ccrn_expdate"
+            },
+            {
+                "type": "value",
+                "title": "NCC EFM",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "ccrn_expdate2"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other_expdate"
+            }
+        ],
+        "title": "Labor and Delivery Skills Checklist",
+        "skills": [
+            {
+                "type": "ratingsTable",
+                "title": "WORK SETTINGS",
+                "identifier": "laborskillsWORK"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ANTEPARTUM",
+                "identifier": "laborskillsANTEPARTUM"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "SPECIAL PROCEDURES",
+                "identifier": "laborskillsSPECIAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PAIN MANAGEMENT",
+                "identifier": "laborskillsPAIN"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "FETAL MONITORING",
+                "identifier": "laborskillsFETAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "LABOR MANAGEMENT",
+                "identifier": "laborskillsLABOR"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "DELIVERY MANAGEMENT",
+                "identifier": "laborskillsDELIVERY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "NEONATAL MANAGEMENT",
+                "identifier": "laborskillsNEONATAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "COMPLICATIONS",
+                "identifier": "laborskillsCOMPLICATIONS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "POST PARTUM CARE",
+                "identifier": "laborskillsPARTUM"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "MEDICATIONS",
+                "identifier": "laborskillsMEDICATIONS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "IV THERAPY",
+                "identifier": "laborskillsTHERAPY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "NEWBORN CARE",
+                "identifier": "laborskillsNEWBORN"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+                "identifier": "laborskillsPROFESSIONAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EMR",
+                "identifier": "laborskillsEMR"
+            },
+            {
+                "type": "table",
+                "identifier": "laborskillsEMRConversion"
+            }
+        ]
+    },
+    "medical": {
+        "identifier": "medical",
+        "name": "Medical/Surgical",
+        "certifications": [
+            {
+                "type": "value",
+                "title": "BLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "bls_expdate"
+            },
+            {
+                "type": "value",
+                "title": "ACLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "sta_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "Telemetry Certificate",
+                "valueTitle": "Date Taken:",
+                "valueIdentifier": "acl_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "ONS Chemo/Biotherapy Certification",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "acls_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "Other Chemo Certification",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "pals_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other2",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other_expdate2"
+            }
+        ],
+        "title": "Medical/Surgical Skills Checklist",
+        "skills": [
+            {
+                "type": "ratingsTable",
+                "title": "CARDIAC",
+                "identifier": "medicalCardiac"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PULMONARY",
+                "identifier": "medicalPULMONARY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "NEUROLOGICAL & PSYCHIATRIC",
+                "identifier": "medicalNeurological"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ORTHOPEDICS",
+                "identifier": "medicalORTHOPEDICS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "GASTROINTESTINAL",
+                "identifier": "medicalGASTROINTESTINAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "RENAL/GENITOURINARY",
+                "identifier": "medicalRENALEndocrine"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ENDOCRINE METABOLIC",
+                "identifier": "medicalEndocrine"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ONCOLOGY",
+                "identifier": "medicalONCOLOGY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "MEDICATIONS",
+                "identifier": "medicalMEDICATIONS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "IV THERAPY",
+                "identifier": "medicalTHERAPY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "CARDIAC MONITORING & EMERG. RESPONSE",
+                "identifier": "medicalRESPONSE"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+                "identifier": "medicalPROFESSIONAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EMR",
+                "identifier": "medicalEMR"
+            },
+            {
+                "type": "table",
+                "identifier": "medicalEMRConversion"
+            }
+        ]
+    },
+    "nicuSkills": {
+        "identifier": "nicuSkills",
+        "name": "NICU",
+        "certifications": [
+            {
+                "type": "value",
+                "title": "BLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "bls_expdate"
+            },
+            {
+                "type": "value",
+                "title": "NRP",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "acl_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "PALS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "pals_expdate"
+            },
+            {
+                "type": "value",
+                "title": "S.T.A.B.L.E.",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "ccrn_expdate"
+            },
+            {
+                "type": "value",
+                "title": "NCC Certification - RNC-NIC",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "ccrn_expdate2"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other2",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other_expdate2"
+            }
+        ],
+        "title": "NICU Skills Checklist",
+        "skills": [
+            {
+                "type": "ratingsTable",
+                "title": "PATIENT TYPES",
+                "identifier": "nicuskillsPattient"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "WORK SETTINGS",
+                "identifier": "nicuskillsWorksetting"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "CARDIOVASCULAR",
+                "identifier": "nicuskillsCard"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PULMONARY",
+                "identifier": "nicuskillsPULMONARY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "NEUROLOGIC",
+                "identifier": "nicuskillsNEUROLOGIC"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "GASTROINTESTINAL",
+                "identifier": "nicuskillsGASTROINTESTINAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "FEEDINGS",
+                "identifier": "nicuskillsFEEDINGS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "RENAL/ENDOCRINE/GENETIC",
+                "identifier": "nicuskillsRENAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "INFECTIOUS DISEASES",
+                "identifier": "nicuskillsINFECTIOUS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "MEDICATIONS",
+                "identifier": "nicuskillsMEDICATIONS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "IV THERAPY",
+                "identifier": "nicuskillsTHERAPY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "CARDIAC MONITORING & EMERG. RESPONSE",
+                "identifier": "nicuskillsCARDIAC"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+                "identifier": "nicuskillsKNOWLEDGE"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EMR",
+                "identifier": "nicuskillsEMR"
+            },
+            {
+                "type": "table",
+                "identifier": "nicuskillsEMRConversion"
+            }
+        ]
+    },
+    "operating": {
+        "identifier": "operating",
+        "name": "Operating Room Nursing",
+        "certifications": [
+            {
+                "type": "value",
+                "title": "BLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "bls_expdate"
+            },
+            {
+                "type": "value",
+                "title": "PALS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "acl_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "Certified Nurse Operating Room",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "pals_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Registered Nurse First Assist",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "ccrn_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other_expdate"
+            }
+        ],
+        "title": "Operating Room Nursing Skills Checklist",
+        "skills": [
+            {
+                "type": "ratingsTable",
+                "title": "WORKSETTING",
+                "identifier": "OperatingWORKSETTING"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "GENERAL SURGERY",
+                "identifier": "OperatingGENERAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "CARDIOVASCULAR",
+                "identifier": "OperatingCARDIOVASCULAR"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "THORACIC",
+                "identifier": "OperatingTHORACIC"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ORTHOPEDIC",
+                "identifier": "OperatingORTHOPEDIC"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "NEUROLOGICAL",
+                "identifier": "OperatingNEUROLOGICAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "GENITOURINARY",
+                "identifier": "OperatingGENITOURINARY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "GYNECOLOGICAL",
+                "identifier": "OperatingGYNECOLOGICAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EAR/NOSE/THROAT",
+                "identifier": "OperatingEAR"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "CRANIOFACIAL/ORAL",
+                "identifier": "OperatingCRANIOFACIAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PLASTIC",
+                "identifier": "OperatingPLASTIC"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "TRANSPLANTS",
+                "identifier": "OperatingTRANSPLANTS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "OPHTHALMOLOGY",
+                "identifier": "OperatingOPHTHALMOLOGY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "GENERAL SURGERY",
+                "identifier": "OperatingGENERALSURGERY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "GENITOURINARY",
+                "identifier": "OperatingPEDIATRICS_GENITOURINARY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "NEURO",
+                "identifier": "OperatingNEURO"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "CARDIAC/VASCULAR",
+                "identifier": "OperatingCARDIAC"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "TRANSPLANT",
+                "identifier": "OperatingTRANSPLANT"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "OPHTHALMOLOGY",
+                "identifier": "OperatingPEDIATRICS_OPHTHALMOLOGY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EAR/NOSE/THROAT",
+                "identifier": "OperatingEARNOSE"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "CRANIOFACIAL/ORAL/PLASTICS",
+                "identifier": "OperatingPEDIATRICS_CRANIOFACIAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ORTHOPEDICS",
+                "identifier": "OperatingORTHOPEDICS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "OR EQUIPMENT",
+                "identifier": "OperatingEQUIPMENT",
+                "items": [
+                    {
+                        "title": "Robotics Systems (List types)",
+                        "customTitleIdentifier": "equipment"
+                    }
+                ]
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+                "identifier": "OperatingPROFESSIONAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EMR",
+                "identifier": "OperatingEMR"
+            },
+            {
+                "type": "table",
+                "identifier": "OperatingEMRConversion"
+            }
+        ]
+    },
+    "pacu": {
+        "identifier": "pacu",
+        "name": "PACU",
+        "certifications": [
+            {
+                "type": "value",
+                "title": "BLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "bls_expdate"
+            },
+            {
+                "type": "value",
+                "title": "ACLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "acls_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "PALS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "sta_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "Certification: CAPA or CPAN",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "pals_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other2",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other_expdate2"
+            }
+        ],
+        "title": "PACU Skills Checklist",
+        "skills": [
+            {
+                "type": "table",
+                "title": "MY EXPERIENCE IS IN THE FOLLOWING SETTING",
+                "items": [
+                    {
+                        "type": "value",
+                        "title": "Inpatient PACU",
+                        "customTitle": "Yrs.",
+                        "valueIdentifier": "experience"
+                    },
+                    {
+                        "type": "value",
+                        "title": "Outpatient/Ambulatory PACU",
+                        "customTitle": "Yrs.",
+                        "valueIdentifier": "experience2"
+                    },
+                    {
+                        "type": "value",
+                        "title": "ICU",
+                        "customTitle": "Yrs.",
+                        "valueIdentifier": "experience3"
+                    },
+                    {
+                        "type": "value",
+                        "title": "Pre/Post Op",
+                        "customTitle": "Yrs.",
+                        "valueIdentifier": "experience4"
+                    },
+                    {
+                        "type": "value",
+                        "title": "Pain Management Department",
+                        "customTitle": "Yrs.",
+                        "valueIdentifier": "experience5"
+                    },
+                    {
+                        "type": "value",
+                        "title": "PEDI-PACU",
+                        "customTitle": "Yrs.",
+                        "valueIdentifier": "experience6"
+                    }
+                ]
+            },
+            {
+                "type": "ratingsTable",
+                "title": "CARDIOVASCULAR",
+                "identifier": "pacuCARDIOVASCULAR"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PULMONARY",
+                "identifier": "pacuPULMONARY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "NEUROLOGICAL",
+                "identifier": "pacuNEUROLOGIC"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "GASTROINTESTINAL",
+                "identifier": "pacuGASTROINTESTINAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "RENAL/GENITOURINARY",
+                "identifier": "pacuRENAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ENDOCRINE METABOLIC",
+                "identifier": "pacuEndocrine"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ORTHOPEDIC",
+                "identifier": "pacuORTHOPEDIC"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "WOUND MANAGEMENT",
+                "identifier": "pacuWOUND"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "MEDICATIONS",
+                "identifier": "pacuMEDICATIONS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "IV THERAPY",
+                "identifier": "pacuTHERAPY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "CARDIAC MONITORING & EMERG. RESPONSE",
+                "identifier": "pacuCARDIAC"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+                "identifier": "pacuPROFESSIONAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EMR",
+                "identifier": "pacuEMR"
+            },
+            {
+                "type": "table",
+                "identifier": "pacuEMRConversion"
+            }
+        ]
+    },
+    "pediatric": {
+        "identifier": "pediatric",
+        "name": "Pediatric Emergency Department",
+        "certifications": [
+            {
+                "type": "value",
+                "title": "BLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "bls_expdate"
+            },
+            {
+                "type": "value",
+                "title": "PALS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "sta_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "PEARS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "acl_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "ACLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "acls_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "TNCC",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "pals_expdate"
+            },
+            {
+                "type": "value",
+                "title": "ENPC",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "enpc"
+            },
+            {
+                "type": "value",
+                "title": "CEN",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "cen"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other2",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other_expdate2"
+            }
+        ],
+        "title": "Pediatric Emergency Department Skills Checklist",
+        "skills": [
+            {
+                "type": "ratingsTable",
+                "title": "CARDIOVASCULAR",
+                "identifier": "pediatricCARDIOVASCULAR"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PULMONARY",
+                "identifier": "pediatricPULMONARY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "NEUROLOGICAL",
+                "identifier": "pediatricNEUROLOGICAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ORTHOPEDIC",
+                "identifier": "pediatricORTHOPEDIC"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "GASTROINTESTINAL",
+                "identifier": "pediatricGASTROINTESTINAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ENDOCRINE/METABOLIC",
+                "identifier": "pediatricENDOCRINE"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "GENITOURINARY",
+                "identifier": "pediatricGENITOURINARY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "OB/GYN",
+                "identifier": "pediatricOBGYN"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EENT",
+                "identifier": "pediatricEENT"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "TRAUMA",
+                "identifier": "pediatricTRAUMA"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "INFECTIOUS DISEASE/IMMUNOSUPPRESSION",
+                "identifier": "pediatricInfectious"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PSYCHIATRIC",
+                "identifier": "pediatricPSYCHIATRIC"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "MEDICATIONS",
+                "identifier": "pediatricMEDICATIONS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+                "identifier": "pediatricPROFESSIONAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EMR",
+                "identifier": "pediatricEMR"
+            },
+            {
+                "type": "table",
+                "identifier": "pediatricEMRConversion"
+            }
+        ]
+    },
+    "skillspediatric": {
+        "identifier": "skillspediatric",
+        "name": "Pediatric",
+        "certifications": [
+            {
+                "type": "value",
+                "title": "BLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "bls_expdate"
+            },
+            {
+                "type": "value",
+                "title": "PALS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "sta_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "CPHON",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "acl_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "Chemo",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "acls_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "Chemo Certification: Specify",
+                "customTitleIdentifier": "other4",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "pals_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Specify PICC Certification:",
+                "customTitleIdentifier": "other3",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "enpc"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other2",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other_expdate2"
+            }
+        ],
+        "title": "Pediatric Skills Checklist",
+        "skills": [
+            {
+                "type": "ratingsTable",
+                "title": "WORK SETTINGS",
+                "identifier": "skillspediatricWORK"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "CARDIOVASCULAR",
+                "identifier": "skillspediatricCARDIOVASCULAR"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PULMONARY",
+                "identifier": "skillspediatricPULMONARY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "NEUROLOGIC/ORTHOPEDIC",
+                "identifier": "skillspediatricNEUROLOGIC"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "GASTROINTESTINAL",
+                "identifier": "skillspediatricGASTROINTESTINAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "RENAL/GENITOURINARY",
+                "identifier": "skillspediatricRENAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ENDOCRINE/METABOLIC",
+                "identifier": "skillspediatricENDOCRINE"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ONCOLOGY",
+                "identifier": "skillspediatricONCOLOGY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "INFECTIOUS DISEASE",
+                "identifier": "skillspediatricINFECTIOUS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "MEDICATIONS",
+                "identifier": "skillspediatricMEDICATIONS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "IV THERAPY",
+                "identifier": "skillspediatricIVTHERAPY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "CARDIAC MONITORING & EMERG. RESPONSE",
+                "identifier": "skillspediatricRESPONSE"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+                "identifier": "skillspediatricPROFESSIONAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EMR",
+                "identifier": "skillspediatricEMR"
+            },
+            {
+                "type": "table",
+                "identifier": "skillspediatricEMRConversion"
+            }
+        ]
+    },
+    "PICUSkills": {
+        "identifier": "PICUSkills",
+        "name": "PICU",
+        "certifications": [
+            {
+                "type": "value",
+                "title": "BLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "bls_expdate"
+            },
+            {
+                "type": "value",
+                "title": "PALS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "sta_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "ACLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "acl_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "PEARS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "acls_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "ENPC",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "pals_expdate"
+            },
+            {
+                "type": "value",
+                "title": "CEN",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "enpc"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other2",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other_expdate2"
+            }
+        ],
+        "title": "PICU Skills Checklist",
+        "skills": [
+            {
+                "type": "ratingsTable",
+                "title": "WORK SETTINGS",
+                "identifier": "PICUSkillsWORKSETTINGS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "CARDIOVASCULAR",
+                "identifier": "PICUSkillsCARDIOVASCULAR"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PULMONARY",
+                "identifier": "PICUSkillsPULMONARY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "NEUROLOGIC/ORTHOPEDIC",
+                "identifier": "PICUSkillsNEUROLOGIC"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "GASTROINTESTINAL",
+                "identifier": "PICUSkillsGASTROINTESTINAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "RENAL/GENITOURINARY",
+                "identifier": "PICUSkillsRENAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ENDOCRINE/METABOLIC",
+                "identifier": "PICUSkillsENDOCRINE"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "TRAUMA/OTHER",
+                "identifier": "PICUSkillsTRAUMA"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ONCOLOGY",
+                "identifier": "PICUSkillsONCOLOGY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "MEDICATIONS",
+                "identifier": "PICUSkillsMEDICATIONS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "IV THERAPY",
+                "identifier": "PICUSkillsTHERAPY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "CARDIAC MONITORING & EMERG. RESPONSE",
+                "identifier": "PICUSkillsCARDIAC"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+                "identifier": "PICUSkillsPROFESSIONAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EMR",
+                "identifier": "PICUSkillsEMR"
+            },
+            {
+                "type": "table",
+                "identifier": "PICUSkillsONCOLOGYEMRConversion"
+            }
+        ]
+    },
+    "postpartum": {
+        "identifier": "postpartum",
+        "name": "Post-partum/Nursery",
+        "certifications": [
+            {
+                "type": "value",
+                "title": "BLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "bls_expdate"
+            },
+            {
+                "type": "value",
+                "title": "NRP",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "sta_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "AWHONN FHM - Intermediate",
+                "valueTitle": "Date Taken:",
+                "valueIdentifier": "acl_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "AWHONN FHM - Advanced",
+                "valueTitle": "Date Taken:",
+                "valueIdentifier": "acls_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "FHM - Other Specify",
+                "customTitleIdentifier": "FHMother2",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "pals_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Lactation Consultant - IBCLC",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "enpc"
+            },
+            {
+                "type": "value",
+                "title": "S.T.A.B.L.E.",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "enpc22"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other2",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other_expdate2"
+            }
+        ],
+        "title": "Post-partum/Nursery Skills Checklist",
+        "skills": [
+            {
+                "type": "ratingsTable",
+                "title": "WORK SETTINGS",
+                "identifier": "partumWORKSETTINGS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "POST PARTUM",
+                "identifier": "partumPOSTPARTUM"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ANTEPARTUM",
+                "identifier": "partumANTEPARTUM"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "MEDICATIONS",
+                "identifier": "partumMEDICATIONS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "IV THERAPY",
+                "identifier": "partumIVTHERAPY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "NEWBORN CARE",
+                "identifier": "partumNEWBORN"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+                "identifier": "partumPROFESSIONAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EMR",
+                "identifier": "partumEMR"
+            },
+            {
+                "type": "table",
+                "identifier": "partumEMRConversion"
+            }
+        ]
+    },
+    "Psychiatric": {
+        "identifier": "Psychiatric",
+        "name": "Psychiatric",
+        "certifications": [
+            {
+                "type": "value",
+                "title": "BLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "bls_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Managing Assaultive Behavior",
+                "valueTitle": "Date Taken:",
+                "valueIdentifier": "acl_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "Crisis Prevention Institute (CPI)",
+                "valueTitle": "Date Taken:",
+                "valueIdentifier": "acls_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other2",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other_expdate2"
+            }
+        ],
+        "title": "Psychiatric Skills Checklist",
+        "skills": [
+            {
+                "type": "ratingsTable",
+                "title": "TREATMENT SETTINGS",
+                "identifier": "PsychiatricTREATMENT"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ADULT DISORDERS",
+                "identifier": "PsychiatricADULTDISORDERS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "CHILD/ADOLESCENT DISORDERS",
+                "identifier": "partumCHILDADOLESCENT"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "TREATMENT MODALITIES",
+                "identifier": "PsychiatricTREATMENTMODALITIES"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EQUIPMENT AND PROCEDURES",
+                "identifier": "PsychiatricEQUIPMENT"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "MEDICATIONS",
+                "identifier": "PsychiatricMEDICATIONS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+                "identifier": "PsychiatricPROFESSIONAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EMR",
+                "identifier": "PsychiatricEMR"
+            },
+            {
+                "type": "table",
+                "identifier": "PsychiatricEMRConversion"
+            }
+        ]
+    },
+    "Sterile": {
+        "identifier": "Sterile",
+        "name": "Sterile Processing Technologist",
+        "certifications": [
+            {
+                "type": "value",
+                "title": "BLS",
+                "valueIdentifier": "bls_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Certified Sterile Processing & Distribution Technician (CSPDT)",
+                "valueIdentifier": "sta_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "Certified Surgical Instrument Processor (CSIP)",
+                "valueIdentifier": "acl_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "Certified Flexible Endoscope Reprocessor (CFER)",
+                "valueIdentifier": "acls_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "Certified Surgical Technologist (CST)",
+                "valueIdentifier": "pals_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Other Certification",
+                "customTitleIdentifier": "other",
+                "valueIdentifier": "Other_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Other Certification",
+                "customTitleIdentifier": "other2",
+                "valueIdentifier": "Other_expdate2"
+            }
+        ],
+        "title": "Sterile Processing Technologist Skills Checklist",
+        "skills": [
+            {
+                "type": "ratingsTable",
+                "title": "PROCESSING",
+                "identifier": "SterileProcessing",
+                "items": [
+                    {
+                        "title": "Endoscopes (indicate types)",
+                        "customTitleIdentifier": "Sterileinput1"
+                    }
+                ]
+            },
+            {
+                "type": "ratingsTable",
+                "title": "SAFETY PROCEDURES",
+                "identifier": "SterileSafety"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "DECONTAMINATION",
+                "identifier": "SterileDecontamination"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Steam Autoclave",
+                "identifier": "SterileAutoclave"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Sterility Assurance Tests",
+                "identifier": "SterileAssurance"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Steam Sterilization",
+                "identifier": "SterileSterilization"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Gas (ETOH)",
+                "identifier": "SterileGas"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Sterrad",
+                "identifier": "SterileSterrad"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Steris",
+                "identifier": "SterileSteris"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ASSEMBLY AND PREPARATION",
+                "identifier": "SterileAssembly"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "SPECIALTY EQUIPMENT PROCESSING",
+                "identifier": "SterileSpecialty"
+            },
+            {
+                "type": "table",
+                "title": "EXPERIENCE",
+                "identifier": "experienceWithAG",
+                "items": [
+                    {
+                        "type": "value",
+                        "title": "SPT: In-Patient OR",
+                        "valueTitle": "Yrs:",
+                        "valueIdentifier": "Sterileinput2"
+                    },
+                    {
+                        "type": "value",
+                        "title": "SPT: In-Patient OR - # of Suites",
+                        "valueIdentifier": "Sterileinput3"
+                    },
+                    {
+                        "type": "value",
+                        "title": "SPT: Ambulatory Surg. Center",
+                        "valueTitle": "Yrs:",
+                        "valueIdentifier": "Sterileinput4"
+                    },
+                    {
+                        "type": "value",
+                        "title": "SPT: Ambulatory Surg. Center - # of Suites",
+                        "valueIdentifier": "Sterileinput5"
+                    },
+                    {
+                        "type": "value",
+                        "title": "Surgical Tech: In-Patient OR",
+                        "valueTitle": "Yrs:",
+                        "valueIdentifier": "Sterileinput6"
+                    },
+                    {
+                        "type": "value",
+                        "title": "Surgical Tech: In-Patient OR - # of Suites",
+                        "valueIdentifier": "Sterileinput7"
+                    },
+                    {
+                        "type": "value",
+                        "title": "Surgical Tech: Ambulatory Surg. Center",
+                        "valueTitle": "Yrs:",
+                        "valueIdentifier": "Sterileinput8"
+                    },
+                    {
+                        "type": "value",
+                        "title": "Surgical Tech: Ambulatory Surg. Center - # Suites",
+                        "valueIdentifier": "Sterileinput9"
+                    }
+                ]
+            }
+        ]
+    },
+    "Urgent": {
+        "identifier": "Urgent",
+        "name": "Urgent Care/Clinic",
+        "certifications": [
+            {
+                "type": "value",
+                "title": "BLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "bls_expdate"
+            },
+            {
+                "type": "value",
+                "title": "ACLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "sta_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "PALS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "acl_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "Other:",
+                "customTitleIdentifier": "other2",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other_expdate2"
+            }
+        ],
+        "title": "Urgent Care/Clinic Skills Checklist",
+        "skills": [
+            {
+                "type": "ratingsTable",
+                "title": "Assessment",
+                "identifier": "UrgentAssessment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Interpretation of Labs/Tests",
+                "identifier": "UrgentInterpretation"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Equipment & Procedures",
+                "identifier": "UrgentEquipment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Care of the Patient with",
+                "identifier": "UrgentCareof"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Medications",
+                "identifier": "UrgentMedications"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Assessment",
+                "identifier": "UrgentPULAssessment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Interpretation of Lab/Tests",
+                "identifier": "UrgentPULInterpretation"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Equipment & Procedures",
+                "identifier": "UrgentPULEquipment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Care of the Patient with",
+                "identifier": "UrgentPULCare"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Medications",
+                "identifier": "UrgentPULMedications"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Assessment",
+                "identifier": "UrgentNEUAssessment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Equipment & Procedures",
+                "identifier": "UrgentNEUEquipment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Care of the Patient with",
+                "identifier": "UrgentNEUCare"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Medications",
+                "identifier": "UrgentNEUMedications"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Assessment",
+                "identifier": "UrgentORTAssessment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Equipment & Procedures",
+                "identifier": "UrgentORTEquipment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Care of the Patient with",
+                "identifier": "UrgentORTCare"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Medications",
+                "identifier": "UrgentORTMedications"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Assessment",
+                "identifier": "UrgentGASTAssessment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Equipment & Procedures",
+                "identifier": "UrgentGASTEquipment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Care of the Patient with",
+                "identifier": "UrgentGASTCare"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Medications",
+                "identifier": "UrgentGASTMedications"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Assessment",
+                "identifier": "UrgentRENALAssessment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Interpretation of Labs",
+                "identifier": "UrgentRENALInterpretation"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Equipment & Procedures",
+                "identifier": "UrgentRENALEquipment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Care of the Patient with",
+                "identifier": "UrgentRENALCare"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Medications",
+                "identifier": "UrgentRENALMedications"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Assessment",
+                "identifier": "UrgentENDOCRAssessment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Interpretation of Labs",
+                "identifier": "UrgentENDOCRInterpretation"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Equipment & Procedures",
+                "identifier": "UrgentENDOCREquipment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Care of the Patient with",
+                "identifier": "UrgentENDOCRCareof"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Medications",
+                "identifier": "UrgentENDOCRMedications"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Assessment",
+                "identifier": "UrgentEENTAssessment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Equipment & Procedures",
+                "identifier": "UrgentEENTEquipment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Medications",
+                "identifier": "UrgentEENTMedications"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Assessment",
+                "identifier": "UrgentINFECTIOUSAssessment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Equipment & Procedures",
+                "identifier": "UrgentINFECTIOUSEquipment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Care of the Patient with",
+                "identifier": "UrgentINFECTIOUSCare"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Medications",
+                "identifier": "UrgentINFECTIOUSMedications"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "WOUND MANAGEMENT",
+                "identifier": "UrgentWOUND"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PAIN MANAGEMENT",
+                "identifier": "UrgentPAINMANAGEMENT"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Assessment",
+                "identifier": "UrgentPSYCHIATRICAssessment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Equipment & Procedures",
+                "identifier": "UrgentPSYCHIATRICEquipment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Care of the Patient with",
+                "identifier": "UrgentPSYCHIATRICCareof"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Medications",
+                "identifier": "UrgentPSYCHIATRICMedications"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Assessment",
+                "identifier": "UrgentWOMENAssessment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Equipment & Procedures",
+                "identifier": "UrgentWOMENEquipment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Care of the Patient with",
+                "identifier": "UrgentWOMENCareof"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PEDIATRICS",
+                "identifier": "UrgentPEDIATRICS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Assessment",
+                "identifier": "UrgentPEDIATRICSAssessment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Equipment & Procedures",
+                "identifier": "UrgentPEDIATRICSEquipment"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Care of the Patient with",
+                "identifier": "UrgentPEDIATRICSCareof"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Medications (Others in System Specific Areas)",
+                "identifier": "UrgentPEDIATRICSMedications"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "MISCELLANEOUS",
+                "identifier": "UrgentMISCELLANEOUS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "Care of the Patient with",
+                "identifier": "UrgentMISCELLANEOUSCareof"
+            },
+            {
+                "type": "table",
+                "title": "Adults",
+                "items": [
+                    {
+                        "type": "value",
+                        "title": "Physician's Office",
+                        "valueTitle": "Yrs:",
+                        "valueIdentifier": "Urgentinput2"
+                    },
+                    {
+                        "type": "value",
+                        "title": "Clinic",
+                        "valueTitle": "Yrs:",
+                        "valueIdentifier": "Urgentinput3"
+                    },
+                    {
+                        "type": "value",
+                        "title": "Urgent Care",
+                        "valueTitle": "Yrs:",
+                        "valueIdentifier": "Urgentinput4"
+                    },
+                    {
+                        "type": "value",
+                        "title": "Emergency Dept - Yrs:",
+                        "customTitleIdentifier": "Urgentinput10",
+                        "valueTitle": "Visits/Day:",
+                        "valueIdentifier": "Urgentinput5"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Pediatrics",
+                "items": [
+                    {
+                        "type": "value",
+                        "title": "Physician's Office",
+                        "valueTitle": "Yrs:",
+                        "valueIdentifier": "Urgentinput6"
+                    },
+                    {
+                        "type": "value",
+                        "title": "Clinic",
+                        "valueTitle": "Yrs:",
+                        "valueIdentifier": "Urgentinput7"
+                    },
+                    {
+                        "type": "value",
+                        "title": "Urgent Care",
+                        "valueTitle": "Yrs:",
+                        "valueIdentifier": "Urgentinput8"
+                    },
+                    {
+                        "type": "value",
+                        "title": "Emergency Dept - Yrs:",
+                        "customTitleIdentifier": "Urgentinput11",
+                        "valueTitle": "Visits/Day:",
+                        "valueIdentifier": "Urgentinput9"
+                    }
+                ]
+            }
+        ]
+    },
+    "management": {
+        "identifier": "management",
+        "name": "Case Management/Utilization Review",
+        "certifications": [
+            {
+                "type": "value",
+                "title": "BLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "bls_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Certified Case Manager (CCM)",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "sta_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "Accredited Case Manager (ACM)",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "acl_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "Certified Disability Management Specialist (CDMS)",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "acls_sexpdate"
+            },
+            {
+                "type": "value",
+                "title": "Certified Clinical Documentation Specialist (CDMS)",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "pals_expdate"
+            },
+            {
+                "type": "value",
+                "title": "ACLS",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "enpc"
+            },
+            {
+                "type": "value",
+                "title": "Other: Please note any ICD 10 training",
+                "customTitleIdentifier": "other",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other_expdate"
+            },
+            {
+                "type": "value",
+                "title": "Other: Specify",
+                "customTitleIdentifier": "other2",
+                "valueTitle": "Exp. Date:",
+                "valueIdentifier": "Other_expdate2"
+            }
+        ],
+        "title": "Case Management/Utilization Review Skills Checklist",
+        "skills": [
+            {
+                "type": "ratingsTable",
+                "title": "SETTING",
+                "identifier": "managementSETTING"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "CM/UR SOFTWARE",
+                "identifier": "managementSOFTWARE",
+                "items": [
+                    {
+                        "title": "Other: Specify",
+                        "customTitleIdentifier": "managementother",
+                        "name": "OtherSpecify1"
+                    },
+                    {
+                        "title": "Other: Specify",
+                        "customTitleIdentifier": "managementother2",
+                        "name": "OtherSpecify2"
+                    }
+                ]
+            },
+            {
+                "type": "ratingsTable",
+                "title": "REGULATORY",
+                "identifier": "managementREGULATORY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PROCESSES",
+                "identifier": "managementPROCESSES"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+                "identifier": "managementPROFESSIONAL"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EMR",
+                "identifier": "managementEMR",
+                "items": [
+                    {
+                        "title": "Other: Specify",
+                        "customTitleIdentifier": "emrmanagement"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "identifier": "managementEMRConversion"
+            }
+        ]
+    },
+    "ptaSkills": {
+        "identifier": "ptaSkills",
+        "name": "PT/PTA",
+        "certifications": [
+            {
+                "type": "value",
+                "title": "Other (fill in the blank )",
+                "valueIdentifier": "ptaSkillsfill"
+            }
+        ],
+        "title": "PT/PTA Skills Checklist",
+        "skills": [
+            {
+                "type": "ratingsTable",
+                "title": "WORK SETTINGS",
+                "identifier": "ptaSkillsWORKSETTINGS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "MODALITIES/MANUAL SKILLS/THERAPIES",
+                "identifier": "ptaSkillsMODALITIES"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "EVALUATION TOOLS",
+                "identifier": "ptaSkillsEVALUATION"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "ORTHOPEDICS",
+                "identifier": "ptaSkillsORTHOPEDICS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "NEUROLOGIC",
+                "identifier": "ptaSkillsNEUROLOGIC"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PROSTHETICS/ORTHOTICS",
+                "identifier": "ptaSkillsPROSTHETICS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PEDIATRICS",
+                "identifier": "ptaSkillsPEDIATRICS"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "WOUND CARE",
+                "identifier": "ptaSkillsWOUNDCARE"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "CARDIOPULMONARY",
+                "identifier": "ptaSkillsCARDIOPULMONARY"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "TECHNOLOGY",
+                "identifier": "ptaSkillsTECHNOLOGY",
+                "items": [
+                    {
+                        "title": "Other (fill in the blank )",
+                        "customTitleIdentifier": "ptaSkillsother",
+                        "name": "OtherSpecify1"
+                    },
+                    {
+                        "title": "Other (fill in the blank )",
+                        "customTitleIdentifier": "ptaSkillsother2",
+                        "name": "OtherSpecify2"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "identifier": "ptaSkillsEMRConversion"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "BILLING/DOCUMENTATION",
+                "identifier": "ptaSkillsBILLING"
+            },
+            {
+                "type": "ratingsTable",
+                "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+                "identifier": "ptaSkillsPROFESSIONAL"
+            }
+        ]
+    }
+}

@@ -16,12 +16,11 @@ COLOR2 = hex_to_rgb('#ffffff')
 HEADER_SIZE = 12
 
 class PDFCreator:
-    def __init__(self, canvas: Canvas, pos: Position, pagesize: Tuple[float, float], template_path: str) -> None:
+    def __init__(self, canvas: Canvas, pos: Position, pagesize: Tuple[float, float]) -> None:
         register_fonts(False)
         self.c = canvas
         self.page_width, self.page_height = pagesize
         self.form = self.c.acroForm
-        self.template_path = template_path
         self.margin = 50
         self.pos = pos
         self.height = self.page_height - 2*self.margin
@@ -158,16 +157,19 @@ class PDFCreator:
         self.c.drawString(self.pos.x + 10,self.pos.y, '3. Experienced/minimal support needed to perform')
         self.pos.y+=20
         self.c.drawString(self.pos.x + 10,self.pos.y, '4. Proficient/can perform independently')
-        self.pos.y+=80
+        self.pos.y+=30
 
     def skills(self, skills: Dict[str, Any]):
         for key, value in skills.items():
-            title = key.upper()
+            # print({"title": getattr(value, 'title', value['questions']) })
+            if type(value) is list:
+                print('IT IS LIST')
+                continue
+            title = value.get('title', '')
             self.devider(HEADER_COLOR, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
             self.text(title,x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=white)
             
-            if len(value['questions'][0]['answer'])>3:
-                print(f"ANSWERS: > {value['questions'][0]['answer']}")
+            if value.get('type', '') == 'ratingsTable':
                 for i in range(1, 5):
                     self.text(f'{i}', x=self.pos.x + 400 + 15 * i, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=white)
             
@@ -185,7 +187,6 @@ class PDFCreator:
                             borderColor=grey, fillColor=white, borderWidth=0,
                             textColor=HexColor('#72c800'), forceBorder=False)
                 if len(question['answer'])<3:
-                    print(f"question: ${question['answer']}")
                     self.text('Yes', self.pos.x+395, self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3, black)
                     self.text('No', self.pos.x+455, self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3, black)
                     self.form.radio(name=question['description'], tooltip='Field radio1',
@@ -203,16 +204,17 @@ class PDFCreator:
                 self.pos.y += DEVIDER_HEIGHT
             self.pos.y += 10
     
-    def certs(self, certs: List[str]):
+    def certs(self, certs: List[Dict[str, Any]]):
+
         self.devider(HEADER_COLOR, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
         self.text('CERTIFICATIONS',x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=white)
         self.pos.y+=DEVIDER_HEIGHT
         
         for cert in certs:
             self.devider(COLOR1 if self.color else COLOR2, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
-            self.text(cert,x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
+            self.text(cert['title'],x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
             self.text('Exp. Date',x=self.pos.x + 350, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
-            self.form.textfield(name=cert, x=self.pos.x+410, y=self.page_height - self.pos.y- DEVIDER_HEIGHT/2-2*HEADER_SIZE/3, borderStyle='inset',
+            self.form.textfield(name=cert['title'], x=self.pos.x+410, y=self.page_height - self.pos.y- DEVIDER_HEIGHT/2-2*HEADER_SIZE/3, borderStyle='inset',
                 borderColor=black, fillColor=gainsboro, width=95, height=20, textColor=black, forceBorder=False)    
             self.pos.y += DEVIDER_HEIGHT
             self.color = not self.color
