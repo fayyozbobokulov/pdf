@@ -178,7 +178,7 @@ class PDFCreator:
                 self.devider(COLOR1 if self.color else COLOR2, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
                 self.color = not self.color
                 self.text(question['description'],x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
-                if len(question['answer'])>3:
+                if len(question['answer'])==4:
                     for i in range(1, 5):
                         self.form.radio(name=question['description'], tooltip='Field radio1',
                             value=f'value{i}', selected=True if i==1 else False,
@@ -186,7 +186,7 @@ class PDFCreator:
                             borderStyle='solid', shape='circle', size=15,
                             borderColor=grey, fillColor=white, borderWidth=0,
                             textColor=HexColor('#72c800'), forceBorder=False)
-                if len(question['answer'])<3:
+                if len(question['answer'])==2:
                     self.text('Yes', self.pos.x+395, self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3, black)
                     self.text('No', self.pos.x+455, self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3, black)
                     self.form.radio(name=question['description'], tooltip='Field radio1',
@@ -202,6 +202,31 @@ class PDFCreator:
                         borderColor=grey, fillColor=white, size=15,
                         textColor=HexColor('#72c800'), forceBorder=False)
                 self.pos.y += DEVIDER_HEIGHT
+            if value.get('items', False):
+                for item in value['items']:
+                    self.devider(COLOR1 if self.color else COLOR2, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
+                    self.color = not self.color
+                    self.text(item['title'],x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
+                    
+                    if item.get('valueIdentifier'):
+                        print('VALUE IDENTIFIER')
+                        self.form.textfield(name=item['valueIdentifier'], x=self.pos.x+300, y=self.page_height - self.pos.y- DEVIDER_HEIGHT/2-2*HEADER_SIZE/3, borderStyle='inset',
+                            borderColor=black, fillColor=gainsboro, width=195, height=20, textColor=black, forceBorder=False)
+                        self.pos.y += DEVIDER_HEIGHT
+                        continue
+                    if item.get('customTitleIdentifier', False):
+                        self.form.textfield(name=item['customTitleIdentifier'], x=self.pos.x+130, y=self.page_height - self.pos.y- DEVIDER_HEIGHT, borderStyle='inset',
+                                             borderColor=black, fillColor=gainsboro, width=150, height=DEVIDER_HEIGHT, textColor=black, forceBorder=False)
+                        for i in range(1, 5):
+                            self.form.radio(name=item['title'], tooltip='Field radio1',
+                                value=f'value{i}', selected=True if i==1 else False,
+                                x=self.pos.x + 398 + 15 * i, y=self.page_height - self.pos.y-DEVIDER_HEIGHT/2-HEADER_SIZE/2, buttonStyle='circle',
+                                borderStyle='solid', shape='circle', size=15,
+                                borderColor=grey, fillColor=white, borderWidth=0,
+                                textColor=HexColor('#72c800'), forceBorder=False)
+                    self.pos.y += DEVIDER_HEIGHT
+                    
+                
             self.pos.y += 10
     
     def certs(self, certs: List[Dict[str, Any]]):
@@ -223,6 +248,7 @@ class PDFCreator:
             self.pos.y += DEVIDER_HEIGHT
             i+=1
             self.color = not self.color
+
     def others(self, others: List[str]):
         color = False
         i = 1
