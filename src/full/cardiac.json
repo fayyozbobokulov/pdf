@@ -44,7 +44,14 @@
                 }
             ],
             "title": "EXPERIENCE IN THE FOLLOWING SETTING(S)",
-            "type": "ratingsTable"
+            "type": "ratingsTable",
+            "items": [
+                {
+                    "type": "value",
+                    "title": "# Monitors Responsible For",
+                    "valueIdentifier": "monitorsResponsible"
+                }
+            ]
         },
         "patientEquipmentPreparation": {
             "questions": [
@@ -350,7 +357,17 @@
                 }
             ],
             "title": "MONITORING SYSTEMS USED",
-            "type": "ratingsTable"
+            "type": "ratingsTable",
+            "items": [
+                {
+                    "title": "Spacelabs",
+                    "customTitleIdentifier": "monitoringsystems"
+                },
+                {
+                    "title": "Other",
+                    "customTitleIdentifier": "monitoringother"
+                }
+            ]
         },
         "miscellaneous": {
             "questions": [

@@ -216,7 +216,13 @@
                 }
             ],
             "title": "PULMONARY",
-            "type": "ratingsTable"
+            "type": "ratingsTable",
+            "items": [
+                {
+                    "title": "Ventilator Management (Specify):",
+                    "customTitleIdentifier": "ventilator"
+                }
+            ]
         },
         "homeHealthNeurological": {
             "questions": [
@@ -399,7 +405,13 @@
                 }
             ],
             "title": "ORTHOPEDICS",
-            "type": "ratingsTable"
+            "type": "ratingsTable",
+            "items": [
+                {
+                    "title": "In Home PT/INR (Specify):",
+                    "customTitleIdentifier": "orthopedics"
+                }
+            ]
         },
         "homeHealthGastronitestinal": {
             "questions": [
@@ -504,7 +516,13 @@
                 }
             ],
             "title": "GASTROINTESTINAL",
-            "type": "ratingsTable"
+            "type": "ratingsTable",
+            "items": [
+                {
+                    "title": "Feeding Pumps (Specify):",
+                    "customTitleIdentifier": "Gastronitestinal"
+                }
+            ]
         },
         "homeHealthRenal": {
             "questions": [
@@ -909,7 +927,13 @@
                 }
             ],
             "title": "PHLEBOTOMY/IV THERAPY",
-            "type": "ratingsTable"
+            "type": "ratingsTable",
+            "items": [
+                {
+                    "title": "Specify Infusion Pump Type:",
+                    "customTitleIdentifier": "Phlebotomy"
+                }
+            ]
         },
         "homeHealthPsychiatric": {
             "questions": [
@@ -1125,7 +1149,13 @@
                 }
             ],
             "title": "PEDIATRICS",
-            "type": "ratingsTable"
+            "type": "ratingsTable",
+            "items": [
+                {
+                    "title": "Ventilator Type (Specify):",
+                    "customTitleIdentifier": "Pediatrics"
+                }
+            ]
         },
         "homeHealthPainManagement": {
             "questions": [
@@ -1554,7 +1584,13 @@
                 }
             ],
             "title": "HOME HEALTH",
-            "type": "ratingsTable"
+            "type": "ratingsTable",
+            "items": [
+                {
+                    "title": "Case Load - Pts/Day(specify)",
+                    "customTitleIdentifier": "HomeHealthtxt"
+                }
+            ]
         },
         "homeHealthProfessional": {
             "questions": [

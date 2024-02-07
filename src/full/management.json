@@ -134,7 +134,19 @@
                 }
             ],
             "title": "CM/UR SOFTWARE",
-            "type": "ratingsTable"
+            "type": "ratingsTable",
+            "items": [
+                {
+                    "title": "Other: Specify",
+                    "customTitleIdentifier": "managementother",
+                    "name": "OtherSpecify1"
+                },
+                {
+                    "title": "Other: Specify",
+                    "customTitleIdentifier": "managementother2",
+                    "name": "OtherSpecify2"
+                }
+            ]
         },
         "managementREGULATORY": {
             "questions": [
@@ -293,7 +305,13 @@
                 }
             ],
             "title": "EMR",
-            "type": "ratingsTable"
+            "type": "ratingsTable",
+            "items": [
+                {
+                    "title": "Other: Specify",
+                    "customTitleIdentifier": "emrmanagement"
+                }
+            ]
         },
         "managementEMRConversion": {
             "questions": [

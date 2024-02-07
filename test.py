@@ -20,7 +20,8 @@ def main():
                         if(skill['type'] == 'ratingsTable' and skill['identifier'] == s):
                             sv['title'] = skill['title']
                             sv['type'] = skill['type']
-                            
+                            if skill.get('items', False):
+                                sv['items'] = skill['items']
 
                 with open(f"./src/full/{f}", 'w') as file:
                     file.write(json.dumps(template))

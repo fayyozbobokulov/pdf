@@ -2183,7 +2183,13 @@
                 }
             ],
             "title": "OR EQUIPMENT",
-            "type": "ratingsTable"
+            "type": "ratingsTable",
+            "items": [
+                {
+                    "title": "Robotics Systems (List types)",
+                    "customTitleIdentifier": "equipment"
+                }
+            ]
         },
         "OperatingPROFESSIONAL": {
             "questions": [

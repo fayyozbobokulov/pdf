@@ -120,7 +120,13 @@
                 }
             ],
             "title": "WORK SETTING",
-            "type": "ratingsTable"
+            "type": "ratingsTable",
+            "items": [
+                {
+                    "title": "Other Setting (List)",
+                    "customTitleIdentifier": "dialsysother"
+                }
+            ]
         },
         "cathEquipment": {
             "questions": [

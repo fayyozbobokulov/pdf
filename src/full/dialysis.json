@@ -567,7 +567,13 @@
                 }
             ],
             "title": "DIALYSIS EQUIPMENT",
-            "type": "ratingsTable"
+            "type": "ratingsTable",
+            "items": [
+                {
+                    "title": "Other",
+                    "customTitleIdentifier": "dialysis"
+                }
+            ]
         },
         "ProfessionKnowledgeAndSkills": {
             "questions": [

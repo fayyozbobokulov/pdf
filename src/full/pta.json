@@ -1,1 +1,951 @@
-{"name": "PT/PTA Skills Checklist", "certifications": [{"type": "value", "title": "Other (fill in the blank )", "valueIdentifier": "ptaSkillsfill"}], "skills": {"ptaSkillsWORKSETTINGS": {"questions": [{"description": "Acute Care", "answer": ["1", "2", "3", "4"]}, {"description": "Rehabilitation Facility", "answer": ["1", "2", "3", "4"]}, {"description": "Outpatient", "answer": ["1", "2", "3", "4"]}, {"description": "Children's Hospital", "answer": ["1", "2", "3", "4"]}, {"description": "Home Health Care", "answer": ["1", "2", "3", "4"]}, {"description": "Skilled Nursing Care", "answer": ["1", "2", "3", "4"]}, {"description": "Long Term Acute Care (LTAC)", "answer": ["1", "2", "3", "4"]}, {"description": "School", "answer": ["1", "2", "3", "4"]}], "title": "WORK SETTINGS", "type": "ratingsTable"}, "ptaSkillsMODALITIES": {"questions": [{"description": "Manual Therapy", "answer": ["1", "2", "3", "4"]}, {"description": "Taping/Strapping", "answer": ["1", "2", "3", "4"]}, {"description": "Bracing/Joint Immobilization", "answer": ["1", "2", "3", "4"]}, {"description": "Spinal Mobilization", "answer": ["1", "2", "3", "4"]}, {"description": "Extremity Mobilization", "answer": ["1", "2", "3", "4"]}, {"description": "Mechanical Traction", "answer": ["1", "2", "3", "4"]}, {"description": "Strength and Endurance Training", "answer": ["1", "2", "3", "4"]}, {"description": "Compression Stockings", "answer": ["1", "2", "3", "4"]}, {"description": "Gait Analysis", "answer": ["1", "2", "3", "4"]}, {"description": "Adaptive Equipment", "answer": ["1", "2", "3", "4"]}, {"description": "Therapeutic Exercise/Home Programs", "answer": ["1", "2", "3", "4"]}, {"description": "Aquatic Therapy", "answer": ["1", "2", "3", "4"]}, {"description": "Muscle Energy Techniques", "answer": ["1", "2", "3", "4"]}, {"description": "Continuous Passive Motion Machine", "answer": ["1", "2", "3", "4"]}, {"description": "Ultrasound", "answer": ["1", "2", "3", "4"]}, {"description": "Diathermy", "answer": ["1", "2", "3", "4"]}, {"description": "Myofascial Release", "answer": ["1", "2", "3", "4"]}, {"description": "Electrical Stimulation", "answer": ["1", "2", "3", "4"]}, {"description": "Biofeedback", "answer": ["1", "2", "3", "4"]}, {"description": "TENS ", "answer": ["1", "2", "3", "4"]}], "title": "MODALITIES/MANUAL SKILLS/THERAPIES", "type": "ratingsTable"}, "ptaSkillsEVALUATION": {"questions": [{"description": " Evaluation for Treatment/Services", "answer": ["1", "2", "3", "4"]}, {"description": "Biodex", "answer": ["1", "2", "3", "4"]}, {"description": "Fatigue Characteristics", "answer": ["1", "2", "3", "4"]}, {"description": "Fiber Type", "answer": ["1", "2", "3", "4"]}, {"description": "Work Capacity", "answer": ["1", "2", "3", "4"]}, {"description": "NeuroCom Balance", "answer": ["1", "2", "3", "4"]}, {"description": "Wheelchair/Equipment Assessment ", "answer": ["1", "2", "3", "4"]}], "title": "EVALUATION TOOLS", "type": "ratingsTable"}, "ptaSkillsORTHOPEDICS": {"questions": [{"description": "Total Joint Replacement", "answer": ["1", "2", "3", "4"]}, {"description": "Back Syndromes", "answer": ["1", "2", "3", "4"]}, {"description": "Neck Injury", "answer": ["1", "2", "3", "4"]}, {"description": "Hand Injury", "answer": ["1", "2", "3", "4"]}, {"description": "Arthritis", "answer": ["1", "2", "3", "4"]}, {"description": "Transmandibular Joint Dysfunction ", "answer": ["1", "2", "3", "4"]}], "title": "ORTHOPEDICS", "type": "ratingsTable"}, "ptaSkillsNEUROLOGIC": {"questions": [{"description": "Brain Injury", "answer": ["1", "2", "3", "4"]}, {"description": "SCI", "answer": ["1", "2", "3", "4"]}, {"description": "CVA", "answer": ["1", "2", "3", "4"]}, {"description": "Degenerative Diseases", "answer": ["1", "2", "3", "4"]}, {"description": "Head Trauma/Concussion", "answer": ["1", "2", "3", "4"]}, {"description": "Vertigo", "answer": ["1", "2", "3", "4"]}, {"description": "BPPV", "answer": ["1", "2", "3", "4"]}], "title": "NEUROLOGIC", "type": "ratingsTable"}, "ptaSkillsPROSTHETICS": {"questions": [{"description": "Above/Below Knee Prosthetics", "answer": ["1", "2", "3", "4"]}, {"description": "Ankle/Foot Orthosis", "answer": ["1", "2", "3", "4"]}, {"description": "Static Splints", "answer": ["1", "2", "3", "4"]}, {"description": "Dynamic Splints ", "answer": ["1", "2", "3", "4"]}], "title": "PROSTHETICS/ORTHOTICS", "type": "ratingsTable"}, "ptaSkillsPEDIATRICS": {"questions": [{"description": "Early Intervention Programs", "answer": ["1", "2", "3", "4"]}, {"description": "Gross Motor Assessments", "answer": ["1", "2", "3", "4"]}, {"description": "Neurodevelopmental Treatment", "answer": ["1", "2", "3", "4"]}, {"description": "Cerebral Palsy ", "answer": ["1", "2", "3", "4"]}], "title": "PEDIATRICS", "type": "ratingsTable"}, "ptaSkillsWOUNDCARE": {"questions": [{"description": "Pressure Ulcers", "answer": ["1", "2", "3", "4"]}, {"description": "Arterial Ulcers", "answer": ["1", "2", "3", "4"]}, {"description": "Venous Ulcers", "answer": ["1", "2", "3", "4"]}, {"description": "Diabetic Ulcers", "answer": ["1", "2", "3", "4"]}, {"description": "Burn Management ", "answer": ["1", "2", "3", "4"]}], "title": "WOUND CARE", "type": "ratingsTable"}, "ptaSkillsCARDIOPULMONARY": {"questions": [{"description": "Cardiac Rehab", "answer": ["1", "2", "3", "4"]}, {"description": "Post Surgical", "answer": ["1", "2", "3", "4"]}, {"description": "Chest Physiotherapy", "answer": ["1", "2", "3", "4"]}, {"description": "Cardiac Disorders", "answer": ["1", "2", "3", "4"]}, {"description": "Pulmonary Disorders ", "answer": ["1", "2", "3", "4"]}], "title": "CARDIOPULMONARY", "type": "ratingsTable"}, "ptaSkillsTECHNOLOGY": {"questions": [{"description": "Casamba (Smart)", "answer": ["1", "2", "3", "4"], "name": "ptaSkillsTECHNOLOGY1"}, {"description": "Care Manager", "answer": ["1", "2", "3", "4"], "name": "ptaSkillsTECHNOLOGY2"}, {"description": "Cerner", "answer": ["1", "2", "3", "4"], "name": "ptaSkillsTECHNOLOGY3"}, {"description": "Epic", "answer": ["1", "2", "3", "4"], "name": "ptaSkillsTECHNOLOGY4"}, {"description": "McKesson", "answer": ["1", "2", "3", "4"], "name": "ptaSkillsTECHNOLOGY5"}, {"description": "Meditech", "answer": ["1", "2", "3", "4"], "name": "ptaSkillsTECHNOLOGY6"}, {"description": "Rehab Optima", "answer": ["1", "2", "3", "4"], "name": "ptaSkillsTECHNOLOGY7"}, {"description": "Other (fill in the blank )", "answer": ["1", "2", "3", "4"], "name": "OtherSpecify1"}, {"description": "Other (fill in the blank )", "answer": ["1", "2", "3", "4"], "name": "OtherSpecify2"}], "title": "TECHNOLOGY", "type": "ratingsTable"}, "ptaSkillsEMRConversion": {"questions": [{"description": "EMR Conversion", "answer": ["1", "2", "3", "4"]}]}, "ptaSkillsBILLING": {"questions": [{"description": "RUG Levels", "answer": ["1", "2", "3", "4"]}, {"description": "Medicare Part A", "answer": ["1", "2", "3", "4"]}, {"description": "Medicare Part B", "answer": ["1", "2", "3", "4"]}, {"description": "Medicaid/Medical", "answer": ["1", "2", "3", "4"]}, {"description": "OASIS ", "answer": ["1", "2", "3", "4"]}], "title": "BILLING/DOCUMENTATION", "type": "ratingsTable"}, "ptaSkillsPROFESSIONAL": {"questions": [{"description": "Supervisory/Management Experience", "answer": ["1", "2", "3", "4"]}, {"description": "Screening/Adding Caseload", "answer": ["1", "2", "3", "4"]}, {"description": "National Patient Safety Goals/Core Measures", "answer": ["1", "2", "3", "4"]}, {"description": "Fall Risk Assessment/Prevention", "answer": ["1", "2", "3", "4"]}, {"description": "Age Specific/Population-Based Care", "answer": ["1", "2", "3", "4"]}, {"description": "Infection Prevention", "answer": ["1", "2", "3", "4"]}, {"description": "Pain Assessment & Management ", "answer": ["1", "2", "3", "4"]}], "title": "PROFESSIONAL KNOWLEDGE AND SKILLS", "type": "ratingsTable"}, "ptaSkillsCERTIFICATIONS": {"questions": [{"description": "\"BIG\" Certification", "answer": ["1", "2", "3", "4"]}, {"description": "Lymphedema Management", "answer": ["1", "2", "3", "4"]}, {"description": "ATC", "answer": ["1", "2", "3", "4"]}, {"description": "NDT", "answer": ["1", "2", "3", "4"]}, {"description": "BLS", "answer": ["1", "2", "3", "4"]}]}}, "title": "PT/PTA Skills Checklist"}
+{
+    "name": "PT/PTA Skills Checklist",
+    "certifications": [
+        {
+            "type": "value",
+            "title": "Other (fill in the blank )",
+            "valueIdentifier": "ptaSkillsfill"
+        }
+    ],
+    "skills": {
+        "ptaSkillsWORKSETTINGS": {
+            "questions": [
+                {
+                    "description": "Acute Care",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Rehabilitation Facility",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Outpatient",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Children's Hospital",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Home Health Care",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Skilled Nursing Care",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Long Term Acute Care (LTAC)",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "School",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "WORK SETTINGS",
+            "type": "ratingsTable"
+        },
+        "ptaSkillsMODALITIES": {
+            "questions": [
+                {
+                    "description": "Manual Therapy",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Taping/Strapping",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Bracing/Joint Immobilization",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Spinal Mobilization",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Extremity Mobilization",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Mechanical Traction",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Strength and Endurance Training",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Compression Stockings",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Gait Analysis",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Adaptive Equipment",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Therapeutic Exercise/Home Programs",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Aquatic Therapy",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Muscle Energy Techniques",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Continuous Passive Motion Machine",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Ultrasound",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Diathermy",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Myofascial Release",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Electrical Stimulation",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Biofeedback",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "TENS ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "MODALITIES/MANUAL SKILLS/THERAPIES",
+            "type": "ratingsTable"
+        },
+        "ptaSkillsEVALUATION": {
+            "questions": [
+                {
+                    "description": " Evaluation for Treatment/Services",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Biodex",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Fatigue Characteristics",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Fiber Type",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Work Capacity",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "NeuroCom Balance",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Wheelchair/Equipment Assessment ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "EVALUATION TOOLS",
+            "type": "ratingsTable"
+        },
+        "ptaSkillsORTHOPEDICS": {
+            "questions": [
+                {
+                    "description": "Total Joint Replacement",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Back Syndromes",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Neck Injury",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Hand Injury",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Arthritis",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Transmandibular Joint Dysfunction ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "ORTHOPEDICS",
+            "type": "ratingsTable"
+        },
+        "ptaSkillsNEUROLOGIC": {
+            "questions": [
+                {
+                    "description": "Brain Injury",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "SCI",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "CVA",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Degenerative Diseases",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Head Trauma/Concussion",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Vertigo",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "BPPV",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "NEUROLOGIC",
+            "type": "ratingsTable"
+        },
+        "ptaSkillsPROSTHETICS": {
+            "questions": [
+                {
+                    "description": "Above/Below Knee Prosthetics",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Ankle/Foot Orthosis",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Static Splints",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Dynamic Splints ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "PROSTHETICS/ORTHOTICS",
+            "type": "ratingsTable"
+        },
+        "ptaSkillsPEDIATRICS": {
+            "questions": [
+                {
+                    "description": "Early Intervention Programs",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Gross Motor Assessments",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Neurodevelopmental Treatment",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Cerebral Palsy ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "PEDIATRICS",
+            "type": "ratingsTable"
+        },
+        "ptaSkillsWOUNDCARE": {
+            "questions": [
+                {
+                    "description": "Pressure Ulcers",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Arterial Ulcers",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Venous Ulcers",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Diabetic Ulcers",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Burn Management ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "WOUND CARE",
+            "type": "ratingsTable"
+        },
+        "ptaSkillsCARDIOPULMONARY": {
+            "questions": [
+                {
+                    "description": "Cardiac Rehab",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Post Surgical",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Chest Physiotherapy",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Cardiac Disorders",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pulmonary Disorders ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "CARDIOPULMONARY",
+            "type": "ratingsTable"
+        },
+        "ptaSkillsTECHNOLOGY": {
+            "questions": [
+                {
+                    "description": "Casamba (Smart)",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "ptaSkillsTECHNOLOGY1"
+                },
+                {
+                    "description": "Care Manager",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "ptaSkillsTECHNOLOGY2"
+                },
+                {
+                    "description": "Cerner",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "ptaSkillsTECHNOLOGY3"
+                },
+                {
+                    "description": "Epic",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "ptaSkillsTECHNOLOGY4"
+                },
+                {
+                    "description": "McKesson",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "ptaSkillsTECHNOLOGY5"
+                },
+                {
+                    "description": "Meditech",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "ptaSkillsTECHNOLOGY6"
+                },
+                {
+                    "description": "Rehab Optima",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "ptaSkillsTECHNOLOGY7"
+                },
+                {
+                    "description": "Other (fill in the blank )",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "OtherSpecify1"
+                },
+                {
+                    "description": "Other (fill in the blank )",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "name": "OtherSpecify2"
+                }
+            ],
+            "title": "TECHNOLOGY",
+            "type": "ratingsTable",
+            "items": [
+                {
+                    "title": "Other (fill in the blank )",
+                    "customTitleIdentifier": "ptaSkillsother",
+                    "name": "OtherSpecify1"
+                },
+                {
+                    "title": "Other (fill in the blank )",
+                    "customTitleIdentifier": "ptaSkillsother2",
+                    "name": "OtherSpecify2"
+                }
+            ]
+        },
+        "ptaSkillsEMRConversion": {
+            "questions": [
+                {
+                    "description": "EMR Conversion",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ]
+        },
+        "ptaSkillsBILLING": {
+            "questions": [
+                {
+                    "description": "RUG Levels",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Medicare Part A",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Medicare Part B",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Medicaid/Medical",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "OASIS ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "BILLING/DOCUMENTATION",
+            "type": "ratingsTable"
+        },
+        "ptaSkillsPROFESSIONAL": {
+            "questions": [
+                {
+                    "description": "Supervisory/Management Experience",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Screening/Adding Caseload",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "National Patient Safety Goals/Core Measures",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Fall Risk Assessment/Prevention",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Age Specific/Population-Based Care",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Infection Prevention",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pain Assessment & Management ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+            "type": "ratingsTable"
+        },
+        "ptaSkillsCERTIFICATIONS": {
+            "questions": [
+                {
+                    "description": "\"BIG\" Certification",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Lymphedema Management",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "ATC",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "NDT",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "BLS",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ]
+        }
+    },
+    "title": "PT/PTA Skills Checklist"
+}

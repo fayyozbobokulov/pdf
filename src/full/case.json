@@ -214,7 +214,17 @@
                 }
             ],
             "title": "CM/UR SOFTWARE",
-            "type": "ratingsTable"
+            "type": "ratingsTable",
+            "items": [
+                {
+                    "title": "Other: Specify",
+                    "customTitleIdentifier": "software_specify"
+                },
+                {
+                    "title": "Other: Specify",
+                    "customTitleIdentifier": "software_other"
+                }
+            ]
         },
         "regulatory": {
             "questions": [
@@ -526,7 +536,13 @@
                 }
             ],
             "title": "EMR",
-            "type": "ratingsTable"
+            "type": "ratingsTable",
+            "items": [
+                {
+                    "title": "Other: Specify",
+                    "customTitleIdentifier": "emr_specify"
+                }
+            ]
         },
         "emrConverion": {
             "questions": [
