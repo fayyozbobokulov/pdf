@@ -168,13 +168,17 @@ class PDFCreator:
             self.text(title,x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=white)
 
             if value.get('type', '') == 'ratingsTable':
-                for i in range(1, 5):
-                    self.text(f'{i}', x=self.pos.x + 400 + 15 * i, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=white)
+                if len(value['questions'][0]['answer']) == 4:
+                    for i in range(1, 5):
+                        self.text(f'{i}', x=self.pos.x + 400 + 15 * i, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=white)
 
                 for question in value['questions']:
                     self.pos.y+=DEVIDER_HEIGHT
                     self.devider(COLOR1 if self.color else COLOR2, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
                     self.color = not self.color
+                    if question['description'] == "EMR Conversion":
+                        print(question)
+
                     self.text(question['description'],x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
                     if len(question['answer'])==4:
                         for i in range(1, 5):
@@ -236,24 +240,23 @@ class PDFCreator:
                 x = 0
                 for item in value['items']:
                     # self.pos.y += DEVIDER_HEIGHT
-                    self.color = not self.color
 
                     self.devider(COLOR1 if self.color else COLOR2, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
                     self.wrapped_text(item['title'],width=(self.page_width - 2*self.margin)*0.6, x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/2)
-                    
+                    self.color = not self.color
                     if item.get('valueIdentifier'):
                         self.pos.y += DEVIDER_HEIGHT
-                        self.form.textfield(name=item['valueIdentifier'], x=self.page_width/2, y=self.page_height - self.pos.y- DEVIDER_HEIGHT/2-2*HEADER_SIZE/3, borderStyle='inset',
+                        self.form.textfield(name=item['valueIdentifier'], x=self.page_width/2, y=self.page_height - self.pos.y + DEVIDER_HEIGHT/2-HEADER_SIZE, borderStyle='inset',
                             borderColor=black, fillColor=gainsboro, width=195, height=20, textColor=black, forceBorder=False, fontSize=8)
                         
                     if item.get('customTitleIdentifier', False):
                         self.pos.y += DEVIDER_HEIGHT
-                        self.form.textfield(name=item['customTitleIdentifier'], x=self.page_width/2, y=self.page_height - self.pos.y- DEVIDER_HEIGHT, borderStyle='inset',
-                                             borderColor=black, fillColor=gainsboro, width=150, height=DEVIDER_HEIGHT, textColor=black, forceBorder=False, fontSize=8)
+                        self.form.textfield(name=item['customTitleIdentifier'], x=self.page_width/2, y=self.page_height - self.pos.y + DEVIDER_HEIGHT/2-HEADER_SIZE, borderStyle='inset',
+                                             borderColor=black, fillColor=gainsboro, width=150, height=20, textColor=black, forceBorder=False, fontSize=8)
                         for i in range(1, 5):
                             self.form.radio(name=f"{item['title']}{x}", tooltip='Field radio1',
                                 value=f'value{i}', selected=True if i==1 else False,
-                                x=self.pos.x + 398 + 15 * i, y=self.page_height - self.pos.y-DEVIDER_HEIGHT/2-HEADER_SIZE/2, buttonStyle='circle',
+                                x=self.pos.x + 398 + 15 * i, y=self.page_height - self.pos.y+DEVIDER_HEIGHT/2-HEADER_SIZE/2, buttonStyle='circle',
                                 borderStyle='solid', shape='circle', size=15,
                                 borderColor=grey, fillColor=white, borderWidth=0,
                                 textColor=HexColor('#72c800'), forceBorder=False)

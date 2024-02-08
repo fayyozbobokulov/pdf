@@ -1,1 +1,890 @@
-{"name": "Post-partum/Nursery Skills Checklist", "certifications": [{"type": "value", "title": "BLS", "valueTitle": "Exp. Date:", "valueIdentifier": "bls_expdate"}, {"type": "value", "title": "NRP", "valueTitle": "Exp. Date:", "valueIdentifier": "sta_sexpdate"}, {"type": "value", "title": "AWHONN FHM - Intermediate", "valueTitle": "Date Taken:", "valueIdentifier": "acl_sexpdate"}, {"type": "value", "title": "AWHONN FHM - Advanced", "valueTitle": "Date Taken:", "valueIdentifier": "acls_sexpdate"}, {"type": "value", "title": "FHM - Other Specify", "customTitleIdentifier": "FHMother2", "valueTitle": "Exp. Date:", "valueIdentifier": "pals_expdate"}, {"type": "value", "title": "Lactation Consultant - IBCLC", "valueTitle": "Exp. Date:", "valueIdentifier": "enpc"}, {"type": "value", "title": "S.T.A.B.L.E.", "valueTitle": "Exp. Date:", "valueIdentifier": "enpc22"}, {"type": "value", "title": "Other: Specify", "customTitleIdentifier": "other", "valueTitle": "Exp. Date:", "valueIdentifier": "Other_expdate"}, {"type": "value", "title": "Other: Specify", "customTitleIdentifier": "other2", "valueTitle": "Exp. Date:", "valueIdentifier": "Other_expdate2"}], "skills": {"partumWORKSETTINGS": {"questions": [{"description": "Couplet Care", "answer": ["1", "2", "3", "4"]}, {"description": "Antepartum", "answer": ["1", "2", "3", "4"]}, {"description": "Postpartum", "answer": ["1", "2", "3", "4"]}, {"description": "Newborn Nursery", "answer": ["1", "2", "3", "4"]}, {"description": "LDRP", "answer": ["1", "2", "3", "4"]}], "title": "WORK SETTINGS", "type": "ratingsTable"}, "partumPOSTPARTUM": {"questions": [{"description": "Vaginal Delivery", "answer": ["1", "2", "3", "4"]}, {"description": "Cesarian Section", "answer": ["1", "2", "3", "4"]}, {"description": "Anesthesia - General", "answer": ["1", "2", "3", "4"]}, {"description": "Anesthesia - Local", "answer": ["1", "2", "3", "4"]}, {"description": "Anesthesia - Spinal", "answer": ["1", "2", "3", "4"]}, {"description": "Bladder Distention", "answer": ["1", "2", "3", "4"]}, {"description": "Breast Milk Collection and Storage", "answer": ["1", "2", "3", "4"]}, {"description": "Breast Pump", "answer": ["1", "2", "3", "4"]}, {"description": "Breastfeeding - Latch Score", "answer": ["1", "2", "3", "4"]}, {"description": "Breastfeeding - Supplemental Feeding", "answer": ["1", "2", "3", "4"]}, {"description": "Breastfeeding Support", "answer": ["1", "2", "3", "4"]}, {"description": "Contraceptive Education", "answer": ["1", "2", "3", "4"]}, {"description": "Epidural/PCA", "answer": ["1", "2", "3", "4"]}, {"description": "Homan's Sign", "answer": ["1", "2", "3", "4"]}, {"description": "Multiple Births", "answer": ["1", "2", "3", "4"]}, {"description": "Parent/Infant Interaction/Attachment", "answer": ["1", "2", "3", "4"]}, {"description": "Post Partum Hemorrhage", "answer": ["1", "2", "3", "4"]}, {"description": "Pregnancy Induced Hypertension", "answer": ["1", "2", "3", "4"]}, {"description": "Tubal Ligation  ", "answer": ["1", "2", "3", "4"]}], "title": "POST PARTUM", "type": "ratingsTable"}, "partumANTEPARTUM": {"questions": [{"description": "Amniocentesis", "answer": ["1", "2", "3", "4"]}, {"description": "Cardiac Disorders", "answer": ["1", "2", "3", "4"]}, {"description": "Diabetes", "answer": ["1", "2", "3", "4"]}, {"description": "Hyperemesis", "answer": ["1", "2", "3", "4"]}, {"description": "Multiple Gestation", "answer": ["1", "2", "3", "4"]}, {"description": "Non-Stress Test", "answer": ["1", "2", "3", "4"]}, {"description": "PIH/HELLP", "answer": ["1", "2", "3", "4"]}, {"description": "Placenta Previa/Abruptio", "answer": ["1", "2", "3", "4"]}, {"description": "Post- Trauma", "answer": ["1", "2", "3", "4"]}, {"description": "Pre-Term Labor/Premature Rupture of Membranes", "answer": ["1", "2", "3", "4"]}, {"description": "Substance Abuse", "answer": ["1", "2", "3", "4"]}, {"description": "FHM Interpretaton and Management", "answer": ["1", "2", "3", "4"]}, {"description": "Fetal Assessment", "answer": ["1", "2", "3", "4"]}, {"description": "Labor Assessment", "answer": ["1", "2", "3", "4"]}, {"description": "Assist with Ultrasound ", "answer": ["1", "2", "3", "4"]}], "title": "ANTEPARTUM", "type": "ratingsTable"}, "partumMEDICATIONS": {"questions": [{"description": " Antibiotics/Antivirals", "answer": ["1", "2", "3", "4"]}, {"description": "Antihypertensives", "answer": ["1", "2", "3", "4"]}, {"description": "Antiseizure", "answer": ["1", "2", "3", "4"]}, {"description": "Cervical Ripening Agents", "answer": ["1", "2", "3", "4"]}, {"description": "Immunizations - Mother", "answer": ["1", "2", "3", "4"]}, {"description": "Insulin", "answer": ["1", "2", "3", "4"]}, {"description": "Magnesium Sulfate", "answer": ["1", "2", "3", "4"]}, {"description": "Methergine", "answer": ["1", "2", "3", "4"]}, {"description": "Opioids and Reversal Agents", "answer": ["1", "2", "3", "4"]}, {"description": "Pitocin", "answer": ["1", "2", "3", "4"]}, {"description": "Terbutaline ", "answer": ["1", "2", "3", "4"]}], "title": "MEDICATIONS", "type": "ratingsTable"}, "partumIVTHERAPY": {"questions": [{"description": "Starting IVs", "answer": ["1", "2", "3", "4"]}, {"description": "IV Management", "answer": ["1", "2", "3", "4"]}, {"description": "Blood Product Administration", "answer": ["1", "2", "3", "4"]}], "title": "IV THERAPY", "type": "ratingsTable"}, "partumNEWBORN": {"questions": [{"description": " Newborn Assessment", "answer": ["1", "2", "3", "4"]}, {"description": "Ballard Scale/Dubowitz", "answer": ["1", "2", "3", "4"]}, {"description": "Car Seat Education", "answer": ["1", "2", "3", "4"]}, {"description": "Circumcision Care/Teach to Parents", "answer": ["1", "2", "3", "4"]}, {"description": "Cord Care/Teach to Parents", "answer": ["1", "2", "3", "4"]}, {"description": "Immunizations - Infant", "answer": ["1", "2", "3", "4"]}, {"description": "Infant Caretaking Skills", "answer": ["1", "2", "3", "4"]}, {"description": "Infant Identification and Security", "answer": ["1", "2", "3", "4"]}, {"description": "Metabolic Screen", "answer": ["1", "2", "3", "4"]}, {"description": "Phototherapy", "answer": ["1", "2", "3", "4"]}, {"description": "Thermoregulation", "answer": ["1", "2", "3", "4"]}], "title": "NEWBORN CARE", "type": "ratingsTable"}, "partumPROFESSIONAL": {"questions": [{"description": "National Patient Safety Goals/Core Measures", "answer": ["1", "2", "3", "4"]}, {"description": "Experience in a \"Baby Friendly\" Facility", "answer": ["1", "2", "3", "4"]}, {"description": "Fall Risk Assessment/Prevention", "answer": ["1", "2", "3", "4"]}, {"description": "Pressure Ulcer Risk Assessment/Prevention", "answer": ["1", "2", "3", "4"]}, {"description": "Restraints/Use of Least Restrictive Device", "answer": ["1", "2", "3", "4"]}, {"description": "Parent/Family Teaching", "answer": ["1", "2", "3", "4"]}, {"description": "Age Specific/Population-Based Care", "answer": ["1", "2", "3", "4"]}, {"description": "Isolation Precautions", "answer": ["1", "2", "3", "4"]}, {"description": "Infection Prevention", "answer": ["1", "2", "3", "4"]}, {"description": "Pain Assessment & Management - Adult", "answer": ["1", "2", "3", "4"]}, {"description": "Pain Assessment & Management - Neonate", "answer": ["1", "2", "3", "4"]}, {"description": "Charge Experience", "answer": ["1", "2", "3", "4"]}, {"description": "Interpretation and Communication of Lab Values   ", "answer": ["1", "2", "3", "4"]}], "title": "PROFESSIONAL KNOWLEDGE AND SKILLS", "type": "ratingsTable"}, "partumEMR": {"questions": [{"description": "Epic", "answer": ["1", "2", "3", "4"]}, {"description": "Cerner", "answer": ["1", "2", "3", "4"]}, {"description": "Eclipsys", "answer": ["1", "2", "3", "4"]}, {"description": "McKesson", "answer": ["1", "2", "3", "4"]}, {"description": "Meditech", "answer": ["1", "2", "3", "4"]}, {"description": "Other Computerized System", "answer": ["1", "2", "3", "4"]}, {"description": "Computerized Physician Order Entry", "answer": ["1", "2", "3", "4"]}, {"description": "Bar Coding for Medication Administration ", "answer": ["1", "2", "3", "4"]}], "title": "EMR", "type": "ratingsTable"}, "partumEMRConversion": {"questions": [{"description": "EMR Conversion", "answer": ["1", "2", "3", "4"]}]}}, "title": "Post-partum/Nursery Skills Checklist"}
+{
+    "name": "Post-partum/Nursery Skills Checklist",
+    "certifications": [
+        {
+            "type": "value",
+            "title": "BLS",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "bls_expdate"
+        },
+        {
+            "type": "value",
+            "title": "NRP",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "sta_sexpdate"
+        },
+        {
+            "type": "value",
+            "title": "AWHONN FHM - Intermediate",
+            "valueTitle": "Date Taken:",
+            "valueIdentifier": "acl_sexpdate"
+        },
+        {
+            "type": "value",
+            "title": "AWHONN FHM - Advanced",
+            "valueTitle": "Date Taken:",
+            "valueIdentifier": "acls_sexpdate"
+        },
+        {
+            "type": "value",
+            "title": "FHM - Other Specify",
+            "customTitleIdentifier": "FHMother2",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "pals_expdate"
+        },
+        {
+            "type": "value",
+            "title": "Lactation Consultant - IBCLC",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "enpc"
+        },
+        {
+            "type": "value",
+            "title": "S.T.A.B.L.E.",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "enpc22"
+        },
+        {
+            "type": "value",
+            "title": "Other: Specify",
+            "customTitleIdentifier": "other",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "Other_expdate"
+        },
+        {
+            "type": "value",
+            "title": "Other: Specify",
+            "customTitleIdentifier": "other2",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "Other_expdate2"
+        }
+    ],
+    "skills": {
+        "partumWORKSETTINGS": {
+            "questions": [
+                {
+                    "description": "Couplet Care",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Antepartum",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Postpartum",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Newborn Nursery",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "LDRP",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "WORK SETTINGS",
+            "type": "ratingsTable"
+        },
+        "partumPOSTPARTUM": {
+            "questions": [
+                {
+                    "description": "Vaginal Delivery",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Cesarian Section",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Anesthesia - General",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Anesthesia - Local",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Anesthesia - Spinal",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Bladder Distention",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Breast Milk Collection and Storage",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Breast Pump",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Breastfeeding - Latch Score",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Breastfeeding - Supplemental Feeding",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Breastfeeding Support",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Contraceptive Education",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Epidural/PCA",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Homan's Sign",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Multiple Births",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Parent/Infant Interaction/Attachment",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Post Partum Hemorrhage",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pregnancy Induced Hypertension",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Tubal Ligation  ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "POST PARTUM",
+            "type": "ratingsTable"
+        },
+        "partumANTEPARTUM": {
+            "questions": [
+                {
+                    "description": "Amniocentesis",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Cardiac Disorders",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Diabetes",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Hyperemesis",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Multiple Gestation",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Non-Stress Test",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "PIH/HELLP",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Placenta Previa/Abruptio",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Post- Trauma",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pre-Term Labor/Premature Rupture of Membranes",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Substance Abuse",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "FHM Interpretaton and Management",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Fetal Assessment",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Labor Assessment",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Assist with Ultrasound ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "ANTEPARTUM",
+            "type": "ratingsTable"
+        },
+        "partumMEDICATIONS": {
+            "questions": [
+                {
+                    "description": " Antibiotics/Antivirals",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Antihypertensives",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Antiseizure",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Cervical Ripening Agents",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Immunizations - Mother",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Insulin",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Magnesium Sulfate",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Methergine",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Opioids and Reversal Agents",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pitocin",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Terbutaline ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "MEDICATIONS",
+            "type": "ratingsTable"
+        },
+        "partumIVTHERAPY": {
+            "questions": [
+                {
+                    "description": "Starting IVs",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "IV Management",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Blood Product Administration",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "IV THERAPY",
+            "type": "ratingsTable"
+        },
+        "partumNEWBORN": {
+            "questions": [
+                {
+                    "description": " Newborn Assessment",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Ballard Scale/Dubowitz",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Car Seat Education",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Circumcision Care/Teach to Parents",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Cord Care/Teach to Parents",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Immunizations - Infant",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Infant Caretaking Skills",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Infant Identification and Security",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Metabolic Screen",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Phototherapy",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Thermoregulation",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "NEWBORN CARE",
+            "type": "ratingsTable"
+        },
+        "partumPROFESSIONAL": {
+            "questions": [
+                {
+                    "description": "National Patient Safety Goals/Core Measures",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Experience in a \"Baby Friendly\" Facility",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Fall Risk Assessment/Prevention",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pressure Ulcer Risk Assessment/Prevention",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Restraints/Use of Least Restrictive Device",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Parent/Family Teaching",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Age Specific/Population-Based Care",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Isolation Precautions",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Infection Prevention",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pain Assessment & Management - Adult",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pain Assessment & Management - Neonate",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Charge Experience",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Interpretation and Communication of Lab Values   ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+            "type": "ratingsTable"
+        },
+        "partumEMR": {
+            "questions": [
+                {
+                    "description": "Epic",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Cerner",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Eclipsys",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "McKesson",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Meditech",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Other Computerized System",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Computerized Physician Order Entry",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Bar Coding for Medication Administration ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "EMR",
+            "type": "ratingsTable"
+        },
+        "partumEMRConversion": {
+            "questions": [
+                {
+                    "description": "EMR Conversion",
+                    "answer": [
+                        "Yes",
+                        "No"
+                    ]
+                }
+            ],
+            "type": "ratingsTable"
+        }
+    },
+    "title": "Post-partum/Nursery Skills Checklist"
+}

@@ -12,7 +12,7 @@ DEVIDER_HEIGHT = 40
 def main ():
     file_names = listdir('./src/full')
     print(file_names)
-    file_names = ['sterile.json', 'urgent.json']
+    # file_names = ['cardinter.json']
     i = 0
     for path in file_names:
         c = Canvas(f'./samples2/{path[:-5]}.pdf', pagesize=A4, bottomup=0)

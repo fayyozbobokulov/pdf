@@ -1206,13 +1206,12 @@
                 {
                     "description": "EMR Conversion",
                     "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
+                        "Yes",
+                        "No"
                     ]
                 }
-            ]
+            ],
+            "type": "ratingsTable"
         }
     },
     "title": "Pediatric Skills Checklist"
