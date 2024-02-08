@@ -2223,25 +2223,26 @@
             "title": "Care of the Patient with",
             "type": "ratingsTable"
         },
-        "ageCategories": [
-            {
-                "description": "Please check the boxes below for each age group for which you have expertise in providing age-appropriate care",
-                "title": "AGE-SPECIFIC PRACTICE CRITERIA",
-                "questions": [
-                    "A. Newborn/Neonate (birth - 30 days)",
-                    "B. Infant (30 days - 1 year)",
-                    "C. Toddler (1 - 3 years)",
-                    "D. Preschooler (3 - 5 years)",
-                    "E. School age children (5 - 12 years)",
-                    "F. Adolescents (12 - 18 years)",
-                    "G. Young adults (18 - 39 years)",
-                    "H. Middle adults (39 - 64 years)",
-                    "I. Older Adults (64+)"
-                ]
-            }
-        ],
+        "ageCategories": {
+            "type": "categories",
+            "description": "AGE-SPECIFIC PRACTICE CRITERIA",
+            "reminder": "Please check the boxes below for each age group for which you have expertise in providing age-appropriate care",
+            "title": "AGE-SPECIFIC PRACTICE CRITERIA",
+            "questions": [
+                "A. Newborn/Neonate (birth - 30 days)",
+                "B. Infant (30 days - 1 year)",
+                "C. Toddler (1 - 3 years)",
+                "D. Preschooler (3 - 5 years)",
+                "E. School age children (5 - 12 years)",
+                "F. Adolescents (12 - 18 years)",
+                "G. Young adults (18 - 39 years)",
+                "H. Middle adults (39 - 64 years)",
+                "I. Older Adults (64+)"
+            ]
+        },
         "experienceWithAG": {
             "title": "EXPERIENCE WITH AGE GROUPS",
+            "description": "EXPERIENCE WITH AGE GROUPS",
             "type": "checkbox",
             "questions": [
                 {
@@ -2339,6 +2340,49 @@
                             "id": "c9"
                         }
                     ]
+                }
+            ]
+        },
+        "experience": {
+            "type": "input",
+            "questions": [],
+            "title": "EXPERIENCE",
+            "items": [
+                {
+                    "inputTitle": "Yrs.",
+                    "title": "SPT: In-Patient OR",
+                    "inputIdentifier": "SPT: In-Patient OR"
+                },
+                {
+                    "title": "SPT: In-Patient OR - # of Suites",
+                    "inputIdentifier": "SPT: In-Patient OR - # of Suites"
+                },
+                {
+                    "inputTitle": "Yrs.",
+                    "title": "SPT: Ambulatory Surg. Center",
+                    "inputIdentifier": "SPT: Ambulatory Surg. Center"
+                },
+                {
+                    "title": "SPT: Ambulatory Surg. Center - # of Suites",
+                    "inputIdentifier": "SPT: Ambulatory Surg. Center - # of Suites"
+                },
+                {
+                    "inputTitle": "Yrs.",
+                    "title": "Surgical Tech: In-Patient OR",
+                    "inputIdentifier": "Surgical Tech: In-Patient OR"
+                },
+                {
+                    "title": "Surgical Tech: In-Patient OR - # of Suites",
+                    "inputIdentifier": "Surgical Tech: In-Patient OR - # of Suites"
+                },
+                {
+                    "inputTitle": "Yrs.",
+                    "title": "Surgical Tech: Ambulatory Surg. Center",
+                    "inputIdentifier": "Surgical Tech: Ambulatory Surg. Center"
+                },
+                {
+                    "title": "Surgical Tech: Ambulatory Surg. Center - # Suites",
+                    "inputIdentifier": "Surgical Tech: Ambulatory Surg. Center - # Suites"
                 }
             ]
         }

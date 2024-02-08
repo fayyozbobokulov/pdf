@@ -12,6 +12,7 @@ DEVIDER_HEIGHT = 40
 def main ():
     file_names = listdir('./src/full')
     print(file_names)
+    file_names = ['sterile.json', 'urgent.json']
     i = 0
     for path in file_names:
         c = Canvas(f'./samples2/{path[:-5]}.pdf', pagesize=A4, bottomup=0)
@@ -27,7 +28,6 @@ def main ():
         pdf.levels()
         pdf.skills(data['skills'])
         pdf.certs(data['certifications'])
-        # pdf.others(['Other: Specify', 'Other: Specify'])
         pos.y += 50
         pdf.footer()
         pos.page

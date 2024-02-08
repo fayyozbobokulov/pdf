@@ -1,1 +1,380 @@
-{"name": "Cardiac Monitor Technician (non RNs) Skills Checklist", "certifications": [{"type": "value", "title": "BLS", "valueTitle": "Exp. Date:", "valueIdentifier": "bls"}, {"type": "value", "title": "Telemetry Interpretation Course: (indicate date taken)", "valueTitle": "Date Taken:", "valueIdentifier": "telemetry_interpretation"}, {"type": "value", "title": "Other (type)", "customTitleIdentifier": "other_specify", "valueTitle": "Date Taken:", "valueIdentifier": "cardiacmonitor_other"}], "skills": {"experiencefollowingsetting": {"questions": [{"description": "Telemetry Unit (located on the unit)", "answer": ["1", "2", "3", "4"]}, {"description": "Remote Telemetry Office ", "answer": ["1", "2", "3", "4"]}], "title": "EXPERIENCE IN THE FOLLOWING SETTING(S)", "type": "ratingsTable", "items": [{"type": "value", "title": "# Monitors Responsible For", "valueIdentifier": "monitorsResponsible"}]}, "patientEquipmentPreparation": {"questions": [{"description": "Skin prep ", "answer": ["1", "2", "3", "4"]}, {"description": "Lead Placement - 3 Lead ", "answer": ["1", "2", "3", "4"]}, {"description": "Lead Placement - 5 Lead ", "answer": ["1", "2", "3", "4"]}, {"description": "Set up MCL1 ", "answer": ["1", "2", "3", "4"]}, {"description": "Set up Lead II ", "answer": ["1", "2", "3", "4"]}, {"description": "Set up 12 Lead ECG", "answer": ["1", "2", "3", "4"]}], "title": "PATIENT/ EQUIPMENT PREPARATION", "type": "ratingsTable"}, "interpretFollowingRhythms": {"questions": [{"description": "Normal Sinus Rhythm", "answer": ["1", "2", "3", "4"]}, {"description": "Sinus Bradycardia/Sinus Tachycardia ", "answer": ["1", "2", "3", "4"]}, {"description": "Premature Atrial Contractions ", "answer": ["1", "2", "3", "4"]}, {"description": "Atrial Flutter ", "answer": ["1", "2", "3", "4"]}, {"description": "Atrial Fibrillation ", "answer": ["1", "2", "3", "4"]}, {"description": "Junctional Rhythms ", "answer": ["1", "2", "3", "4"]}, {"description": "PVC - Unifocal/Multifocal ", "answer": ["1", "2", "3", "4"]}, {"description": "PVC- Bigeminy/Trigeminy/Coupling ", "answer": ["1", "2", "3", "4"]}, {"description": "Ventricular Tachycardia ", "answer": ["1", "2", "3", "4"]}, {"description": "Ventricular Fibrillation", "answer": ["1", "2", "3", "4"]}, {"description": "1st Degree Heart Block ", "answer": ["1", "2", "3", "4"]}, {"description": "2nd Degree Heart Block Type I ", "answer": ["1", "2", "3", "4"]}, {"description": "2nd Degree Heart Block Type II ", "answer": ["1", "2", "3", "4"]}, {"description": "3rd Degree Heart Block ", "answer": ["1", "2", "3", "4"]}, {"description": "Sinus Arrest ", "answer": ["1", "2", "3", "4"]}, {"description": "Asystole ", "answer": ["1", "2", "3", "4"]}, {"description": "Bundle Branch Block ", "answer": ["1", "2", "3", "4"]}, {"description": "Paced Rhythms - Atrial/Ventricular/AV ", "answer": ["1", "2", "3", "4"]}, {"description": "Pacemaker Misfire", "answer": ["1", "2", "3", "4"]}, {"description": "Pacemaker- Failure to Capture", "answer": ["1", "2", "3", "4"]}, {"description": "Measure Cardiac Rate", "answer": ["1", "2", "3", "4"]}, {"description": "Measure Cardiac Intervals (PR, QRS, ST, etc.)", "answer": ["1", "2", "3", "4"]}], "title": "INTERPRET THE FOLLOWING RHYTHMS", "type": "ratingsTable"}, "monitoringSystemsUsed": {"questions": [{"description": "GE", "answer": ["1", "2", "3", "4"]}, {"description": "Phillips", "answer": ["1", "2", "3", "4"]}], "title": "MONITORING SYSTEMS USED", "type": "ratingsTable", "items": [{"title": "Spacelabs", "customTitleIdentifier": "monitoringsystems"}, {"title": "Other", "customTitleIdentifier": "monitoringother"}]}, "miscellaneous": {"questions": [{"description": "Cardiac Arrest Protocol ", "answer": ["1", "2", "3", "4"]}, {"description": "Computerized Charting ", "answer": ["1", "2", "3", "4"]}], "title": "MISCELLANEOUS", "type": "ratingsTable"}}, "title": "Cardiac Monitor Technician (non RNs) Skills Checklist"}
+{
+    "name": "Cardiac Monitor Technician (non RNs) Skills Checklist",
+    "certifications": [
+        {
+            "type": "value",
+            "title": "BLS",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "bls"
+        },
+        {
+            "type": "value",
+            "title": "Telemetry Interpretation Course: (indicate date taken)",
+            "valueTitle": "Date Taken:",
+            "valueIdentifier": "telemetry_interpretation"
+        },
+        {
+            "type": "value",
+            "title": "Other (type)",
+            "customTitleIdentifier": "other_specify",
+            "valueTitle": "Date Taken:",
+            "valueIdentifier": "cardiacmonitor_other"
+        }
+    ],
+    "skills": {
+        "experiencefollowingsetting": {
+            "questions": [
+                {
+                    "description": "Telemetry Unit (located on the unit)",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Remote Telemetry Office ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "EXPERIENCE IN THE FOLLOWING SETTING(S)",
+            "type": "ratingsTable",
+            "items": [
+                {
+                    "type": "value",
+                    "title": "# Monitors Responsible For",
+                    "valueIdentifier": "monitorsResponsible"
+                }
+            ]
+        },
+        "patientEquipmentPreparation": {
+            "questions": [
+                {
+                    "description": "Skin prep ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Lead Placement - 3 Lead ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Lead Placement - 5 Lead ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Set up MCL1 ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Set up Lead II ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Set up 12 Lead ECG",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "PATIENT/ EQUIPMENT PREPARATION",
+            "type": "ratingsTable"
+        },
+        "interpretFollowingRhythms": {
+            "questions": [
+                {
+                    "description": "Normal Sinus Rhythm",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Sinus Bradycardia/Sinus Tachycardia ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Premature Atrial Contractions ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Atrial Flutter ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Atrial Fibrillation ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Junctional Rhythms ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "PVC - Unifocal/Multifocal ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "PVC- Bigeminy/Trigeminy/Coupling ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Ventricular Tachycardia ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Ventricular Fibrillation",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "1st Degree Heart Block ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "2nd Degree Heart Block Type I ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "2nd Degree Heart Block Type II ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "3rd Degree Heart Block ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Sinus Arrest ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Asystole ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Bundle Branch Block ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Paced Rhythms - Atrial/Ventricular/AV ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pacemaker Misfire",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pacemaker- Failure to Capture",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Measure Cardiac Rate",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Measure Cardiac Intervals (PR, QRS, ST, etc.)",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "INTERPRET THE FOLLOWING RHYTHMS",
+            "type": "ratingsTable"
+        },
+        "monitoringSystemsUsed": {
+            "questions": [
+                {
+                    "description": "GE",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Phillips",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "MONITORING SYSTEMS USED",
+            "type": "ratingsTable",
+            "items": [
+                {
+                    "title": "Spacelabs",
+                    "customTitleIdentifier": "monitoringsystems"
+                },
+                {
+                    "title": "Other",
+                    "customTitleIdentifier": "monitoringother"
+                }
+            ]
+        },
+        "miscellaneous": {
+            "questions": [
+                {
+                    "description": "Cardiac Arrest Protocol ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Computerized Charting ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "MISCELLANEOUS",
+            "type": "ratingsTable"
+        }
+    },
+    "title": "Cardiac Monitor Technician (non RNs) Skills Checklist"
+}
