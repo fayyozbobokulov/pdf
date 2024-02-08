@@ -1,7 +1,7 @@
 from reportlab.pdfgen.canvas import Canvas
 from font import register_fonts
 from position import Position
-from reportlab.lib.colors import Color, HexColor, black, white,gainsboro, grey, red
+from reportlab.lib.colors import Color, HexColor, black, white,gainsboro, grey, red, green
 from typing import Tuple
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.platypus import Paragraph
@@ -206,10 +206,12 @@ class PDFCreator:
                     self.text(letter, x=self.pos.x + 350 + 15 * i, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=white)
                 qs = value['questions']
                 for q in qs:
-                    self.pos.y += DEVIDER_HEIGHT+10
+                    self.pos.y += DEVIDER_HEIGHT + 10
                     self.devider(COLOR1 if self.color else COLOR2, DEVIDER_HEIGHT+10, self.page_width - 2*self.margin + 10)
                     self.wrapped_text(q['description'], width=(self.page_width - 2*self.margin)*0.6, 
                                       height=DEVIDER_HEIGHT, x=self.pos.x+5, y=self.pos.y + HEADER_SIZE+5)
+                    for i in range(9):
+                        self.form.checkbox(False, "check", "square", fillColor=HexColor('#ededed') if self.color else HexColor('#ffffff'), textColor=HexColor('#72c800'), x=self.pos.x + 348 + i*15, y=self.page_height - self.pos.y-DEVIDER_HEIGHT*2/3, size=10 )
 
                     self.color = not self.color
             elif value.get("type", '') == 'categories':
@@ -228,20 +230,24 @@ class PDFCreator:
                 self.pos.y += DEVIDER_HEIGHT/2
                 self.wrapped_text(text=value['reminder'], width=self.page_width-2*self.margin + 10, font_size=10, y=self.pos.y + DEVIDER_HEIGHT, text_color=grey)
 
+            self.pos.y += DEVIDER_HEIGHT
+
             if value.get('items', False):
                 x = 0
                 for item in value['items']:
+                    # self.pos.y += DEVIDER_HEIGHT
                     self.color = not self.color
 
                     self.devider(COLOR1 if self.color else COLOR2, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
                     self.wrapped_text(item['title'],width=(self.page_width - 2*self.margin)*0.6, x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/2)
                     
                     if item.get('valueIdentifier'):
+                        self.pos.y += DEVIDER_HEIGHT
                         self.form.textfield(name=item['valueIdentifier'], x=self.page_width/2, y=self.page_height - self.pos.y- DEVIDER_HEIGHT/2-2*HEADER_SIZE/3, borderStyle='inset',
                             borderColor=black, fillColor=gainsboro, width=195, height=20, textColor=black, forceBorder=False, fontSize=8)
-                        self.pos.y += DEVIDER_HEIGHT
                         
                     if item.get('customTitleIdentifier', False):
+                        self.pos.y += DEVIDER_HEIGHT
                         self.form.textfield(name=item['customTitleIdentifier'], x=self.page_width/2, y=self.page_height - self.pos.y- DEVIDER_HEIGHT, borderStyle='inset',
                                              borderColor=black, fillColor=gainsboro, width=150, height=DEVIDER_HEIGHT, textColor=black, forceBorder=False, fontSize=8)
                         for i in range(1, 5):
@@ -252,10 +258,10 @@ class PDFCreator:
                                 borderColor=grey, fillColor=white, borderWidth=0,
                                 textColor=HexColor('#72c800'), forceBorder=False)
                         x+=1
-                        self.pos.y += DEVIDER_HEIGHT
                     if item.get('inputIdentifier', False):
+                        self.pos.y += DEVIDER_HEIGHT
                         self.text(item.get('inputTitle', ''),x=self.pos.x + 250-len(item.get('valueTitle', '')), y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
-            self.pos.y += DEVIDER_HEIGHT
+                        
             self.pos.y += 10
     
     def certs(self, certs: List[Dict[str, Any]]):
