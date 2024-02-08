@@ -29,6 +29,7 @@
     ],
     "skills": {
         "UrgentAssessment": {
+            "title": "CARDIOVASCULAR",
             "questions": [
                 {
                     "description": "Auscultation/Irregular Heart Sounds",
@@ -58,10 +59,11 @@
                     ]
                 }
             ],
-            "title": "Assessment",
+            "subtitle": "Assessment",
             "type": "ratingsTable"
         },
         "UrgentInterpretation": {
+            "title": "CARDIOVASCULAR",
             "questions": [
                 {
                     "description": "EKG",
@@ -82,10 +84,11 @@
                     ]
                 }
             ],
-            "title": "Interpretation of Labs/Tests",
+            "subtitle": "Interpretation of Labs/Tests",
             "type": "ratingsTable"
         },
         "UrgentEquipment": {
+            "title": "CARDIOVASCULAR",
             "questions": [
                 {
                     "description": "Arrhythmia Interpretation",
@@ -135,10 +138,11 @@
                     "name": "input"
                 }
             ],
-            "title": "Equipment & Procedures",
+            "subtitle": "Equipment & Procedures",
             "type": "ratingsTable"
         },
         "UrgentCareof": {
+            "title": "CARDIOVASCULAR",
             "questions": [
                 {
                     "description": "Chest Pain/ACS",
@@ -188,10 +192,11 @@
                     "name": "input"
                 }
             ],
-            "title": "Care of the Patient with",
+            "subtitle": "Care of the Patient with",
             "type": "ratingsTable"
         },
         "UrgentMedications": {
+            "title": "CARDIOVASCULAR",
             "questions": [
                 {
                     "description": "Nitroglycerin",
@@ -231,10 +236,11 @@
                     "name": "input"
                 }
             ],
-            "title": "Medications",
+            "subtitle": "Medications",
             "type": "ratingsTable"
         },
         "UrgentPULAssessment": {
+            "title": "PULMONARY",
             "questions": [
                 {
                     "description": "Abnormal Breath Sounds (Wheezing, Stridor, Crackles)",
@@ -255,10 +261,11 @@
                     ]
                 }
             ],
-            "title": "Assessment",
+            "subtitle": "Assessment",
             "type": "ratingsTable"
         },
         "UrgentPULInterpretation": {
+            "title": "PULMONARY",
             "questions": [
                 {
                     "description": "Pulse Oximetry",
@@ -279,10 +286,11 @@
                     ]
                 }
             ],
-            "title": "Interpretation of Lab/Tests",
+            "subtitle": "Interpretation of Lab/Tests",
             "type": "ratingsTable"
         },
         "UrgentPULEquipment": {
+            "title": "PULMONARY",
             "questions": [
                 {
                     "description": "Oxygen Therapy (Nasal Cannula, Face Mask)",
@@ -322,10 +330,11 @@
                     "name": "input"
                 }
             ],
-            "title": "Equipment & Procedures",
+            "subtitle": "Equipment & Procedures",
             "type": "ratingsTable"
         },
         "UrgentPULCare": {
+            "title": "PULMONARY",
             "questions": [
                 {
                     "description": "Aspiration",
@@ -385,10 +394,11 @@
                     "name": "input"
                 }
             ],
-            "title": "Care of the Patient with",
+            "subtitle": "Care of the Patient with",
             "type": "ratingsTable"
         },
         "UrgentPULMedications": {
+            "title": "PULMONARY",
             "questions": [
                 {
                     "description": "Bronchodilators",
@@ -418,10 +428,11 @@
                     ]
                 }
             ],
-            "title": "Medications",
+            "subtitle": "Medications",
             "type": "ratingsTable"
         },
         "UrgentNEUAssessment": {
+            "title": "NEUROLOGICAL",
             "questions": [
                 {
                     "description": "Signs & Symptoms of Stroke",
@@ -442,10 +453,11 @@
                     ]
                 }
             ],
-            "title": "Assessment",
+            "subtitle": "Assessment",
             "type": "ratingsTable"
         },
         "UrgentNEUEquipment": {
+            "title": "NEUROLOGICAL",
             "questions": [
                 {
                     "description": "Assist with Lumbar Puncture",
@@ -475,10 +487,11 @@
                     ]
                 }
             ],
-            "title": "Equipment & Procedures",
+            "subtitle": "Equipment & Procedures",
             "type": "ratingsTable"
         },
         "UrgentNEUCare": {
+            "title": "NEUROLOGICAL",
             "questions": [
                 {
                     "description": "Head Injury",
@@ -528,10 +541,11 @@
                     "name": "input"
                 }
             ],
-            "title": "Care of the Patient with",
+            "subtitle": "Care of the Patient with",
             "type": "ratingsTable"
         },
         "UrgentNEUMedications": {
+            "title": "NEUROLOGICAL",
             "questions": [
                 {
                     "description": "Imitrex (Sumatriptan Succinate) ",
@@ -581,10 +595,11 @@
                     "name": "input"
                 }
             ],
-            "title": "Medications",
+            "subtitle": "Medications",
             "type": "ratingsTable"
         },
         "UrgentORTAssessment": {
+            "title": "ORTHOPEDICS",
             "questions": [
                 {
                     "description": "Range of Motion",
@@ -614,10 +629,11 @@
                     ]
                 }
             ],
-            "title": "Assessment",
+            "subtitle": "Assessment",
             "type": "ratingsTable"
         },
         "UrgentORTEquipment": {
+            "title": "ORTHOPEDICS",
             "questions": [
                 {
                     "description": "Apply Splints",
@@ -669,10 +685,11 @@
                     "name": "input"
                 }
             ],
-            "title": "Equipment & Procedures",
+            "subtitle": "Equipment & Procedures",
             "type": "ratingsTable"
         },
         "UrgentORTCare": {
+            "title": "ORTHOPEDICS",
             "questions": [
                 {
                     "description": "Cast/Splint ",
@@ -712,10 +729,11 @@
                     "name": "input"
                 }
             ],
-            "title": "Care of the Patient with",
+            "subtitle": "Care of the Patient with",
             "type": "ratingsTable"
         },
         "UrgentORTMedications": {
+            "title": "ORTHOPEDICS",
             "questions": [
                 {
                     "description": "Analgesia/Sedation",
@@ -727,10 +745,11 @@
                     ]
                 }
             ],
-            "title": "Medications",
+            "subtitle": "Medications",
             "type": "ratingsTable"
         },
         "UrgentGASTAssessment": {
+            "title": "GASTROINTESTINAL",
             "questions": [
                 {
                     "description": "Bowel Sounds",
@@ -770,10 +789,11 @@
                     "name": "input"
                 }
             ],
-            "title": "Assessment",
+            "subtitle": "Assessment",
             "type": "ratingsTable"
         },
         "UrgentGASTEquipment": {
+            "title": "GASTROINTESTINAL",
             "questions": [
                 {
                     "description": "Enemas",
@@ -813,10 +833,11 @@
                     "name": "input"
                 }
             ],
-            "title": "Equipment & Procedures",
+            "subtitle": "Equipment & Procedures",
             "type": "ratingsTable"
         },
         "UrgentGASTCare": {
+            "title": "GASTROINTESTINAL",
             "questions": [
                 {
                     "description": " Colostomy",
@@ -866,10 +887,11 @@
                     "name": "input"
                 }
             ],
-            "title": "Care of the Patient with",
+            "subtitle": "Care of the Patient with",
             "type": "ratingsTable"
         },
         "UrgentGASTMedications": {
+            "title": "GASTROINTESTINAL",
             "questions": [
                 {
                     "description": "Ipecac",
@@ -909,10 +931,11 @@
                     "name": "input"
                 }
             ],
-            "title": "Medications",
+            "subtitle": "Medications",
             "type": "ratingsTable"
         },
         "UrgentRENALAssessment": {
+            "title": "RENAL/GENITOURINARY",
             "questions": [
                 {
                     "description": "Fluid Status",
@@ -933,10 +956,11 @@
                     ]
                 }
             ],
-            "title": "Assessment",
+            "subtitle": "Assessment",
             "type": "ratingsTable"
         },
         "UrgentRENALInterpretation": {
+            "title": "RENAL/GENITOURINARY",
             "questions": [
                 {
                     "description": "BUN/Creatinine/Electrolytes",
@@ -948,10 +972,11 @@
                     ]
                 }
             ],
-            "title": "Interpretation of Labs",
+            "subtitle": "Interpretation of Labs",
             "type": "ratingsTable"
         },
         "UrgentRENALEquipment": {
+            "title": "RENAL/GENITOURINARY",
             "questions": [
                 {
                     "description": "Urine Dipstick/C&S",
@@ -972,10 +997,11 @@
                     ]
                 }
             ],
-            "title": "Equipment & Procedures",
+            "subtitle": "Equipment & Procedures",
             "type": "ratingsTable"
         },
         "UrgentRENALCare": {
+            "title": "RENAL/GENITOURINARY",
             "questions": [
                 {
                     "description": "Pyelonephritis/UTI",
@@ -1035,10 +1061,11 @@
                     "name": "input"
                 }
             ],
-            "title": "Care of the Patient with",
+            "subtitle": "Care of the Patient with",
             "type": "ratingsTable"
         },
         "UrgentRENALMedications": {
+            "title": "RENAL/GENITOURINARY",
             "questions": [
                 {
                     "description": "Antibiotics",
@@ -1050,10 +1077,11 @@
                     ]
                 }
             ],
-            "title": "Medications",
+            "subtitle": "Medications",
             "type": "ratingsTable"
         },
         "UrgentENDOCRAssessment": {
+            "title": "ENDOCRINE/METABOLIC",
             "questions": [
                 {
                     "description": "Hypo/Hyperglycemia",
@@ -1065,10 +1093,11 @@
                     ]
                 }
             ],
-            "title": "Assessment",
+            "subtitle": "Assessment",
             "type": "ratingsTable"
         },
         "UrgentENDOCRInterpretation": {
+            "title": "ENDOCRINE/METABOLIC",
             "questions": [
                 {
                     "description": "Blood Glucose",
@@ -1089,10 +1118,11 @@
                     ]
                 }
             ],
-            "title": "Interpretation of Labs",
+            "subtitle": "Interpretation of Labs",
             "type": "ratingsTable"
         },
         "UrgentENDOCREquipment": {
+            "title": "ENDOCRINE/METABOLIC",
             "questions": [
                 {
                     "description": "Bedside Blood Glucose Monitoring",
@@ -1105,10 +1135,11 @@
                     "name": "input"
                 }
             ],
-            "title": "Equipment & Procedures",
+            "subtitle": "Equipment & Procedures",
             "type": "ratingsTable"
         },
         "UrgentENDOCRCareof": {
+            "title": "ENDOCRINE/METABOLIC",
             "questions": [
                 {
                     "description": "Hypoglycemia/Insulin Shock",
@@ -1130,10 +1161,11 @@
                     "name": "input"
                 }
             ],
-            "title": "Care of the Patient with",
+            "subtitle": "Care of the Patient with",
             "type": "ratingsTable"
         },
         "UrgentENDOCRMedications": {
+            "title": "ENDOCRINE/METABOLIC",
             "questions": [
                 {
                     "description": "Dextrose",
@@ -1163,10 +1195,11 @@
                     ]
                 }
             ],
-            "title": "Medications",
+            "subtitle": "Medications",
             "type": "ratingsTable"
         },
         "UrgentEENTAssessment": {
+            "title": "EENT",
             "questions": [
                 {
                     "description": "Visual Acuity",
@@ -1196,10 +1229,11 @@
                     ]
                 }
             ],
-            "title": "Assessment",
+            "subtitle": "Assessment",
             "type": "ratingsTable"
         },
         "UrgentEENTEquipment": {
+            "title": "EENT",
             "questions": [
                 {
                     "description": "Ear Irrigation/Removal Foreign Body",
@@ -1259,10 +1293,11 @@
                     "name": "input"
                 }
             ],
-            "title": "Equipment & Procedures",
+            "subtitle": "Equipment & Procedures",
             "type": "ratingsTable"
         },
         "UrgentEENTMedications": {
+            "title": "EENT",
             "questions": [
                 {
                     "description": " Silver Nitrate",
@@ -1292,10 +1327,11 @@
                     ]
                 }
             ],
-            "title": "Medications",
+            "subtitle": "Medications",
             "type": "ratingsTable"
         },
         "UrgentINFECTIOUSAssessment": {
+            "title": "INFECTIOUS DISEASE",
             "questions": [
                 {
                     "description": "Communicable Disease",
@@ -1316,10 +1352,11 @@
                     ]
                 }
             ],
-            "title": "Assessment",
+            "subtitle": "Assessment",
             "type": "ratingsTable"
         },
         "UrgentINFECTIOUSEquipment": {
+            "title": "INFECTIOUS DISEASE",
             "questions": [
                 {
                     "description": "Obtain Cultures",
@@ -1369,10 +1406,11 @@
                     "name": "input"
                 }
             ],
-            "title": "Equipment & Procedures",
+            "subtitle": "Equipment & Procedures",
             "type": "ratingsTable"
         },
         "UrgentINFECTIOUSCare": {
+            "title": "INFECTIOUS DISEASE",
             "questions": [
                 {
                     "description": "Communicable Disease",
@@ -1402,10 +1440,11 @@
                     ]
                 }
             ],
-            "title": "Care of the Patient with",
+            "subtitle": "Care of the Patient with",
             "type": "ratingsTable"
         },
         "UrgentINFECTIOUSMedications": {
+            "title": "INFECTIOUS DISEASE",
             "questions": [
                 {
                     "description": "Antibiotics",
@@ -1426,7 +1465,7 @@
                     ]
                 }
             ],
-            "title": "Medications",
+            "subtitle": "Medications",
             "type": "ratingsTable"
         },
         "UrgentWOUND": {
@@ -1525,6 +1564,7 @@
             "type": "ratingsTable"
         },
         "UrgentPSYCHIATRICAssessment": {
+            "title": "PSYCHIATRIC",
             "questions": [
                 {
                     "description": "Behavior",
@@ -1554,10 +1594,11 @@
                     ]
                 }
             ],
-            "title": "Assessment",
+            "subtitle": "Assessment",
             "type": "ratingsTable"
         },
         "UrgentPSYCHIATRICEquipment": {
+            "title": "PSYCHIATRIC",
             "questions": [
                 {
                     "description": "Managing Threatening/Violent Behavior",
@@ -1578,10 +1619,11 @@
                     ]
                 }
             ],
-            "title": "Equipment & Procedures",
+            "subtitle": "Equipment & Procedures",
             "type": "ratingsTable"
         },
         "UrgentPSYCHIATRICCareof": {
+            "title": "PSYCHIATRIC",
             "questions": [
                 {
                     "description": "Drug OD",
@@ -1631,10 +1673,11 @@
                     "name": "input"
                 }
             ],
-            "title": "Care of the Patient with",
+            "subtitle": "Care of the Patient with",
             "type": "ratingsTable"
         },
         "UrgentPSYCHIATRICMedications": {
+            "title": "PSYCHIATRIC",
             "questions": [
                 {
                     "description": "Antipsychotics/Antidepressants",
@@ -1655,10 +1698,11 @@
                     ]
                 }
             ],
-            "title": "Medications",
+            "subtitle": "Medications",
             "type": "ratingsTable"
         },
         "UrgentWOMENAssessment": {
+            "title": "WOMEN'S HEALTH",
             "questions": [
                 {
                     "description": "Vaginal Bleeding",
@@ -1688,10 +1732,11 @@
                     ]
                 }
             ],
-            "title": "Assessment",
+            "subtitle": "Assessment",
             "type": "ratingsTable"
         },
         "UrgentWOMENEquipment": {
+            "title": "WOMEN'S HEALTH",
             "questions": [
                 {
                     "description": "Obtain Cultures",
@@ -1712,10 +1757,11 @@
                     ]
                 }
             ],
-            "title": "Equipment & Procedures",
+            "subtitle": "Equipment & Procedures",
             "type": "ratingsTable"
         },
         "UrgentWOMENCareof": {
+            "title": "WOMEN'S HEALTH",
             "questions": [
                 {
                     "description": "Ectopic Pregnancy",
@@ -1785,7 +1831,7 @@
                     "name": "input"
                 }
             ],
-            "title": "Care of the Patient with",
+            "subtitle": "Care of the Patient with",
             "type": "ratingsTable"
         },
         "UrgentPEDIATRICS": {
@@ -1822,6 +1868,7 @@
             "type": "ratingsTable"
         },
         "UrgentPEDIATRICSAssessment": {
+            "title": "PEDIATRICS",
             "questions": [
                 {
                     "description": "Normal VS for age groups ",
@@ -1851,10 +1898,11 @@
                     ]
                 }
             ],
-            "title": "Assessment",
+            "subtitle": "Assessment",
             "type": "ratingsTable"
         },
         "UrgentPEDIATRICSEquipment": {
+            "title": "PEDIATRICS",
             "questions": [
                 {
                     "description": "Assist with Fracture Stabilization ",
@@ -1952,10 +2000,11 @@
                     "name": "input"
                 }
             ],
-            "title": "Equipment & Procedures",
+            "subtitle": "Equipment & Procedures",
             "type": "ratingsTable"
         },
         "UrgentPEDIATRICSCareof": {
+            "title": "PEDIATRICS",
             "questions": [
                 {
                     "description": "Abdominal Pain",
@@ -2101,10 +2150,11 @@
                     "name": "input"
                 }
             ],
-            "title": "Care of the Patient with",
+            "subtitle": "Care of the Patient with",
             "type": "ratingsTable"
         },
         "UrgentPEDIATRICSMedications": {
+            "title": "PEDIATRICS",
             "questions": [
                 {
                     "description": "Ipecac/Charcoal",
@@ -2134,7 +2184,7 @@
                     ]
                 }
             ],
-            "title": "Medications (Others in System Specific Areas)",
+            "subtitle": "Medications (Others in System Specific Areas)",
             "type": "ratingsTable"
         },
         "UrgentMISCELLANEOUS": {
@@ -2191,6 +2241,7 @@
             "type": "ratingsTable"
         },
         "UrgentMISCELLANEOUSCareof": {
+            "title": "MISCELLANEOUS",
             "questions": [
                 {
                     "description": "Bites",
@@ -2220,7 +2271,7 @@
                     ]
                 }
             ],
-            "title": "Care of the Patient with",
+            "subtitle": "Care of the Patient with",
             "type": "ratingsTable"
         },
         "ageCategories": {
@@ -2345,44 +2396,54 @@
         },
         "experience": {
             "type": "input",
+            "subtitle": "Adults",
             "questions": [],
-            "title": "EXPERIENCE",
+            "title": "MY EXPERIENCE IS PRIMARILY IN THE FOLLOWING SETTING",
             "items": [
                 {
                     "inputTitle": "Yrs.",
-                    "title": "SPT: In-Patient OR",
-                    "inputIdentifier": "SPT: In-Patient OR"
-                },
-                {
-                    "title": "SPT: In-Patient OR - # of Suites",
-                    "inputIdentifier": "SPT: In-Patient OR - # of Suites"
+                    "title": "Yrs. Physician's Office",
+                    "inputIdentifier": "Yrs. Physician's Office"
                 },
                 {
                     "inputTitle": "Yrs.",
-                    "title": "SPT: Ambulatory Surg. Center",
-                    "inputIdentifier": "SPT: Ambulatory Surg. Center"
-                },
-                {
-                    "title": "SPT: Ambulatory Surg. Center - # of Suites",
-                    "inputIdentifier": "SPT: Ambulatory Surg. Center - # of Suites"
+                    "title": "Clinic",
+                    "inputIdentifier": "Clinic"
                 },
                 {
                     "inputTitle": "Yrs.",
-                    "title": "Surgical Tech: In-Patient OR",
-                    "inputIdentifier": "Surgical Tech: In-Patient OR"
+                    "title": "Urgent Care",
+                    "inputIdentifier": "Urgent Care"
                 },
                 {
-                    "title": "Surgical Tech: In-Patient OR - # of Suites",
-                    "inputIdentifier": "Surgical Tech: In-Patient OR - # of Suites"
+                    "title": "Emergency Dept - Yrs:",
+                    "inputIdentifier": "Emergency Dept - Yrs:"
+                }
+            ]
+        },
+        "experience2": {
+            "type": "input",
+            "subtitle": "Pediatrics",
+            "questions": [],
+            "title": "MY EXPERIENCE IS PRIMARILY IN THE FOLLOWING SETTING",
+            "items": [
+                {
+                    "inputTitle": "Yrs.",
+                    "title": "Physician's Office",
+                    "inputIdentifier": "Yrs. Physician's Office"
+                },
+                {
+                    "title": "Clinic",
+                    "inputIdentifier": "Clinic"
                 },
                 {
                     "inputTitle": "Yrs.",
-                    "title": "Surgical Tech: Ambulatory Surg. Center",
-                    "inputIdentifier": "Surgical Tech: Ambulatory Surg. Center"
+                    "title": "Urgent Care",
+                    "inputIdentifier": "Urgent Care"
                 },
                 {
-                    "title": "Surgical Tech: Ambulatory Surg. Center - # Suites",
-                    "inputIdentifier": "Surgical Tech: Ambulatory Surg. Center - # Suites"
+                    "title": "Emergency Dept - Yrs:",
+                    "inputIdentifier": "Emergency Dept - Yrs:"
                 }
             ]
         }

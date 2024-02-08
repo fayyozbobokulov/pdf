@@ -200,6 +200,7 @@
             "type": "ratingsTable"
         },
         "SterileAutoclave": {
+            "title": "STERILIZATION",
             "questions": [
                 {
                     "description": "Gravity Displacement",
@@ -229,10 +230,11 @@
                     ]
                 }
             ],
-            "title": "Steam Autoclave",
+            "subtitle": "Steam Autoclave",
             "type": "ratingsTable"
         },
         "SterileAssurance": {
+            "title": "STERILIZATION",
             "questions": [
                 {
                     "description": "Bowie Dick",
@@ -262,10 +264,11 @@
                     ]
                 }
             ],
-            "title": "Sterility Assurance Tests",
+            "subtitle": "Sterility Assurance Tests",
             "type": "ratingsTable"
         },
         "SterileSterilization": {
+            "title": "STERILIZATION",
             "questions": [
                 {
                     "description": "Load Documentation",
@@ -304,10 +307,11 @@
                     ]
                 }
             ],
-            "title": "Steam Sterilization",
+            "subtitle": "Steam Sterilization",
             "type": "ratingsTable"
         },
         "SterileGas": {
+            "title": "STERILIZATION",
             "questions": [
                 {
                     "description": "Load Documentation",
@@ -346,10 +350,11 @@
                     ]
                 }
             ],
-            "title": "Gas (ETOH)",
+            "subtitle": "Gas (ETOH)",
             "type": "ratingsTable"
         },
         "SterileSterrad": {
+            "title": "STERILIZATION",
             "questions": [
                 {
                     "description": "Load Documentation",
@@ -388,10 +393,11 @@
                     ]
                 }
             ],
-            "title": "Sterrad",
+            "subtitle": "Sterrad",
             "type": "ratingsTable"
         },
         "SterileSteris": {
+            "title": "STERILIZATION",
             "questions": [
                 {
                     "description": "Load Documentation",
@@ -430,7 +436,7 @@
                     ]
                 }
             ],
-            "title": "Steris",
+            "subtitle": "Steris",
             "type": "ratingsTable"
         },
         "SterileAssembly": {

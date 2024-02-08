@@ -12,6 +12,7 @@ import math
 INPUT_FIELD_HEIGHT = 20
 DEVIDER_HEIGHT = 40
 HEADER_COLOR = hex_to_rgb('#3d265d')
+SUBTITLE_COLOR = hex_to_rgb('#808080')
 COLOR1 = hex_to_rgb('#ededed')
 COLOR2 = hex_to_rgb('#ffffff')
 HEADER_SIZE = 12
@@ -161,14 +162,25 @@ class PDFCreator:
         self.pos.y+=30
 
     def skills(self, skills: Dict[str, Any]):
+        titles = set()
         for key, value in skills.items():
             title = value.get('title', '').upper()
-            
-            self.devider(HEADER_COLOR, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
-            self.text(title,x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=white)
-
+            subtitle = value.get('subtitle', '')
+            if title not in titles:
+                titles.add(title)
+                self.devider(HEADER_COLOR, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
+                self.text(title,x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=white)
+                if len(subtitle):
+                    self.pos.y += DEVIDER_HEIGHT
+                    self.devider(SUBTITLE_COLOR, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
+                    self.text(subtitle,x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
+            else:
+                self.pos.y += DEVIDER_HEIGHT
+                self.devider(SUBTITLE_COLOR, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
+                self.text(subtitle,x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
             if value.get('type', '') == 'ratingsTable':
-                if len(value['questions'][0]['answer']) == 4:
+                
+                if len(value['questions'][0]['answer']) == 4 and len(subtitle)==0:
                     for i in range(1, 5):
                         self.text(f'{i}', x=self.pos.x + 400 + 15 * i, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=white)
 
@@ -176,8 +188,6 @@ class PDFCreator:
                     self.pos.y+=DEVIDER_HEIGHT
                     self.devider(COLOR1 if self.color else COLOR2, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
                     self.color = not self.color
-                    if question['description'] == "EMR Conversion":
-                        print(question)
 
                     self.text(question['description'],x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
                     if len(question['answer'])==4:
@@ -254,7 +264,7 @@ class PDFCreator:
                         self.form.textfield(name=item['customTitleIdentifier'], x=self.page_width/2, y=self.page_height - self.pos.y + DEVIDER_HEIGHT/2-HEADER_SIZE, borderStyle='inset',
                                              borderColor=black, fillColor=gainsboro, width=150, height=20, textColor=black, forceBorder=False, fontSize=8)
                         for i in range(1, 5):
-                            self.form.radio(name=f"{item['title']}{x}", tooltip='Field radio1',
+                            self.form.radio(name=item['customTitleIdentifier'], tooltip='Field radio1',
                                 value=f'value{i}', selected=True if i==1 else False,
                                 x=self.pos.x + 398 + 15 * i, y=self.page_height - self.pos.y+DEVIDER_HEIGHT/2-HEADER_SIZE/2, buttonStyle='circle',
                                 borderStyle='solid', shape='circle', size=15,
@@ -263,7 +273,9 @@ class PDFCreator:
                         x+=1
                     if item.get('inputIdentifier', False):
                         self.pos.y += DEVIDER_HEIGHT
-                        self.text(item.get('inputTitle', ''),x=self.pos.x + 250-len(item.get('valueTitle', '')), y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
+                        self.text(item.get('inputTitle', ''),x=self.pos.x + 260, y=self.pos.y - HEADER_SIZE)
+                        self.form.textfield(name=item['inputIdentifier'], x=self.pos.x + 300, y=self.page_height - self.pos.y + DEVIDER_HEIGHT/2-HEADER_SIZE, borderStyle='inset',
+                                             borderColor=black, fillColor=gainsboro, width=150, height=20, textColor=black, forceBorder=False, fontSize=8)
                         
             self.pos.y += 10
     
@@ -276,11 +288,11 @@ class PDFCreator:
         for cert in certs:
             self.devider(COLOR1 if self.color else COLOR2, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
 
-            self.wrapped_text(cert['title'], width=self.page_width-2*self.margin-50, x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3)
+            self.wrapped_text(cert['title'], width=self.page_width-2*self.margin-80, x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3)
             self.text(cert.get('valueTitle', ''),x=self.pos.x + 350-len(cert.get('valueTitle', '')), y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
             if cert.get('customTitleIdentifier', False):
-                self.form.textfield(name=cert['customTitleIdentifier'], x=self.pos.x+180, y=self.page_height - self.pos.y- DEVIDER_HEIGHT, borderStyle='inset',
-                    borderColor=black, fillColor=gainsboro, width=150, height=DEVIDER_HEIGHT, textColor=black, forceBorder=False)    
+                self.form.textfield(name=cert['customTitleIdentifier'], x=self.pos.x+205, y=self.page_height - self.pos.y- DEVIDER_HEIGHT, borderStyle='inset',
+                    borderColor=black, fillColor=gainsboro, width=130, height=DEVIDER_HEIGHT, textColor=black, forceBorder=False)    
             i+=1
             self.form.textfield(name=F"{cert['title']}{i}", x=self.pos.x+410, y=self.page_height - self.pos.y- DEVIDER_HEIGHT/2-2*HEADER_SIZE/3, borderStyle='inset',
                 borderColor=black, fillColor=gainsboro, width=95, height=20, textColor=black, forceBorder=False)    
@@ -332,6 +344,7 @@ class PDFCreator:
         self.text("(Date)", x=self.pos.x+430, y=self.pos.y, font_size=8, font_style="Roboto-Italic")
 
     def save(self):
+        self.c.setFillColor(black)
         self.c.drawString(self.page_width/2, self.page_height - 30, f'{self.pos.page}')
         self.c.save()
 # ["a","b","c","d","e","f","g","h","i","j"]

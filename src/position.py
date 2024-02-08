@@ -1,5 +1,6 @@
 from typing import Tuple
 from reportlab.pdfgen.canvas import Canvas
+from reportlab.lib.colors import black
 class Position:
     def __init__(self, margin: int, page_size: Tuple[float, float], c: Canvas):
         self.page_width, self.page_height = page_size
@@ -26,7 +27,8 @@ class Position:
     def handle_exceeding_y(self):
         print(f"The value of y has exceeded {self.max_y}: {self._y}")
         print(f"Exceeded: ${self._y}")
-        self.doc.drawString(self.page_width/2, self.page_height - 30, f'{self.page}')
+        self.doc.setFillColor(black)
+        self.doc.drawString(self.page_width/2, self.page_height - 30, f'{self.page}', )
         self._y = 70
         self.doc.showPage()
         print(f"New: ${self._y}")
