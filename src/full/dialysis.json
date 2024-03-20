@@ -1,1 +1,649 @@
-{"name": "Dialysis Nursing Skills Checklist", "certifications": [{"type": "value", "title": "BLS", "valueTitle": "Exp. Date:", "valueIdentifier": "bls_expdate"}, {"type": "value", "title": "CNRN", "valueTitle": "Exp. Date:", "valueIdentifier": "cnrn_expdate"}, {"type": "value", "title": "ACLS", "valueTitle": "Exp. Date:", "valueIdentifier": "acls_expdate"}, {"type": "value", "title": "CCRN", "valueTitle": "Exp. Date:", "valueIdentifier": "ccrn_expdate"}, {"type": "value", "title": "Other: Specify", "customTitleIdentifier": "other_specify", "valueTitle": "Exp. Date:", "valueIdentifier": "other_expdate"}], "skills": {"workSetting": {"questions": [{"description": "Acute/Inpatient Dialysis", "name": "workSetting1", "answer": ["1", "2", "3", "4"]}, {"description": "Chronic/Outpatient Dialysis", "name": "workSetting2", "answer": ["1", "2", "3", "4"]}, {"description": "Dialysis Home Care", "name": "workSetting3", "answer": ["1", "2", "3", "4"]}, {"description": "Pediatric Dialysis", "name": "workSetting4", "answer": ["1", "2", "3", "4"]}, {"description": "Apheresis", "name": "workSetting5", "answer": ["1", "2", "3", "4"]}, {"description": "Plasmapheresis", "name": "workSetting6", "answer": ["1", "2", "3", "4"]}, {"description": "Predialysis Nursing Assessment", "name": "workSetting7", "answer": ["1", "2", "3", "4"]}, {"description": "Charge Experience", "name": "workSetting8", "answer": ["1", "2", "3", "4"]}], "title": "WORK SETTINGS", "type": "ratingsTable"}, "setupInitiateDialsysTreatment": {"questions": [{"description": "Bicarbonate Dialysate", "name": "setupInitiateDialsysTreatment1", "answer": ["1", "2", "3", "4"]}, {"description": "Conductivity Testing", "name": "setupInitiateDialsysTreatment2", "answer": ["1", "2", "3", "4"]}, {"description": "Priming Dialyzer", "name": "setupInitiateDialsysTreatment3", "answer": ["1", "2", "3", "4"]}, {"description": "Prep Vascular Access", "name": "setupInitiateDialsysTreatment4", "answer": ["1", "2", "3", "4"]}, {"description": "Fistula Gortex/Bovine Graft", "name": "setupInitiateDialsysTreatment5", "answer": ["1", "2", "3", "4"]}, {"description": "Anticoagulation Management", "name": "setupInitiateDialsysTreatment6", "answer": ["1", "2", "3", "4"]}, {"description": "Apheresis", "name": "setupInitiateDialsysTreatment7", "answer": ["1", "2", "3", "4"]}, {"description": "Plasmapheresis", "name": "setupInitiateDialsysTreatment8", "answer": ["1", "2", "3", "4"]}, {"description": "Cannulating Buttonholes", "name": "setupInitiateDialsysTreatment9", "answer": ["1", "2", "3", "4"]}, {"description": "Continous Renal Replacement Therapy", "name": "setupInitiateDialsysTreatment10", "answer": ["1", "2", "3", "4"]}, {"description": "Peritoneal Dialysis", "name": "setupInitiateDialsysTreatment11", "answer": ["1", "2", "3", "4"]}], "title": "SET UP/INITIATE DIALYSIS TREATMENT", "type": "ratingsTable"}, "AssignementDuringDialsys": {"questions": [{"description": "Vascular Access Function", "answer": ["1", "2", "3", "4"]}, {"description": "Arterial and Venous Pressures", "answer": ["1", "2", "3", "4"]}, {"description": "Blood Flow Rate", "answer": ["1", "2", "3", "4"]}, {"description": "Management of Anticoagulation", "answer": ["1", "2", "3", "4"]}, {"description": "Conductivity", "answer": ["1", "2", "3", "4"]}, {"description": "Ultra Filtration Calculation", "answer": ["1", "2", "3", "4"]}, {"description": "Operation of Myron L. Meter", "answer": ["1", "2", "3", "4"]}, {"description": "Administration of Blood and Blood Products", "answer": ["1", "2", "3", "4"]}, {"description": "Administration of Mannitol", "answer": ["1", "2", "3", "4"]}, {"description": "Sequential Ultrafiltration/PUF", "answer": ["1", "2", "3", "4"]}], "title": "ASSESSMENT DURING DIALYSIS", "type": "ratingsTable"}, "PatientManagement": {"questions": [{"description": "Fluid Overload", "answer": ["1", "2", "3", "4"]}, {"description": "Hypertension", "answer": ["1", "2", "3", "4"]}, {"description": "Hypotension", "answer": ["1", "2", "3", "4"]}, {"description": "Disequilibrium Syndrome", "answer": ["1", "2", "3", "4"]}, {"description": "Hyperkalemia", "answer": ["1", "2", "3", "4"]}, {"description": "Seizures", "answer": ["1", "2", "3", "4"]}, {"description": "Muscle Cramps", "answer": ["1", "2", "3", "4"]}, {"description": "Clotted Access/Poor Blood Flow Rate from Catheter", "answer": ["1", "2", "3", "4"]}, {"description": "Pyrogenic Reaction", "answer": ["1", "2", "3", "4"]}, {"description": "Hemolysis", "answer": ["1", "2", "3", "4"]}, {"description": "Air Embolus", "answer": ["1", "2", "3", "4"]}, {"description": "Chest Pain", "answer": ["1", "2", "3", "4"]}, {"description": "Anemia", "answer": ["1", "2", "3", "4"]}, {"description": "Neuropathy", "answer": ["1", "2", "3", "4"]}, {"description": "Pericarditis", "answer": ["1", "2", "3", "4"]}, {"description": "Filter Blood Leak", "answer": ["1", "2", "3", "4"]}, {"description": "Cardiopulmonary Arrest", "answer": ["1", "2", "3", "4"]}, {"description": "Anticoagulation Emergencies", "answer": ["1", "2", "3", "4"]}], "title": "PATIENT MANAGEMENT", "type": "ratingsTable"}, "DialysisEquipment": {"questions": [{"description": "Baxter", "answer": ["1", "2", "3", "4"]}, {"description": "Cobe", "answer": ["1", "2", "3", "4"]}, {"description": "Fresenius H/K", "answer": ["1", "2", "3", "4"]}, {"description": "Gambro", "answer": ["1", "2", "3", "4"]}, {"description": "Phoenix", "answer": ["1", "2", "3", "4"]}, {"description": "T Machine", "answer": ["1", "2", "3", "4"]}], "title": "DIALYSIS EQUIPMENT", "type": "ratingsTable", "items": [{"title": "Other", "customTitleIdentifier": "dialysis"}]}, "ProfessionKnowledgeAndSkills": {"questions": [{"description": "National Patient Safety Goals", "answer": ["1", "2", "3", "4"]}, {"description": "Patient Isolation/Infection Prevention", "answer": ["1", "2", "3", "4"]}, {"description": "Management of Dialysis Equipment Alarms", "answer": ["1", "2", "3", "4"]}, {"description": "Bedside Blood Glucose Monitoring", "answer": ["1", "2", "3", "4"]}, {"description": "Computerized Charting", "answer": ["1", "2", "3", "4"]}, {"description": "Proton Charting Experience", "answer": ["1", "2", "3", "4"]}, {"description": "AMI Charting Experience", "answer": ["1", "2", "3", "4"]}, {"description": "Ecube Charting Experience", "answer": ["1", "2", "3", "4"]}], "title": "PROFESSIONAL KNOWLEDGE AND SKILLS", "type": "ratingsTable"}}, "title": "Dialysis Nursing Skills Checklist"}
+{
+    "name": "Dialysis Nursing Skills Checklist",
+    "certifications": [
+        {
+            "type": "value",
+            "title": "BLS",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "bls_expdate"
+        },
+        {
+            "type": "value",
+            "title": "CNRN",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "cnrn_expdate"
+        },
+        {
+            "type": "value",
+            "title": "ACLS",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "acls_expdate"
+        },
+        {
+            "type": "value",
+            "title": "CCRN",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "ccrn_expdate"
+        },
+        {
+            "type": "value",
+            "title": "Other: Specify",
+            "customTitleIdentifier": "other_specify",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "other_expdate"
+        }
+    ],
+    "skills": {
+        "workSetting": {
+            "questions": [
+                {
+                    "description": "Acute/Inpatient Dialysis",
+                    "name": "workSetting1",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Chronic/Outpatient Dialysis",
+                    "name": "workSetting2",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Dialysis Home Care",
+                    "name": "workSetting3",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pediatric Dialysis",
+                    "name": "workSetting4",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Apheresis",
+                    "name": "workSetting5",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Plasmapheresis",
+                    "name": "workSetting6",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Predialysis Nursing Assessment",
+                    "name": "workSetting7",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Charge Experience",
+                    "name": "workSetting8",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "WORK SETTINGS",
+            "type": "ratingsTable"
+        },
+        "setupInitiateDialsysTreatment": {
+            "questions": [
+                {
+                    "description": "Bicarbonate Dialysate",
+                    "name": "setupInitiateDialsysTreatment1",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Conductivity Testing",
+                    "name": "setupInitiateDialsysTreatment2",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Priming Dialyzer",
+                    "name": "setupInitiateDialsysTreatment3",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Prep Vascular Access",
+                    "name": "setupInitiateDialsysTreatment4",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Fistula Gortex/Bovine Graft",
+                    "name": "setupInitiateDialsysTreatment5",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Anticoagulation Management",
+                    "name": "setupInitiateDialsysTreatment6",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Apheresis",
+                    "name": "setupInitiateDialsysTreatment7",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Plasmapheresis",
+                    "name": "setupInitiateDialsysTreatment8",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Cannulating Buttonholes",
+                    "name": "setupInitiateDialsysTreatment9",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Continous Renal Replacement Therapy",
+                    "name": "setupInitiateDialsysTreatment10",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Peritoneal Dialysis",
+                    "name": "setupInitiateDialsysTreatment11",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "SET UP/INITIATE DIALYSIS TREATMENT",
+            "type": "ratingsTable"
+        },
+        "AssignementDuringDialsys": {
+            "questions": [
+                {
+                    "description": "Vascular Access Function",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Arterial and Venous Pressures",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Blood Flow Rate",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Management of Anticoagulation",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Conductivity",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Ultra Filtration Calculation",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Operation of Myron L. Meter",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Administration of Blood and Blood Products",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Administration of Mannitol",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Sequential Ultrafiltration/PUF",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "ASSESSMENT DURING DIALYSIS",
+            "type": "ratingsTable"
+        },
+        "PatientManagement": {
+            "questions": [
+                {
+                    "description": "Fluid Overload",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Hypertension",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Hypotension",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Disequilibrium Syndrome",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Hyperkalemia",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Seizures",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Muscle Cramps",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Clotted Access/Poor Blood Flow Rate from Catheter",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pyrogenic Reaction",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Hemolysis",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Air Embolus",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Chest Pain",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Anemia",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Neuropathy",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pericarditis",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Filter Blood Leak",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Cardiopulmonary Arrest",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Anticoagulation Emergencies",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "PATIENT MANAGEMENT",
+            "type": "ratingsTable"
+        },
+        "DialysisEquipment": {
+            "questions": [
+                {
+                    "description": "Baxter",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Cobe",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Fresenius H/K",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Gambro",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Phoenix",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "T Machine",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "DIALYSIS EQUIPMENT",
+            "type": "ratingsTable",
+            "items": [
+                {
+                    "title": "Other",
+                    "customTitleIdentifier": "dialysis"
+                }
+            ]
+        },
+        "ProfessionKnowledgeAndSkills": {
+            "questions": [
+                {
+                    "description": "National Patient Safety Goals",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Patient Isolation/Infection Prevention",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Management of Dialysis Equipment Alarms",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Bedside Blood Glucose Monitoring",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Computerized Charting",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Proton Charting Experience",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "AMI Charting Experience",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Ecube Charting Experience",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+            "type": "ratingsTable"
+        }
+    },
+    "title": "Dialysis Nursing Skills Checklist"
+}

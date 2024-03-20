@@ -1,1 +1,1168 @@
-{"name": "Critical Care/ICU", "certifications": [{"type": "value", "title": "BLS", "valueTitle": "Exp. Date:", "valueIdentifier": "certification_expdate"}, {"type": "value", "title": "ACLS", "valueTitle": "Exp. Date:", "valueIdentifier": "acls_expdate"}, {"type": "value", "title": "PALS", "valueTitle": "Exp. Date:", "valueIdentifier": "pals_expdate"}, {"type": "value", "title": "TNCC", "valueTitle": "Exp. Date:", "valueIdentifier": "tncc_expdate"}, {"type": "value", "title": "CCRN", "valueTitle": "Exp. Date:", "valueIdentifier": "ccrn_expdate"}, {"type": "value", "title": "Telemetry Certificate/Course", "valueTitle": "Date Taken:", "valueIdentifier": "telemetry_expdate"}, {"type": "value", "title": "Critical Care Course", "valueTitle": "Date Taken:", "valueIdentifier": "care_expdate"}, {"type": "value", "title": "Other: Specify", "customTitleIdentifier": "other", "valueTitle": "Exp. Date:", "valueIdentifier": "others_expdate"}, {"type": "value", "title": "Other: Specify", "customTitleIdentifier": "other_specify", "valueTitle": "Exp. Date:", "valueIdentifier": "other_expdate"}], "skills": {"cardiac": {"questions": [{"description": "Acute Coronary Syndrome", "answer": ["1", "2", "3", "4"]}, {"description": "Congestive Heart Failure", "answer": ["1", "2", "3", "4"]}, {"description": "Cardiogenic Shock", "answer": ["1", "2", "3", "4"]}, {"description": "Cardiac Tamponade", "answer": ["1", "2", "3", "4"]}, {"description": "Heart Sounds", "answer": ["1", "2", "3", "4"]}, {"description": "Immediate Post-Op Open Heart (directly from OR)", "answer": ["1", "2", "3", "4"]}, {"description": "Immediate Post-Op Open Heart (NOT directly from OR)", "answer": ["1", "2", "3", "4"]}, {"description": "Heart Transplant", "answer": ["1", "2", "3", "4"]}, {"description": "Open Chest Emergency", "answer": ["1", "2", "3", "4"]}, {"description": "Sheath Removal", "answer": ["1", "2", "3", "4"]}, {"description": "Pacemaker - Temporary/Permanent", "answer": ["1", "2", "3", "4"]}, {"description": "Pacemaker - Epicardial", "answer": ["1", "2", "3", "4"]}, {"description": "Hemodynamic Monitoring", "answer": ["1", "2", "3", "4"]}, {"description": "SVO2 Monitoring", "answer": ["1", "2", "3", "4"]}, {"description": "Intra-Aortic Balloon Pump", "answer": ["1", "2", "3", "4"]}, {"description": "Ventricular Assist Device", "answer": ["1", "2", "3", "4"]}, {"description": "ECMO", "answer": ["1", "2", "3", "4"]}], "title": "CARDIAC", "type": "ratingsTable"}, "pulmonary": {"questions": [{"description": "Respiratory Failure", "answer": ["1", "2", "3", "4"]}, {"description": "ARDS", "answer": ["1", "2", "3", "4"]}, {"description": "Pneumothorax", "answer": ["1", "2", "3", "4"]}, {"description": "Pulmonary Embolism", "answer": ["1", "2", "3", "4"]}, {"description": "Pulmonary Edema", "answer": ["1", "2", "3", "4"]}, {"description": "Fresh Tracheostomy", "answer": ["1", "2", "3", "4"]}, {"description": "Chest Trauma", "answer": ["1", "2", "3", "4"]}, {"description": "Post Thoracic Surgery", "answer": ["1", "2", "3", "4"]}, {"description": "Lung Transplant", "answer": ["1", "2", "3", "4"]}, {"description": "Intubation/Extubation", "answer": ["1", "2", "3", "4"]}, {"description": "Modes of Ventilation (AC/PC/SIMV/CPAP)", "answer": ["1", "2", "3", "4"]}, {"description": "Nitric Oxide", "answer": ["1", "2", "3", "4"]}, {"description": "Interpretation of Arterial Blood Gases", "answer": ["1", "2", "3", "4"]}, {"description": "Chest Tube Placement & Management", "answer": ["1", "2", "3", "4"]}], "title": "PULMONARY", "type": "ratingsTable"}, "neurologicalPsychiatric": {"questions": [{"description": "Stroke Scale Assessment", "answer": ["1", "2", "3", "4"]}, {"description": "CVA", "answer": ["1", "2", "3", "4"]}, {"description": "Brain Injury", "answer": ["1", "2", "3", "4"]}, {"description": "Post Craniotomy", "answer": ["1", "2", "3", "4"]}, {"description": "Spinal Cord Injury", "answer": ["1", "2", "3", "4"]}, {"description": "Seizure Disorders", "answer": ["1", "2", "3", "4"]}, {"description": "ICP Monitoring", "answer": ["1", "2", "3", "4"]}, {"description": "Hypothermia Protocol", "answer": ["1", "2", "3", "4"]}, {"description": "Substance Withdrawal", "answer": ["1", "2", "3", "4"]}, {"description": "Suicide Precautions", "answer": ["1", "2", "3", "4"]}], "title": "NEUROLOGICAL & PSYCHIATRIC", "type": "ratingsTable"}, "gastrointestinal": {"questions": [{"description": "GI Bleeding", "answer": ["1", "2", "3", "4"]}, {"description": "GI Surgery", "answer": ["1", "2", "3", "4"]}, {"description": "Liver Failure", "answer": ["1", "2", "3", "4"]}, {"description": "Pancreatitis", "answer": ["1", "2", "3", "4"]}, {"description": "Liver Transplant", "answer": ["1", "2", "3", "4"]}, {"description": "Pancreas Transplant", "answer": ["1", "2", "3", "4"]}], "title": "GASTROINTESTINAL", "type": "ratingsTable"}, "renalGenitourinary": {"questions": [{"description": "Renal Failure", "answer": ["1", "2", "3", "4"]}, {"description": "Renal Surgery", "answer": ["1", "2", "3", "4"]}, {"description": "TURP", "answer": ["1", "2", "3", "4"]}, {"description": "Renal Transplant", "answer": ["1", "2", "3", "4"]}, {"description": "Arteriovenous Fistula/Shunt", "answer": ["1", "2", "3", "4"]}, {"description": "Nephrostomy Tubes", "answer": ["1", "2", "3", "4"]}, {"description": "Peritoneal Dialysis", "answer": ["1", "2", "3", "4"]}, {"description": "Continuous Renal Replacement Therapy", "answer": ["1", "2", "3", "4"]}], "title": "RENAL/GENITOURINARY", "type": "ratingsTable"}, "endocrineMetabolic": {"questions": [{"description": "Diabetes - Hypo/Hyperglycemic Crisis", "answer": ["1", "2", "3", "4"]}, {"description": "Diabetic Ketoacidosis", "answer": ["1", "2", "3", "4"]}, {"description": "Pituitary Disorders", "answer": ["1", "2", "3", "4"]}, {"description": "IV Insulin Protocols", "answer": ["1", "2", "3", "4"]}, {"description": "Indwelling Insulin Pumps", "answer": ["1", "2", "3", "4"]}], "title": "ENDOCRINE METABOLIC", "type": "ratingsTable"}, "medications": {"questions": [{"description": "Anti-Arrhythmics", "answer": ["1", "2", "3", "4"]}, {"description": "Anticoagulants (IV, oral, & injection)", "answer": ["1", "2", "3", "4"]}, {"description": "Anti-Hypertensives", "answer": ["1", "2", "3", "4"]}, {"description": "Anti-Psychotics", "answer": ["1", "2", "3", "4"]}, {"description": "Anti-Seizure Medications", "answer": ["1", "2", "3", "4"]}, {"description": "Benzodiazepines", "answer": ["1", "2", "3", "4"]}, {"description": "Continuous IV Paralytics", "answer": ["1", "2", "3", "4"]}, {"description": "Continuous IV Sedation", "answer": ["1", "2", "3", "4"]}, {"description": "Procedural Sedation \u2013 Administration", "answer": ["1", "2", "3", "4"]}, {"description": "Diuretics", "answer": ["1", "2", "3", "4"]}, {"description": "Emergency Medications", "answer": ["1", "2", "3", "4"]}, {"description": "Inhaled Medications", "answer": ["1", "2", "3", "4"]}, {"description": "Insulin", "answer": ["1", "2", "3", "4"]}, {"description": "IV Vasopressors", "answer": ["1", "2", "3", "4"]}, {"description": "Narcotics/Opioid Analgesics (IV, oral, & injection)", "answer": ["1", "2", "3", "4"]}, {"description": "Nitrates (Oral & Topical)", "answer": ["1", "2", "3", "4"]}, {"description": "Non-Opioid Analgesics (IV, Oral, & Injection)", "answer": ["1", "2", "3", "4"]}, {"description": "Reversal Agents", "answer": ["1", "2", "3", "4"]}, {"description": "Steroids (IV, Oral, Inhaled)", "answer": ["1", "2", "3", "4"]}, {"description": "Automated Medication Dispensing (i.e. Pyxis, Omnicell)", "answer": ["1", "2", "3", "4"]}], "title": "MEDICATIONS", "type": "ratingsTable"}, "ivtherapy": {"questions": [{"description": "Starting IVs", "answer": ["1", "2", "3", "4"]}, {"description": "Central Line Blood Draws", "answer": ["1", "2", "3", "4"]}, {"description": "Central Line/Implanted Line Care", "answer": ["1", "2", "3", "4"]}, {"description": "TPN & Lipids", "answer": ["1", "2", "3", "4"]}, {"description": "Blood Product Administration", "answer": ["1", "2", "3", "4"]}, {"description": "Administration of Chemotherapy", "answer": ["1", "2", "3", "4"]}], "title": "IV THERAPY", "type": "ratingsTable"}, "cardicMoitoring": {"questions": [{"description": "Dysrhythmia Interpretation", "answer": ["1", "2", "3", "4"]}, {"description": "Dysrhythmia Management", "answer": ["1", "2", "3", "4"]}, {"description": "Obtain 12 Lead EKG", "answer": ["1", "2", "3", "4"]}, {"description": "Interpret 12 Lead EKG", "answer": ["1", "2", "3", "4"]}, {"description": "Management of Cardiac Arrest", "answer": ["1", "2", "3", "4"]}, {"description": "Shock Management", "answer": ["1", "2", "3", "4"]}, {"description": "Malignant Hyperthermia", "answer": ["1", "2", "3", "4"]}, {"description": "Multisystem Organ Failure", "answer": ["1", "2", "3", "4"]}], "title": "CARDIAC MONITORING & EMERG. RESPONSE", "type": "ratingsTable"}, "professionalSkills": {"questions": [{"description": "National Patient Safety Goals/Core Measures", "answer": ["1", "2", "3", "4"]}, {"description": "Fall Risk Assessment/Prevention", "answer": ["1", "2", "3", "4"]}, {"description": "Pressure Ulcer Risk Assessment/Prevention", "answer": ["1", "2", "3", "4"]}, {"description": "Restraints/Use of Least Restrictive Device", "answer": ["1", "2", "3", "4"]}, {"description": "Patient/Family Teaching", "answer": ["1", "2", "3", "4"]}, {"description": "Age Specific/Population-Based Care", "answer": ["1", "2", "3", "4"]}, {"description": "Isolation Precautions", "answer": ["1", "2", "3", "4"]}, {"description": "Infection Prevention", "answer": ["1", "2", "3", "4"]}, {"description": "Pain Assessment & Management", "answer": ["1", "2", "3", "4"]}, {"description": "Charge Experience", "answer": ["1", "2", "3", "4"]}, {"description": "Interpretation and Communication of Lab Values", "answer": ["1", "2", "3", "4"]}, {"description": "Specialty Beds", "answer": ["1", "2", "3", "4"]}], "title": "PROFESSIONAL KNOWLEDGE AND SKILLS", "type": "ratingsTable"}, "criticalEmr": {"questions": [{"description": "Epic", "answer": ["1", "2", "3", "4"]}, {"description": "Cerner", "answer": ["1", "2", "3", "4"]}, {"description": "Eclipsys", "answer": ["1", "2", "3", "4"]}, {"description": "McKesson", "answer": ["1", "2", "3", "4"]}, {"description": "Meditech", "answer": ["1", "2", "3", "4"]}, {"description": "Other Computerized System", "answer": ["1", "2", "3", "4"]}, {"description": "Computerized Physician Order Entry", "answer": ["1", "2", "3", "4"]}, {"description": "Bar Coding for Medication Administration", "answer": ["1", "2", "3", "4"]}], "title": "EMR", "type": "ratingsTable"}}, "title": "Critical Care/ICU Skills Checklist"}
+{
+    "name": "Critical Care/ICU",
+    "certifications": [
+        {
+            "type": "value",
+            "title": "BLS",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "certification_expdate"
+        },
+        {
+            "type": "value",
+            "title": "ACLS",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "acls_expdate"
+        },
+        {
+            "type": "value",
+            "title": "PALS",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "pals_expdate"
+        },
+        {
+            "type": "value",
+            "title": "TNCC",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "tncc_expdate"
+        },
+        {
+            "type": "value",
+            "title": "CCRN",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "ccrn_expdate"
+        },
+        {
+            "type": "value",
+            "title": "Telemetry Certificate/Course",
+            "valueTitle": "Date Taken:",
+            "valueIdentifier": "telemetry_expdate"
+        },
+        {
+            "type": "value",
+            "title": "Critical Care Course",
+            "valueTitle": "Date Taken:",
+            "valueIdentifier": "care_expdate"
+        },
+        {
+            "type": "value",
+            "title": "Other: Specify",
+            "customTitleIdentifier": "other",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "others_expdate"
+        },
+        {
+            "type": "value",
+            "title": "Other: Specify",
+            "customTitleIdentifier": "other_specify",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "other_expdate"
+        }
+    ],
+    "skills": {
+        "cardiac": {
+            "questions": [
+                {
+                    "description": "Acute Coronary Syndrome",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Congestive Heart Failure",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Cardiogenic Shock",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Cardiac Tamponade",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Heart Sounds",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Immediate Post-Op Open Heart (directly from OR)",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Immediate Post-Op Open Heart (NOT directly from OR)",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Heart Transplant",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Open Chest Emergency",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Sheath Removal",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pacemaker - Temporary/Permanent",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pacemaker - Epicardial",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Hemodynamic Monitoring",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "SVO2 Monitoring",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Intra-Aortic Balloon Pump",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Ventricular Assist Device",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "ECMO",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "CARDIAC",
+            "type": "ratingsTable"
+        },
+        "pulmonary": {
+            "questions": [
+                {
+                    "description": "Respiratory Failure",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "ARDS",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pneumothorax",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pulmonary Embolism",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pulmonary Edema",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Fresh Tracheostomy",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Chest Trauma",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Post Thoracic Surgery",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Lung Transplant",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Intubation/Extubation",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Modes of Ventilation (AC/PC/SIMV/CPAP)",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Nitric Oxide",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Interpretation of Arterial Blood Gases",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Chest Tube Placement & Management",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "PULMONARY",
+            "type": "ratingsTable"
+        },
+        "neurologicalPsychiatric": {
+            "questions": [
+                {
+                    "description": "Stroke Scale Assessment",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "CVA",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Brain Injury",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Post Craniotomy",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Spinal Cord Injury",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Seizure Disorders",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "ICP Monitoring",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Hypothermia Protocol",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Substance Withdrawal",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Suicide Precautions",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "NEUROLOGICAL & PSYCHIATRIC",
+            "type": "ratingsTable"
+        },
+        "gastrointestinal": {
+            "questions": [
+                {
+                    "description": "GI Bleeding",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "GI Surgery",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Liver Failure",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pancreatitis",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Liver Transplant",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pancreas Transplant",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "GASTROINTESTINAL",
+            "type": "ratingsTable"
+        },
+        "renalGenitourinary": {
+            "questions": [
+                {
+                    "description": "Renal Failure",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Renal Surgery",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "TURP",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Renal Transplant",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Arteriovenous Fistula/Shunt",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Nephrostomy Tubes",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Peritoneal Dialysis",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Continuous Renal Replacement Therapy",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "RENAL/GENITOURINARY",
+            "type": "ratingsTable"
+        },
+        "endocrineMetabolic": {
+            "questions": [
+                {
+                    "description": "Diabetes - Hypo/Hyperglycemic Crisis",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Diabetic Ketoacidosis",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pituitary Disorders",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "IV Insulin Protocols",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Indwelling Insulin Pumps",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "ENDOCRINE METABOLIC",
+            "type": "ratingsTable"
+        },
+        "medications": {
+            "questions": [
+                {
+                    "description": "Anti-Arrhythmics",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Anticoagulants (IV, oral, & injection)",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Anti-Hypertensives",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Anti-Psychotics",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Anti-Seizure Medications",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Benzodiazepines",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Continuous IV Paralytics",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Continuous IV Sedation",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Procedural Sedation \u2013 Administration",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Diuretics",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Emergency Medications",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Inhaled Medications",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Insulin",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "IV Vasopressors",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Narcotics/Opioid Analgesics (IV, oral, & injection)",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Nitrates (Oral & Topical)",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Non-Opioid Analgesics (IV, Oral, & Injection)",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Reversal Agents",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Steroids (IV, Oral, Inhaled)",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Automated Medication Dispensing (i.e. Pyxis, Omnicell)",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "MEDICATIONS",
+            "type": "ratingsTable"
+        },
+        "ivtherapy": {
+            "questions": [
+                {
+                    "description": "Starting IVs",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Central Line Blood Draws",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Central Line/Implanted Line Care",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "TPN & Lipids",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Blood Product Administration",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Administration of Chemotherapy",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "IV THERAPY",
+            "type": "ratingsTable"
+        },
+        "cardicMoitoring": {
+            "questions": [
+                {
+                    "description": "Dysrhythmia Interpretation",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Dysrhythmia Management",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Obtain 12 Lead EKG",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Interpret 12 Lead EKG",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Management of Cardiac Arrest",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Shock Management",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Malignant Hyperthermia",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Multisystem Organ Failure",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "CARDIAC MONITORING & EMERG. RESPONSE",
+            "type": "ratingsTable"
+        },
+        "professionalSkills": {
+            "questions": [
+                {
+                    "description": "National Patient Safety Goals/Core Measures",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Fall Risk Assessment/Prevention",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pressure Ulcer Risk Assessment/Prevention",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Restraints/Use of Least Restrictive Device",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Patient/Family Teaching",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Age Specific/Population-Based Care",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Isolation Precautions",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Infection Prevention",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pain Assessment & Management",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Charge Experience",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Interpretation and Communication of Lab Values",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Specialty Beds",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+            "type": "ratingsTable"
+        },
+        "criticalEmr": {
+            "questions": [
+                {
+                    "description": "Epic",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Cerner",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Eclipsys",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "McKesson",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Meditech",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Other Computerized System",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Computerized Physician Order Entry",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Bar Coding for Medication Administration",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "EMR",
+            "type": "ratingsTable"
+        },
+        "  ": {
+            "questions": [
+                {
+                    "description": "EMR Conversion",
+                    "answer": [
+                        "Yes",
+                        "No"
+                    ]
+                }
+            ],
+            "type": "ratingsTable"
+        }
+    },
+    "title": "Critical Care/ICU Skills Checklist"
+}
