@@ -192,7 +192,7 @@ class PDFCreator:
                     self.text(question['description'],x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
                     if len(question['answer'])==4:
                         for i in range(1, 5):
-                            self.form.radio(name=question['description'], tooltip='Field radio1',
+                            self.form.radio(name=f"{question['description']}-{value['title']}", tooltip='Field radio1',
                                 value=f'value{i}', selected=True if i==1 else False,
                                 x=self.pos.x + 398 + 15 * i, y=self.page_height - self.pos.y-DEVIDER_HEIGHT/2-HEADER_SIZE/2, buttonStyle='circle',
                                 borderStyle='solid', shape='circle', size=15,
