@@ -1,19 +1,6 @@
 {
     "name": "Informatics Skills Checklist",
-    "certifications": [
-        {
-            "type": "value",
-            "title": "",
-            "customTitle": "Date Acquired",
-            "valueIdentifier": "certification_expdate"
-        },
-        {
-            "type": "value",
-            "title": "",
-            "customTitle": "Exp. Date",
-            "valueIdentifier": "acls_expdate"
-        }
-    ],
+    "certifications": [],
     "skills": {
         "informaticsCerner": {
             "questions": [
@@ -656,117 +643,6 @@
             "title": "MEDITECH",
             "type": "ratingsTable"
         },
-        "informaticsOtherNameSec": {
-            "questions": [
-                {
-                    "description": "Configuration",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Trainer - Implementation/Conversion",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Trainer - Ongoing Program",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Super User",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Implementation/Conversion",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Computerized Provider Order Entry (CPOE)",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Nursing Assessment",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Nursing Documentation",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Labs and Radiology",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "MAR",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Bar Coded Medication Administration",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                }
-            ],
-            "title": "OTHER (PLEASE NAME BELOW)",
-            "type": "ratingsTable",
-            "items": [
-                {
-                    "title": "Other (specify here)",
-                    "customTitleIdentifier": "otherspecify"
-                }
-            ]
-        },
         "informaticsOtherName": {
             "questions": [
                 {
@@ -878,31 +754,197 @@
                 }
             ]
         },
-        "informaticsCertification": {
+        "informaticsOtherNameSec": {
             "questions": [
                 {
-                    "description": "Certification in Informatics",
+                    "description": "Configuration",
                     "answer": [
                         "1",
                         "2",
                         "3",
                         "4"
                     ]
+                },
+                {
+                    "description": "Trainer - Implementation/Conversion",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Trainer - Ongoing Program",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Super User",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Implementation/Conversion",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Computerized Provider Order Entry (CPOE)",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Nursing Assessment",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Nursing Documentation",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Labs and Radiology",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "MAR",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Bar Coded Medication Administration",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "OTHER (PLEASE NAME BELOW)",
+            "type": "ratingsTable",
+            "items": [
+                {
+                    "title": "Other (specify here)",
+                    "customTitleIdentifier": "otherspecify"
+                }
+            ]
+        },
+        "informaticsExperience": {
+            "type": "input",
+            "questions": [],
+            "title": "MY EXPERIENCE IS IN THE FOLLOWING SETTINGS",
+            "items": [
+                {
+                    "inputTitle": "Yrs.",
+                    "title": "EMR Super User",
+                    "inputIdentifier": "EMR Super User"
+                },
+                {
+                    "title": "EMR Trainer",
+                    "inputTitle": "Yrs.",
+                    "inputIdentifier": "EMR Trainer"
+                },
+                {
+                    "inputTitle": "Yrs.",
+                    "title": "Computer Charting Expert",
+                    "inputIdentifier": "Computer Charting Expert"
+                },
+                {
+                    "title": "Other:",
+                    "inputTitle": "Yrs.",
+                    "inputIdentifier": "Other:1",
+                    "inputName": "  ",
+                    "inputNameIdentifier": "additionalInput"
                 }
             ]
         },
         "informaticsDegree": {
+            "title": "CERTIFICATIONS/LICENSURES/REGISTRATIONS",
             "questions": [
+                {
+                    "description": "Certification in Informatics",
+                    "answer": [
+                        "Yes",
+                        "No"
+                    ]
+                },
+                {
+                    "description": "Certification in Informatics",
+                    "inputTitle": "Date Acquired:",
+                    "answer": [
+                        "1"
+                    ],
+                    "inputIdentifier": "Date Acquired:"
+                },
+                {
+                    "description": "Certification in Informatics",
+                    "answer": [
+                        "1"
+                    ],
+                    "inputIdentifier": "Exp. Date:",
+                    "inputTitle": "Exp. Date:"
+                },
                 {
                     "description": "Degree in Informatics",
                     "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
+                        "Yes",
+                        "No"
                     ]
+                },
+                {
+                    "description": "Degree Type (e.g. MS, MSN, DNS, PhD)",
+                    "answer": [
+                        "3"
+                    ],
+                    "inputIdentifier": "Degree Type (e.g. MS, MSN, DNS, PhD)",
+                    "inputTitle": ""
+                },
+                {
+                    "description": "Degree Emphasis (e.g. Informatics, Education)",
+                    "answer": [
+                        "1"
+                    ],
+                    "inputTitle": "",
+                    "inputIdentifier": "Degree Emphasis (e.g. Informatics, Education)"
                 }
-            ]
+            ],
+            "type": "ratingsTable"
         }
     },
     "title": "Informatics Skills Checklist"

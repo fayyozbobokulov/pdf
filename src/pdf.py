@@ -167,7 +167,7 @@ class PDFCreator:
             title = value.get('title', '').upper()
             subtitle = value.get('subtitle', '')
             if title not in titles:
-                titles.add(title)
+                titles.add(f"{title}-{key}")
                 self.devider(HEADER_COLOR, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
                 self.text(title,x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=white)
                 if len(subtitle):
@@ -192,7 +192,7 @@ class PDFCreator:
                     self.text(question['description'],x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
                     if len(question['answer'])==4:
                         for i in range(1, 5):
-                            self.form.radio(name=f"{question['description']}-{value['title']}", tooltip='Field radio1',
+                            self.form.radio(name=f"{question['description']}-{value['title']}-{key}", tooltip='Field radio1',
                                 value=f'value{i}', selected=True if i==1 else False,
                                 x=self.pos.x + 398 + 15 * i, y=self.page_height - self.pos.y-DEVIDER_HEIGHT/2-HEADER_SIZE/2, buttonStyle='circle',
                                 borderStyle='solid', shape='circle', size=15,
@@ -213,6 +213,13 @@ class PDFCreator:
                             borderStyle='solid', shape='circle', borderWidth=0,
                             borderColor=grey, fillColor=white, size=15,
                             textColor=HexColor('#72c800'), forceBorder=False)
+                    if len(question['answer'])==1:
+                        self.text(question['inputTitle'],x=self.pos.x+250, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
+                        self.form.textfield(name=f"{item['inputIdentifier']}{item['inputTitle']}", x=self.pos.x + 350, y=self.page_height - self.pos.y-DEVIDER_HEIGHT*0.8, borderStyle='inset',
+                                            borderColor=black, fillColor=gainsboro, width=150, height=20, textColor=black, forceBorder=False, fontSize=8)
+                    if len(question['answer'])==3:
+                        self.form.textfield(name=f"{item['inputIdentifier']}{item['inputTitle']}", x=self.pos.x + 400, y=self.page_height - self.pos.y-DEVIDER_HEIGHT*0.8, borderStyle='inset',
+                                            borderColor=black, fillColor=gainsboro, width=150, height=20, textColor=black, forceBorder=False, fontSize=8)
             elif value.get('type', '') == 'checkbox':
                 code = ord('A')
                 for i in range(9):
@@ -273,32 +280,38 @@ class PDFCreator:
                         x+=1
                     if item.get('inputIdentifier', False):
                         self.pos.y += DEVIDER_HEIGHT
-                        self.text(item.get('inputTitle', ''),x=self.pos.x + 260, y=self.pos.y - HEADER_SIZE)
-                        self.form.textfield(name=item['inputIdentifier'], x=self.pos.x + 300, y=self.page_height - self.pos.y + DEVIDER_HEIGHT/2-HEADER_SIZE, borderStyle='inset',
+                        self.text(item.get('inputTitle', ''),x=self.pos.x + 310, y=self.pos.y - HEADER_SIZE)
+                        self.form.textfield(name=f"{item['inputIdentifier']}{item['inputTitle']}", x=self.pos.x + 350, y=self.page_height - self.pos.y + DEVIDER_HEIGHT/2-HEADER_SIZE, borderStyle='inset',
                                              borderColor=black, fillColor=gainsboro, width=150, height=20, textColor=black, forceBorder=False, fontSize=8)
+                    if item.get('inputName', False):
+                        self.text(item.get('inputName', ''),x=self.pos.x/2-100, y=self.pos.y - HEADER_SIZE)
+                        self.form.textfield(name=item['inputIdentifier'], x=self.page_width/2-80, y=self.page_height - self.pos.y + DEVIDER_HEIGHT/2-HEADER_SIZE, borderStyle='inset',
+                                             borderColor=black, fillColor=gainsboro, width=120, height=20, textColor=black, forceBorder=False, fontSize=8)
+
+
                         
             self.pos.y += 10
     
     def certs(self, certs: List[Dict[str, Any]]):
+        if len(certs):
+            self.devider(HEADER_COLOR, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
+            self.text('CERTIFICATIONS',x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=white)
+            self.pos.y+=DEVIDER_HEIGHT
+            i = 1
+            for cert in certs:
+                self.devider(COLOR1 if self.color else COLOR2, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
 
-        self.devider(HEADER_COLOR, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
-        self.text('CERTIFICATIONS',x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=white)
-        self.pos.y+=DEVIDER_HEIGHT
-        i = 1
-        for cert in certs:
-            self.devider(COLOR1 if self.color else COLOR2, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
-
-            self.wrapped_text(cert['title'], width=self.page_width-2*self.margin-80, x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3)
-            self.text(cert.get('valueTitle', ''),x=self.pos.x + 350-len(cert.get('valueTitle', '')), y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
-            if cert.get('customTitleIdentifier', False):
-                self.form.textfield(name=cert['customTitleIdentifier'], x=self.pos.x+205, y=self.page_height - self.pos.y- DEVIDER_HEIGHT, borderStyle='inset',
-                    borderColor=black, fillColor=gainsboro, width=130, height=DEVIDER_HEIGHT, textColor=black, forceBorder=False)    
-            i+=1
-            self.form.textfield(name=F"{cert['title']}{i}", x=self.pos.x+410, y=self.page_height - self.pos.y- DEVIDER_HEIGHT/2-2*HEADER_SIZE/3, borderStyle='inset',
-                borderColor=black, fillColor=gainsboro, width=95, height=20, textColor=black, forceBorder=False)    
-            self.pos.y += DEVIDER_HEIGHT
-            i+=1
-            self.color = not self.color
+                self.wrapped_text(cert['title'], width=self.page_width-2*self.margin-80, x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3)
+                self.text(cert.get('valueTitle', ''),x=self.pos.x + 350-len(cert.get('valueTitle', '')), y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
+                if cert.get('customTitleIdentifier', False):
+                    self.form.textfield(name=cert['customTitleIdentifier'], x=self.pos.x+205, y=self.page_height - self.pos.y- DEVIDER_HEIGHT, borderStyle='inset',
+                        borderColor=black, fillColor=gainsboro, width=130, height=DEVIDER_HEIGHT, textColor=black, forceBorder=False)    
+                i+=1
+                self.form.textfield(name=F"{cert['title']}{i}", x=self.pos.x+410, y=self.page_height - self.pos.y- DEVIDER_HEIGHT/2-2*HEADER_SIZE/3, borderStyle='inset',
+                    borderColor=black, fillColor=gainsboro, width=95, height=20, textColor=black, forceBorder=False)    
+                self.pos.y += DEVIDER_HEIGHT
+                i+=1
+                self.color = not self.color
 
     def others(self, others: List[str]):
         color = False
@@ -347,5 +360,10 @@ class PDFCreator:
         self.c.setFillColor(black)
         self.c.drawString(self.page_width/2, self.page_height - 30, f'{self.pos.page}')
         self.c.save()
+    def inputField(self, x: int, y: int, identifier: str, width: int, height: int, title=''): 
+        self.text(title, x-40, y-HEADER_SIZE)
+        self.form.textfield(name=identifier, x=x, y=y, borderStyle='inset',
+                                             borderColor=black, fillColor=gainsboro, width=width, height=height, textColor=black, forceBorder=False, fontSize=8)
+
 # ["a","b","c","d","e","f","g","h","i","j"]
 #                   |                   |     
