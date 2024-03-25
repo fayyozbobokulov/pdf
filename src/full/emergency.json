@@ -1487,6 +1487,7 @@
             "type": "ratingsTable"
         },
         "emergencyEmrConversion": {
+            "title": "EMR Conversion",
             "questions": [
                 {
                     "description": "Starting IVs",
@@ -1506,7 +1507,8 @@
                         "4"
                     ]
                 }
-            ]
+            ],
+            "type": "ratingsTable"
         },
         "emergencyConversion": {
             "questions": [

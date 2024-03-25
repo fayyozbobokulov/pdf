@@ -180,7 +180,7 @@ class PDFCreator:
                 self.text(subtitle,x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
             if value.get('type', '') == 'ratingsTable':
                 
-                if len(value['questions'][0]['answer']) == 4 and len(subtitle)==0:
+                if (len(value['questions'][0]['answer']) in [4]) and len(subtitle)==0:
                     for i in range(1, 5):
                         self.text(f'{i}', x=self.pos.x + 400 + 15 * i, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=white)
 
