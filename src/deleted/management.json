@@ -1,8 +1,56 @@
 {
     "name": "Case Management/Utilization Review Skills Checklist",
     "certifications": [
-        "BLS",
-        "ACLS"
+        {
+            "type": "value",
+            "title": "BLS",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "bls_expdate"
+        },
+        {
+            "type": "value",
+            "title": "Certified Case Manager (CCM)",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "sta_sexpdate"
+        },
+        {
+            "type": "value",
+            "title": "Accredited Case Manager (ACM)",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "acl_sexpdate"
+        },
+        {
+            "type": "value",
+            "title": "Certified Disability Management Specialist (CDMS)",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "acls_sexpdate"
+        },
+        {
+            "type": "value",
+            "title": "Certified Clinical Documentation Specialist (CDMS)",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "pals_expdate"
+        },
+        {
+            "type": "value",
+            "title": "ACLS",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "enpc"
+        },
+        {
+            "type": "value",
+            "title": "Other: Please note any ICD 10 training",
+            "customTitleIdentifier": "other",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "Other_expdate"
+        },
+        {
+            "type": "value",
+            "title": "Other: Specify",
+            "customTitleIdentifier": "other2",
+            "valueTitle": "Exp. Date:",
+            "valueIdentifier": "Other_expdate2"
+        }
     ],
     "skills": {
         "managementSETTING": {
@@ -88,7 +136,9 @@
                         "4"
                     ]
                 }
-            ]
+            ],
+            "title": "SETTING",
+            "type": "ratingsTable"
         },
         "managementSOFTWARE": {
             "questions": [
@@ -141,25 +191,19 @@
                         "4"
                     ],
                     "name": "Processing"
-                },
+                }
+            ],
+            "title": "CM/UR SOFTWARE",
+            "type": "ratingsTable",
+            "items": [
                 {
-                    "description": "Other: Specify",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ],
+                    "title": "Other: Specify",
+                    "customTitleIdentifier": "managementother",
                     "name": "OtherSpecify1"
                 },
                 {
-                    "description": "Other: Specify",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ],
+                    "title": "Other: Specify",
+                    "customTitleIdentifier": "managementother2",
                     "name": "OtherSpecify2"
                 }
             ]
@@ -238,7 +282,9 @@
                         "4"
                     ]
                 }
-            ]
+            ],
+            "title": "REGULATORY",
+            "type": "ratingsTable"
         },
         "managementPROCESSES": {
             "questions": [
@@ -377,7 +423,9 @@
                         "4"
                     ]
                 }
-            ]
+            ],
+            "title": "PROCESSES",
+            "type": "ratingsTable"
         },
         "managementPROFESSIONAL": {
             "questions": [
@@ -399,7 +447,9 @@
                         "4"
                     ]
                 }
-            ]
+            ],
+            "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
+            "type": "ratingsTable"
         },
         "managementEMR": {
             "questions": [
@@ -462,16 +512,14 @@
                         "4"
                     ],
                     "name": "Allscripts1"
-                },
+                }
+            ],
+            "title": "EMR",
+            "type": "ratingsTable",
+            "items": [
                 {
-                    "description": "Other: Specify",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ],
-                    "name": "emrOther: Specify"
+                    "title": "Other: Specify",
+                    "customTitleIdentifier": "emrmanagement"
                 }
             ]
         },
@@ -480,13 +528,13 @@
                 {
                     "description": "EMR Conversion",
                     "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
+                        "Yes",
+                        "No"
                     ]
                 }
-            ]
+            ],
+            "type": "ratingsTable"
         }
-    }
+    },
+    "title": "Case Management/Utilization Review Skills Checklist"
 }
