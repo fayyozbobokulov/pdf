@@ -110,7 +110,8 @@
                 }
             ],
             "title": "WORKSETTING",
-            "type": "ratingsTable"
+            "type": "ratingsTable",
+            "header": "ADULTS"
         },
         "OperatingGENERAL": {
             "questions": [
@@ -715,111 +716,6 @@
             "title": "GENITOURINARY",
             "type": "ratingsTable"
         },
-        "OperatingPEDIATRICS_GENITOURINARY": {
-            "questions": [
-                {
-                    "description": "Vasicaurethropexy",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Marshall Marchetti",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Circumcision",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Cystoscopy/Cystogram/Pyelogram",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Prostatectomy",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Nephrectomy",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Orchidectomy/Orchidopexy",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Ureterostomy",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Laparoscopic Assisted GU Procedures",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Robotic Assisted GU Procedures",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Scrub GU Surgery ",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                }
-            ],
-            "title": "GENITOURINARY",
-            "type": "ratingsTable"
-        },
         "OperatingGYNECOLOGICAL": {
             "questions": [
                 {
@@ -1117,111 +1013,6 @@
             "title": "CRANIOFACIAL/ORAL",
             "type": "ratingsTable"
         },
-        "OperatingPEDIATRICS_CRANIOFACIAL": {
-            "questions": [
-                {
-                    "description": "Craniectomy",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Craniofacial Reconstruction",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Dental Surgery",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Leforte 1 Maxillary/Sagittal Osteotomy",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "ORIF Mandibular Fracture",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Otoplasty",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Reconstruction of Ear",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Removal of Arch Bars",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Repair of Cleft Lip, Nose, Palate",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Rhinoplasty",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Scrub Craniofacial/Oral ",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                }
-            ],
-            "title": "CRANIOFACIAL/ORAL/PLASTICS",
-            "type": "ratingsTable"
-        },
         "OperatingPLASTIC": {
             "questions": [
                 {
@@ -1370,66 +1161,6 @@
             "type": "ratingsTable"
         },
         "OperatingOPHTHALMOLOGY": {
-            "questions": [
-                {
-                    "description": "Cataract Extraction with Implant",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Vitrectomy",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Scleral Buckle",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Cataract Aspiration; Anterior Vitrectomy",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Corneal Transplant",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Scrub Ophthalmology ",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                }
-            ],
-            "title": "OPHTHALMOLOGY",
-            "type": "ratingsTable"
-        },
-        "OperatingPEDIATRICS_OPHTHALMOLOGY": {
             "questions": [
                 {
                     "description": "Cataract Extraction with Implant",
@@ -1655,6 +1386,112 @@
                 }
             ],
             "title": "GENERAL SURGERY",
+            "type": "ratingsTable",
+            "header": "PEDIATRICS"
+        },
+        "OperatingPEDIATRICS_GENITOURINARY": {
+            "questions": [
+                {
+                    "description": "Vasicaurethropexy",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Marshall Marchetti",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Circumcision",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Cystoscopy/Cystogram/Pyelogram",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Prostatectomy",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Nephrectomy",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Orchidectomy/Orchidopexy",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Ureterostomy",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Laparoscopic Assisted GU Procedures",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Robotic Assisted GU Procedures",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Scrub GU Surgery ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "GENITOURINARY",
             "type": "ratingsTable"
         },
         "OperatingNEURO": {
@@ -1924,6 +1761,66 @@
             "title": "TRANSPLANT",
             "type": "ratingsTable"
         },
+        "OperatingPEDIATRICS_OPHTHALMOLOGY": {
+            "questions": [
+                {
+                    "description": "Cataract Extraction with Implant",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Vitrectomy",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Scleral Buckle",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Cataract Aspiration; Anterior Vitrectomy",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Corneal Transplant",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Scrub Ophthalmology ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "OPHTHALMOLOGY",
+            "type": "ratingsTable"
+        },
         "OperatingEARNOSE": {
             "questions": [
                 {
@@ -2018,6 +1915,111 @@
                 }
             ],
             "title": "EAR/NOSE/THROAT",
+            "type": "ratingsTable"
+        },
+        "OperatingPEDIATRICS_CRANIOFACIAL": {
+            "questions": [
+                {
+                    "description": "Craniectomy",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Craniofacial Reconstruction",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Dental Surgery",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Leforte 1 Maxillary/Sagittal Osteotomy",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "ORIF Mandibular Fracture",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Otoplasty",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Reconstruction of Ear",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Removal of Arch Bars",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Repair of Cleft Lip, Nose, Palate",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Rhinoplasty",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Scrub Craniofacial/Oral ",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "CRANIOFACIAL/ORAL/PLASTICS",
             "type": "ratingsTable"
         },
         "OperatingORTHOPEDICS": {

@@ -5,7 +5,7 @@
         "ACLS"
     ],
     "skills": {
-        "setting": {
+        "managementSETTING": {
             "questions": [
                 {
                     "description": "Acute Care",
@@ -71,7 +71,7 @@
                     ]
                 },
                 {
-                    "description": "Managed Care ",
+                    "description": "Managed Care",
                     "answer": [
                         "1",
                         "2",
@@ -80,7 +80,7 @@
                     ]
                 },
                 {
-                    "description": "Acute Rehab",
+                    "description": "Acute Rehab ",
                     "answer": [
                         "1",
                         "2",
@@ -90,81 +90,81 @@
                 }
             ]
         },
-        "cmSoftware": {
+        "managementSOFTWARE": {
             "questions": [
                 {
                     "description": "Interqual",
-                    "name": "cmSoftware1",
                     "answer": [
                         "1",
                         "2",
                         "3",
                         "4"
-                    ]
+                    ],
+                    "name": "Interqual"
                 },
                 {
                     "description": "Milliman",
-                    "name": "cmSoftware2",
                     "answer": [
                         "1",
                         "2",
                         "3",
                         "4"
-                    ]
+                    ],
+                    "name": "Milliman"
                 },
                 {
                     "description": "MIDAS",
-                    "name": "cmSoftware3",
                     "answer": [
                         "1",
                         "2",
                         "3",
                         "4"
-                    ]
+                    ],
+                    "name": "MIDAS"
                 },
                 {
                     "description": "Allscripts UR",
-                    "name": "cmSoftware4",
                     "answer": [
                         "1",
                         "2",
                         "3",
                         "4"
-                    ]
+                    ],
+                    "name": "Allscripts"
                 },
                 {
                     "description": "Word Processing Software",
-                    "name": "cmSoftware5",
                     "answer": [
                         "1",
                         "2",
                         "3",
                         "4"
-                    ]
+                    ],
+                    "name": "Processing"
                 },
                 {
                     "description": "Other: Specify",
-                    "name": "cmSoftware6",
                     "answer": [
                         "1",
                         "2",
                         "3",
                         "4"
-                    ]
+                    ],
+                    "name": "OtherSpecify1"
                 },
                 {
                     "description": "Other: Specify",
-                    "name": "cmSoftware7",
                     "answer": [
                         "1",
                         "2",
                         "3",
                         "4"
-                    ]
+                    ],
+                    "name": "OtherSpecify2"
                 }
             ]
         },
-        "regulatory": {
+        "managementREGULATORY": {
             "questions": [
                 {
                     "description": "CMS/Medicare",
@@ -230,7 +230,7 @@
                     ]
                 },
                 {
-                    "description": "CPT",
+                    "description": "CPT ",
                     "answer": [
                         "1",
                         "2",
@@ -240,7 +240,7 @@
                 }
             ]
         },
-        "processes": {
+        "managementPROCESSES": {
             "questions": [
                 {
                     "description": "Benefits Eligibility",
@@ -369,7 +369,7 @@
                     ]
                 },
                 {
-                    "description": "Retrospective Review",
+                    "description": "Retrospective Review ",
                     "answer": [
                         "1",
                         "2",
@@ -379,7 +379,7 @@
                 }
             ]
         },
-        "peofessionalKnowledgeskills": {
+        "managementPROFESSIONAL": {
             "questions": [
                 {
                     "description": "National Patient Safety Goals",
@@ -391,7 +391,7 @@
                     ]
                 },
                 {
-                    "description": "Age Specific/Population Based Care",
+                    "description": "Age Specific/Population Based Care ",
                     "answer": [
                         "1",
                         "2",
@@ -401,7 +401,7 @@
                 }
             ]
         },
-        "emr": {
+        "managementEMR": {
             "questions": [
                 {
                     "description": "Epic",
@@ -410,7 +410,8 @@
                         "2",
                         "3",
                         "4"
-                    ]
+                    ],
+                    "name": "Epic1"
                 },
                 {
                     "description": "Cerner",
@@ -419,7 +420,8 @@
                         "2",
                         "3",
                         "4"
-                    ]
+                    ],
+                    "name": "Cerner1"
                 },
                 {
                     "description": "Eclipsys",
@@ -428,7 +430,8 @@
                         "2",
                         "3",
                         "4"
-                    ]
+                    ],
+                    "name": "Eclipsys1"
                 },
                 {
                     "description": "McKesson",
@@ -437,7 +440,8 @@
                         "2",
                         "3",
                         "4"
-                    ]
+                    ],
+                    "name": "McKesson1"
                 },
                 {
                     "description": "Meditech",
@@ -446,7 +450,8 @@
                         "2",
                         "3",
                         "4"
-                    ]
+                    ],
+                    "name": "Meditech1"
                 },
                 {
                     "description": "Allscripts",
@@ -455,7 +460,8 @@
                         "2",
                         "3",
                         "4"
-                    ]
+                    ],
+                    "name": "Allscripts1"
                 },
                 {
                     "description": "Other: Specify",
@@ -464,11 +470,12 @@
                         "2",
                         "3",
                         "4"
-                    ]
+                    ],
+                    "name": "emrOther: Specify"
                 }
             ]
         },
-        "emrConverion": {
+        "managementEMRConversion": {
             "questions": [
                 {
                     "description": "EMR Conversion",

@@ -166,6 +166,11 @@ class PDFCreator:
         for key, value in skills.items():
             title = value.get('title', '').upper()
             subtitle = value.get('subtitle', '')
+            header = value.get('header', '')
+            if len(header) > 0:
+                self.devider(HEADER_COLOR, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
+                self.text(header,x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=white)
+                self.pos.y += DEVIDER_HEIGHT + 5
             if title not in titles:
                 titles.add(f"{title}-{key}")
                 self.devider(HEADER_COLOR, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)

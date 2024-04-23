@@ -79,7 +79,8 @@
                         "4"
                     ]
                 }
-            ]
+            ],
+            "header": "ADULTS"
         },
         "OperatingGENERAL": {
             "questions": [
@@ -1429,6 +1430,7 @@
             ]
         },
         "OperatingGENERALSURGERY": {
+            "header": "PEDIATRICS",
             "questions": [
                 {
                     "description": "Anal Fistulectomy/Anoplasty",

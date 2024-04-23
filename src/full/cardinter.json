@@ -850,6 +850,52 @@
             "title": "IR-PERIPHERAL VASCULAR STUDIES",
             "type": "ratingsTable"
         },
+        "cathPulmonary": {
+            "questions": [
+                {
+                    "description": "Chest Tube Placement",
+                    "name": "cathPulmonary1",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pulmonary Embolization",
+                    "name": "cathPulmonary2",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Pulmonary Angiography",
+                    "name": "cathPulmonary3",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                },
+                {
+                    "description": "Thoracentesis",
+                    "name": "cathPulmonary4",
+                    "answer": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ]
+                }
+            ],
+            "title": "IR-PULMONARY PROCEDURES",
+            "type": "ratingsTable"
+        },
         "cathknowledgeknowledge": {
             "questions": [
                 {
@@ -980,52 +1026,6 @@
                 }
             ],
             "title": "PROFESSIONAL KNOWLEDGE AND SKILLS",
-            "type": "ratingsTable"
-        },
-        "cathPulmonary": {
-            "questions": [
-                {
-                    "description": "Chest Tube Placement",
-                    "name": "cathPulmonary1",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Pulmonary Embolization",
-                    "name": "cathPulmonary2",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Pulmonary Angiography",
-                    "name": "cathPulmonary3",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                },
-                {
-                    "description": "Thoracentesis",
-                    "name": "cathPulmonary4",
-                    "answer": [
-                        "1",
-                        "2",
-                        "3",
-                        "4"
-                    ]
-                }
-            ],
-            "title": "IR-PULMONARY PROCEDURES",
             "type": "ratingsTable"
         },
         "cathEmr": {
