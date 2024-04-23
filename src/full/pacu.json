@@ -41,6 +41,44 @@
         }
     ],
     "skills": {
+        "experience": {
+            "type": "input",
+            "header": "WORKSETTING",
+            "questions": [],
+            "title": "MY EXPERIENCE IS PRIMARILY IN THE FOLLOWING SETTING",
+            "items": [
+                {
+                    "inputTitle": "Yrs.",
+                    "title": "Inpatient PACU",
+                    "inputIdentifier": "Inpatient PACU"
+                },
+                {
+                    "inputTitle": "Yrs.",
+                    "title": "Outpatient/Ambulatory PACU",
+                    "inputIdentifier": "Outpatient/Ambulatory PACU"
+                },
+                {
+                    "inputTitle": "Yrs.",
+                    "title": "ICU",
+                    "inputIdentifier": "ICU"
+                },
+                {
+                    "inputTitle": "Yrs.",
+                    "title": "Pre/Post Op",
+                    "inputIdentifier": "Pre/Post Op"
+                },
+                {
+                    "inputTitle": "Yrs.",
+                    "title": "Pain Management Department",
+                    "inputIdentifier": "Pain Management Department"
+                },
+                {
+                    "inputTitle": "Yrs.",
+                    "title": "PEDI-PACU",
+                    "inputIdentifier": "PEDI-PACU"
+                }
+            ]
+        },
         "pacuCARDIOVASCULAR": {
             "questions": [
                 {
