@@ -286,7 +286,7 @@ class PDFCreator:
                     if item.get('inputIdentifier', False):
                         self.pos.y += DEVIDER_HEIGHT
                         self.text(item.get('inputTitle', ''),x=self.pos.x + 310, y=self.pos.y - HEADER_SIZE)
-                        self.form.textfield(name=f"{item['inputIdentifier']}{item['inputTitle']}", x=self.pos.x + 350, y=self.page_height - self.pos.y + DEVIDER_HEIGHT/2-HEADER_SIZE, borderStyle='inset',
+                        self.form.textfield(name=f"{item['inputIdentifier']}{item.get('inputTitle', '')}", x=self.pos.x + 350, y=self.page_height - self.pos.y + DEVIDER_HEIGHT/2-HEADER_SIZE, borderStyle='inset',
                                              borderColor=black, fillColor=gainsboro, width=150, height=20, textColor=black, forceBorder=False, fontSize=8)
                     if item.get('inputName', False):
                         self.text(item.get('inputName', ''),x=self.pos.x/2-100, y=self.pos.y - HEADER_SIZE)
