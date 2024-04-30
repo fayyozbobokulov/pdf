@@ -172,7 +172,7 @@ class PDFCreator:
                 self.text(header,x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=white)
                 self.pos.y += DEVIDER_HEIGHT + 5
             if title not in titles:
-                titles.add(f"{title}-{key}")
+                titles.add(f"{title}")
                 self.devider(HEADER_COLOR, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
                 self.text(title,x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=white)
                 if len(subtitle):
@@ -180,7 +180,7 @@ class PDFCreator:
                     self.devider(SUBTITLE_COLOR, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
                     self.text(subtitle,x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
             else:
-                self.pos.y += DEVIDER_HEIGHT
+                # self.pos.y += DEVIDER_HEIGHT
                 self.devider(SUBTITLE_COLOR, DEVIDER_HEIGHT, self.page_width - 2*self.margin + 10)
                 self.text(subtitle,x=self.pos.x + 5, y=self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3,color=black)
             if value.get('type', '') == 'ratingsTable':
@@ -204,6 +204,8 @@ class PDFCreator:
                                 borderColor=grey, fillColor=white, borderWidth=0,
                                 textColor=HexColor('#72c800'), forceBorder=False)
                     if len(question['answer'])==2:
+                        if(question.get('blank', False)):
+                            continue
                         self.text('Yes', self.pos.x+395, self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3, black)
                         self.text('No', self.pos.x+455, self.pos.y + DEVIDER_HEIGHT/2+HEADER_SIZE/3, black)
                         self.form.radio(name=question['description'], tooltip='Field radio1',

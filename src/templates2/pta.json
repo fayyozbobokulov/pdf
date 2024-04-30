@@ -1,6 +1,10 @@
 {
     "name": "PT/PTA Skills Checklist",
-    "certifications": [],
+    "certifications": [
+        {
+            
+        }
+    ],
     "skills": {
         "ptaSkillsWORKSETTINGS": {
             "questions": [

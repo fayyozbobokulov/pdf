@@ -894,6 +894,18 @@
                 }
             ]
         },
+        "emrConverion": {
+            "questions": [
+                {
+                    "description": "EMR Conversion",
+                    "answer": [
+                        "Yes",
+                        "No"
+                    ]
+                }
+            ],
+            "type": "ratingsTable"
+        },
         "informaticsDegree": {
             "title": "CERTIFICATIONS/LICENSURES/REGISTRATIONS",
             "questions": [
